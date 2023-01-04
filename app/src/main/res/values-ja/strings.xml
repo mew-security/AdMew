@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">ようこそ！</string>
-    <string name="text_help">AdAwayは、広告をブロックするためのフリーでオープンソースのソフトウェアです。広告用ネットワークアドレスを取得して、あなたのデバイス上で遮断します。\nもっと知りたいですか？ 以下のヘルプをチェックしてください！</string>
+    <string name="text_help">AdMewは、広告をブロックするためのフリーでオープンソースのソフトウェアです。広告用ネットワークアドレスを取得して、あなたのデバイス上で遮断します。\nもっと知りたいですか？ 以下のヘルプをチェックしてください！</string>
     <string name="button_show_help">詳しいヘルプを表示</string>
     <string name="icon_update_status">最新状況</string>
     <string name="text_update">定義されたソースからhostsファイルをダウンロードし、システムのhostsファイルに統合してインストールします</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">hostsファイル</string>
-    <string name="hosts_description">hostsファイルはホスト名をIPアドレスに対応させるシステムファイルです。 AdAwayが処理する設定が書かれたただのテキストファイルです。 最初の数行はこんな感じです：</string>
+    <string name="hosts_description">hostsファイルはホスト名をIPアドレスに対応させるシステムファイルです。 AdMewが処理する設定が書かれたただのテキストファイルです。 最初の数行はこんな感じです：</string>
     <string name="hosts_content">hostsファイルの内容を読み込み中…</string>
     <string name="hosts_open_button">hostsファイルを開く</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">hostsファイルターゲットへのシンボリックリンクが不明です</string>
-    <string name="apply_symlink_missing">/system/etc/hostsへのシンボリックリンクは存在しないか不正です! AdAwayは正しいファイルが指定されていないと動作しません。\n\nシンボリックリンクを作成しますか？</string>
+    <string name="apply_symlink_missing">/system/etc/hostsへのシンボリックリンクは存在しないか不正です! AdMewは正しいファイルが指定されていないと動作しません。\n\nシンボリックリンクを作成しますか？</string>
     <string name="apply_symlink_missing_title">シンボリックリンクが見つかりません</string>
     <string name="apply_not_enough_space">このパーティションに十分な容量がありません!\n設定で対象とする hosts ファイルを /data/data/hosts に変更してみてください。</string>
     <string name="apply_not_enough_space_title">空き容量不足</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Android が シンボリックリンクを作成できません。\nHTC 製端末にある S-ON という「機能」が原因です。\n\n解決するにはリカバリモードで起動し、コマンド 「 ln -s /data/data/hosts /system/etc/hosts 」 でシンボリックリンクを作成してください。\n\nそれでも動作しない場合 S-OFF について検索してください。</string>
     <string name="apply_symlink_fail_title">シンボリックリンク作成失敗</string>
     <string name="apply_help">詳しくはヘルプをご覧ください</string>
-    <string name="apply_apn_proxy">ご使用の端末に APN プロキシが設定されています! 3G等のモバイルネットワークで AdAway がうまく動作しない場合があります。プロキシを無効にするには、選択されている APN (設定アプリから: ネットワーク → インターネット → モバイルネットワーク → 詳細設定 → アクセスポイント名) を選択して、「プロキシ」の欄を空白にしてください。</string>
+    <string name="apply_apn_proxy">ご使用の端末に APN プロキシが設定されています! 3G等のモバイルネットワークで AdMew がうまく動作しない場合があります。プロキシを無効にするには、選択されている APN (設定アプリから: ネットワーク → インターネット → モバイルネットワーク → 詳細設定 → アクセスポイント名) を選択して、「プロキシ」の欄を空白にしてください。</string>
     <string name="apply_apn_proxy_title">APNプロキシがセットされました！</string>
     <string name="no_connection">ネット接続がありません</string>
     <string name="no_connection_title">接続なし</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">アドウェア</string>
-    <string name="adware_description">ここではAdAway によってブロックできない、インストール済みの有害アプリ (アドウェア) を一覧化しています。 これらのアプリは例えば、プッシュ通知を使用してアプリが実行されていないときにもポップアップしたり、着信音を無断で変更したりします。 対策はリスト項目をタップして、アプリをアンインストールすることだけです。</string>
+    <string name="adware_description">ここではAdMew によってブロックできない、インストール済みの有害アプリ (アドウェア) を一覧化しています。 これらのアプリは例えば、プッシュ通知を使用してアプリが実行されていないときにもポップアップしたり、着信音を無断で変更したりします。 対策はリスト項目をタップして、アプリをアンインストールすることだけです。</string>
     <string name="adware_scanning">スキャン中…</string>
     <string name="adware_empty">アドウェアは検出されませんでした！</string>
 
@@ -250,9 +250,9 @@
     <string name="vpn_notification_action_resume">復帰</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway 権限</string>
-    <string name="permission_group_api_description">AdAwayとの連携を許可する</string>
-    <string name="permission_send_command_label">AdAwayにコマンドを送信</string>
-    <string name="permission_send_command_description">システムの広告ブロックを切り替える等のコマンドをAdAwayへ送信することを許可します。</string>
+    <string name="permission_group_api_label">AdMew 権限</string>
+    <string name="permission_group_api_description">AdMewとの連携を許可する</string>
+    <string name="permission_send_command_label">AdMewにコマンドを送信</string>
+    <string name="permission_send_command_description">システムの広告ブロックを切り替える等のコマンドをAdMewへ送信することを許可します。</string>
 
 </resources>

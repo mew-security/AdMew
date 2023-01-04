@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Ongi etorri!</string>
-    <string name="text_help">AdAway iragarkiak blokeatzeko diseinatuta dagoen librea eta kode irekikoa den softwarea da. Iragarkien sareko helbideak lortzen ditu zure gailuan blokeatzeko.\nGehiago jakin nahi duzu? Begiratu beheko laguntza.</string>
+    <string name="text_help">AdMew iragarkiak blokeatzeko diseinatuta dagoen librea eta kode irekikoa den softwarea da. Iragarkien sareko helbideak lortzen ditu zure gailuan blokeatzeko.\nGehiago jakin nahi duzu? Begiratu beheko laguntza.</string>
     <string name="button_show_help">Erakutsi laguntza gehiago</string>
     <string name="icon_update_status">Eguneratu egoera</string>
     <string name="text_update">Zehaztutako iturburuetako hostalari agiri guztiak jeitsi eta batu dira zeure zerrendarekin eta hostalari agiri bat bezala ezarri dira zure sisteman.</string>
@@ -44,7 +44,7 @@
     <string name="export_dialog">Esportatzen…</string>
     <!--Hosts content-->
     <string name="hosts_header">Hostalari fitxategia</string>
-    <string name="hosts_description">Hosts fitxategia IP helbideei host izenak ematen dizkien sistemaren fitxategi bat da. Formaturik gabeko testu-fitxategia da, AdAwayk konfiguratzen du. Hauek dira bere lehenengo lerroak:</string>
+    <string name="hosts_description">Hosts fitxategia IP helbideei host izenak ematen dizkien sistemaren fitxategi bat da. Formaturik gabeko testu-fitxategia da, AdMewk konfiguratzen du. Hauek dira bere lehenengo lerroak:</string>
     <string name="hosts_content">Hostalari fitxategiaren edukia kargatzen…</string>
     <string name="hosts_open_button">Ireki hostalari fitxategia</string>
 
@@ -83,7 +83,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status"> Hosts fitxategiaren helmugarako symlink-a falta da</string>
-    <string name="apply_symlink_missing">Zure xedetiko Symlotura /system/etc/hosts-ra ez dago edo okerra da! AdAway-k ez du lan egingo ez bada agiri zuzenera zuzentzen.\n\nNahi duzu symlotura bat sortzen saiatzea?</string>
+    <string name="apply_symlink_missing">Zure xedetiko Symlotura /system/etc/hosts-ra ez dago edo okerra da! AdMew-k ez du lan egingo ez bada agiri zuzenera zuzentzen.\n\nNahi duzu symlotura bat sortzen saiatzea?</string>
     <string name="apply_symlink_missing_title">Symlotura ez dago</string>
     <string name="apply_not_enough_space">Ez dago nahikoa toki partizioan!\nSaiatu xede hostalari agiria aldatzen hobespenetan: /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Ez dago nahikoa toki</string>

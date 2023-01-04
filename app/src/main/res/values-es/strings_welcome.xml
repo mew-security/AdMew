@@ -6,8 +6,8 @@
     <string name="welcome_last_step">Último paso del asistente</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">¡Bienvenido a AdAway!</string>
-    <string name="welcome_method_summary">AdAway proporciona dos métodos de bloqueo de anuncios. Escoge el que te gusta:</string>
+    <string name="welcome_method_header">¡Bienvenido a AdMew!</string>
+    <string name="welcome_method_summary">AdMew proporciona dos métodos de bloqueo de anuncios. Escoge el que te gusta:</string>
 
     <string name="welcome_root_method_logo">Logo root</string>
     <string name="welcome_root_method_title">Basado en root\nbloqueo de anuncios</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">Compatibilidad</string>
 
     <string name="welcome_root_missing_title">Se requiere un Android rooteado</string>
-    <string name="welcome_root_missile_description">O bien no se pudo encontrar el binario o no permitió el permiso de root para AdAway.\n\nEsto puede suceder cuando tu dispositivo no está rooteado. Puedes encontrar información acerca de cómo hacer funcionar tu dispositivo en wiki.lineageos.org u otros sitios web de Android.</string>
+    <string name="welcome_root_missile_description">O bien no se pudo encontrar el binario o no permitió el permiso de root para AdMew.\n\nEsto puede suceder cuando tu dispositivo no está rooteado. Puedes encontrar información acerca de cómo hacer funcionar tu dispositivo en wiki.lineageos.org u otros sitios web de Android.</string>
 
     <string name="welcome_method_pro_logo">Pro</string>
     <string name="welcome_method_con_logo">Con</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">Sincronización</string>
     <string name="welcome_synced_header">¡Sincronizado!</string>
-    <string name="welcome_sync_summary">AdAway descarga redes publicitarias para bloquear las fuentes en línea. Puedes personalizarlas más tarde en la configuración.</string>
+    <string name="welcome_sync_summary">AdMew descarga redes publicitarias para bloquear las fuentes en línea. Puedes personalizarlas más tarde en la configuración.</string>
     <string name="welcome_sync_retry_logo">Reintentar sincronización</string>
     <string name="welcome_sync_error">Error al sincronizar:\n%s.\n¿Reintentar ahora?</string>
 

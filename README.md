@@ -1,12 +1,12 @@
-# ![AdAway logo](app/src/main/res/mipmap-mdpi/icon.png) AdAway
+# ![AdMew logo](app/src/main/res/mipmap-mdpi/icon.png) AdMew
 
-[![Build Status](https://github.com/adaway/adaway/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdAway/AdAway/actions/workflows/android-ci.yml) 
-[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=org.adaway&metric=security_rating)](https://sonarcloud.io/project/overview?id=org.adaway)
-[![GitHub Downloads](https://img.shields.io/github/downloads/adaway/adaway/total?logo=github)](https://github.com/AdAway/AdAway/releases)
+[![Build Status](https://github.com/admew/admew/actions/workflows/android-ci.yml/badge.svg)](https://github.com/AdMew/AdMew/actions/workflows/android-ci.yml) 
+[![Sonarcloud Status](https://sonarcloud.io/api/project_badges/measure?project=org.admew&metric=security_rating)](https://sonarcloud.io/project/overview?id=org.admew)
+[![GitHub Downloads](https://img.shields.io/github/downloads/admew/admew/total?logo=github)](https://github.com/AdMew/AdMew/releases)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/perfectslayer?logo=github)](https://github.com/sponsors/PerfectSlayer)
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](/LICENSE.md)
 
-AdAway is an open source ad blocker for Android using the hosts file and local vpn.
+AdMew is an open source ad blocker for Android using the hosts file and local vpn.
 
 [<img src="metadata/en-US/phoneScreenshots/screenshot1.png"
     alt="Home screen"
@@ -24,7 +24,7 @@ AdAway is an open source ad blocker for Android using the hosts file and local v
     alt="Help screen"
     height="256">](metadata/en-US/phoneScreenshots/screenshot5.png)
 
-For more information visit https://adaway.org
+For more information visit https://admew.org
 
 ## Installing
 
@@ -36,13 +36,13 @@ There are two kinds of release:
 
 **Requirements:** Android 8 _Oreo_ or above
 
-For users with bugs, there may be preview builds available from the [XDA development thread](https://forum.xda-developers.com/showthread.php?t=2190753) and [AdAway official website](https://app.adaway.org/beta.apk).
+For users with bugs, there may be preview builds available from the [XDA development thread](https://forum.xda-developers.com/showthread.php?t=2190753) and [AdMew official website](https://app.admew.org/beta.apk).
 It is recommended to try those builds to see if your issue is resolved before creating an issue.
 The preview builds may contain bug fixes or new features for new android versions.
 
-[<img src="Resources/get-it-on-adaway.png"
-      alt="Get it on official AdAway website"
-      height="80">](https://app.adaway.org/beta.apk)
+[<img src="Resources/get-it-on-admew.png"
+      alt="Get it on official AdMew website"
+      height="80">](https://app.admew.org/beta.apk)
 [<img src="Resources/XDADevelopers.png"
       raw="true"
       alt="Get it on XDA forum"
@@ -55,24 +55,24 @@ The preview builds may contain bug fixes or new features for new android version
 
 After preview builds have been tested by the more technical or responsive community within the forums, we will then post the stable build to F-Droid.
 
-[<img src="Resources/get-it-on-adaway.png"
-    alt="Get it on official AdAway website"
-    height="80">](https://app.adaway.org/adaway.apk)
+[<img src="Resources/get-it-on-admew.png"
+    alt="Get it on official AdMew website"
+    height="80">](https://app.admew.org/admew.apk)
 [<img src="Resources/get-it-on-fdroid.png"
       raw="true"
       alt="Get it on F-Droid"
-      height="80">](https://f-droid.org/app/org.adaway)
+      height="80">](https://f-droid.org/app/org.admew)
 
-For devices older than Android 8 _Oreo_, use the version 4 of AdAway.
+For devices older than Android 8 _Oreo_, use the version 4 of AdMew.
 
 ## Get Host File Sources
 
-See the [Wiki](https://github.com/AdAway/AdAway/wiki), in particular the page [HostsSources](https://github.com/AdAway/AdAway/wiki/HostsSources) for an assorted list of sources you can use in AdAway.
-Add the ones you like to the AdAway "Hosts sources" section.
+See the [Wiki](https://github.com/AdMew/AdMew/wiki), in particular the page [HostsSources](https://github.com/AdMew/AdMew/wiki/HostsSources) for an assorted list of sources you can use in AdMew.
+Add the ones you like to the AdMew "Hosts sources" section.
 
 ## Getting Help
 
-You can post [Issues](https://github.com/AdAway/AdAway/issues) here or obtain more detailed community support via the [XDA developer thread](http://forum.xda-developers.com/showthread.php?t=2190753).
+You can post [Issues](https://github.com/AdMew/AdMew/issues) here or obtain more detailed community support via the [XDA developer thread](http://forum.xda-developers.com/showthread.php?t=2190753).
 
 ## Contributing
 
@@ -83,7 +83,7 @@ If you are looking for translating the application in your language, [the transl
 
 ## Project Status
 
-AdAway is actively developed by:
+AdMew is actively developed by:
 * Bruce Bujon ([@PerfectSlayer](https://github.com/PerfectSlayer)) - Developer  
 [PayPal](https://paypal.me/BruceBUJON) | [GitHub Sponsorship](https://github.com/sponsors/PerfectSlayer)
 * Daniel Mönch ([@Vankog](https://github.com/Vankog)) - Translations
@@ -92,19 +92,19 @@ AdAway is actively developed by:
 
 We do not forget the past maintainers:
 * Dāvis Mošenkovs ([@DavisNT](https://github.com/DavisNT)) - Developer  
-[Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5GUHNXYE58RZS&lc=US&item_name=AdAway%20Donation&no_note=0&no_shipping=1)
+[Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=5GUHNXYE58RZS&lc=US&item_name=AdMew%20Donation&no_note=0&no_shipping=1)
 * [@0-kaladin](https://github.com/0-kaladin) - Developer and XDA OP
 * Sanjay Govind ([@sanjay900](https://github.com/sanjay900)) - Developer
 
 And we thank a lot to the original author:
 * Dominik Schürmann ([@dschuermann](https://github.com/dschuermann)) - Original developer  
-[Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=android%40schuermann.eu&lc=US&item_name=AdAway%20Donation&no_note=0&no_shipping=1&currency_code=EUR) | [Flattr](https://flattr.com/thing/369138/AdAway-Ad-blocker-for-Android) | BTC: `173kZxbkKuvnF5fa5b7t21kqU5XfEvvwTs`
+[Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=android%40schuermann.eu&lc=US&item_name=AdMew%20Donation&no_note=0&no_shipping=1&currency_code=EUR) | [Flattr](https://flattr.com/thing/369138/AdMew-Ad-blocker-for-Android) | BTC: `173kZxbkKuvnF5fa5b7t21kqU5XfEvvwTs`
 
 ## Permissions
 
-AdAway requires the following permissions:
+AdMew requires the following permissions:
 
-* `INTERNET` to download hosts files and application updates. It can send bug reports and telemetry [if the user wants to (opt-in only)](https://github.com/AdAway/AdAway/wiki/Telemetry)
+* `INTERNET` to download hosts files and application updates. It can send bug reports and telemetry [if the user wants to (opt-in only)](https://github.com/AdMew/AdMew/wiki/Telemetry)
 * `ACCESS_NETWORK_STATE` to restart VPN on network connection change
 * `RECEIVE_BOOT_COMPLETED` to start the VPN on boot
 * `FOREGROUND_SERVICE` to run the VPN service in foreground
@@ -113,6 +113,6 @@ AdAway requires the following permissions:
 
 ## Licenses
 
-AdAway is licensed under the GPLv3+.  
+AdMew is licensed under the GPLv3+.  
 The file LICENSE includes the full license text.
 For more details, check [the license notes](LICENSE.md).

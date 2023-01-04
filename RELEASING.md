@@ -17,7 +17,7 @@ It will generate an HTML (human readable) file at `app/build/reports/lint-result
 So before making a release, **ensure no new warning has been introduced**.
 
 ### SonarCloud analysis
-The AdAway application source code is [monitored by SonarCloud](https://sonarcloud.io/dashboard?id=org.adaway).    
+The AdMew application source code is [monitored by SonarCloud](https://sonarcloud.io/dashboard?id=org.admew).    
 The current version of the source code is analysed to find bugs, code smells and compute technical debt.
 The overall score may be not perfect, each new release should not increase it.    
 So before making a release, **ensure that no new bug or debt has been introduced**.
@@ -34,14 +34,14 @@ It follows the [Semantic Versioning](https://semver.org/) principle (_once the f
 
 ## 3 - Updating the changelog
 
-The AdAway project provides [a global changelog](CHANGELOG.md).  
+The AdMew project provides [a global changelog](CHANGELOG.md).  
 Before releasing any new version, be sure to update the changelog to let users know what is inside each new version.
 
 ## 4 - Building release APK
 
 The release apk must be built with release flavor (not debug). Check [contributing guide for building instructions](CONTRIBUTING.md#building-the-project).    
-**The apk name follows the following format: `AdAway-<version_name>-<yyyymmdd>.apk`**.
-Example: _AdAway-6.1.2-20220817.apk_ for the version 6.1.2 built the 08/17/22.
+**The apk name follows the following format: `AdMew-<version_name>-<yyyymmdd>.apk`**.
+Example: _AdMew-6.1.2-20220817.apk_ for the version 6.1.2 built the 08/17/22.
 
 ## 5 - Distributing release
 
@@ -70,7 +70,7 @@ Special thanks to <contributors> for theirs contributions and <bug reporters> fo
 
 [U][SIZE="4"]Download:[/SIZE][/U]
 
-[URL="https://app.adaway.org/adaway.apk"]AdAway <application version>[/URL]
+[URL="https://app.admew.org/admew.apk"]AdMew <application version>[/URL]
 ```
 
 ### Beta releases
@@ -79,7 +79,7 @@ The beta releases are only announced in the XDA development thread.
 
 ### Stable releases
 
-The stable releases are distributed through [GitHub releases](https://github.com/AdAway/AdAway/releases) and [F-Droid store](https://f-droid.org/packages/org.adaway/) and are posted of the first post of XDA development thread.
+The stable releases are distributed through [GitHub releases](https://github.com/AdMew/AdMew/releases) and [F-Droid store](https://f-droid.org/packages/org.admew/) and are posted of the first post of XDA development thread.
 Once ready, create and push a tag on GitHub repository using  `vX.Y.Z` format (or `vX.Y.Zb` for pre-releases).
 To publish the application in GitHub:
 
@@ -88,4 +88,4 @@ To publish the application in GitHub:
 * Upload apk binary to the release.
 
 Pushing a tag will publish the application to F-Droid store.
-It might takes some days to update but if it does not, build logs are available at the following address: `https://monitor.f-droid.org/builds/log/org.adaway/<versioncode>`.
+It might takes some days to update but if it does not, build logs are available at the following address: `https://monitor.f-droid.org/builds/log/org.admew/<versioncode>`.

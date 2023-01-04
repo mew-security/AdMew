@@ -2,7 +2,7 @@
 
 You can help us with your translation efforts!  
 
-Please have a look at ticket No. [AdAway/AdAway#1050](https://github.com/AdAway/AdAway/issues/1050) for more detailed information, questions and discussions!
+Please have a look at ticket No. [AdMew/AdMew#1050](https://github.com/AdMew/AdMew/issues/1050) for more detailed information, questions and discussions!
 We apreciate new contributors and translations are perfect for getting started with contributing at Github in general.
 
 Here is the gist:
@@ -11,7 +11,7 @@ Translations are managed via the **transifex.com website**! (and Transifex' webs
 Unfortunately, we cannot merge translations via Github directly. Please follow the steps below instead.  
 Sorry, but this causes some major synchronization issues if not followed.  We have to consolidate many contributions by translators and sync them up to the latest state. That is just not possible via Github.  
 
-1. Please go to **https://www.transifex.com/free-software-for-android/adaway/**
+1. Please go to **https://www.transifex.com/free-software-for-android/admew/**
 1. Login or create a new account (you can conveniently login via Github as well)
 1. Enroll into the language you want to contribute to or even submit a request for a new language.
    * Please keep in mind that we want to stick to the basic languages where possible (e.g. `sr` for Serbian).  

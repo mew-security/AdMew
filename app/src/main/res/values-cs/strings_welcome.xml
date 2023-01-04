@@ -6,8 +6,8 @@
     <string name="welcome_last_step">Průvodce poslední krok</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">Vítejte v AdAway!</string>
-    <string name="welcome_method_summary">AdAway poskytuje dvě metody blokování reklam. Vyberte si tu, která Vám vyhovuje:</string>
+    <string name="welcome_method_header">Vítejte v AdMew!</string>
+    <string name="welcome_method_summary">AdMew poskytuje dvě metody blokování reklam. Vyberte si tu, která Vám vyhovuje:</string>
 
     <string name="welcome_root_method_logo">Logo ROOT přístupu</string>
     <string name="welcome_root_method_title">Blokování reklam\npomocí ROOT přístupu</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">Kompatibilita</string>
 
     <string name="welcome_root_missing_title">Vyžaduje Android s ROOT přístupem</string>
-    <string name="welcome_root_missile_description">Spustitelný soubor su nebyl nalezen nebo jste AdAway neudělili oprávnění ROOT přístupu.\n\nToto se může stát, pokud Vaše zařízení nemá ROOT přístup. Informace jak získat ROOT přístup naleznete na wiki.lineageos.org nebo jiných stránkách o Androidu.</string>
+    <string name="welcome_root_missile_description">Spustitelný soubor su nebyl nalezen nebo jste AdMew neudělili oprávnění ROOT přístupu.\n\nToto se může stát, pokud Vaše zařízení nemá ROOT přístup. Informace jak získat ROOT přístup naleznete na wiki.lineageos.org nebo jiných stránkách o Androidu.</string>
 
     <string name="welcome_method_pro_logo">Výhody</string>
     <string name="welcome_method_con_logo">Nevýhody</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">Synchronizování</string>
     <string name="welcome_synced_header">Synchronizováno!</string>
-    <string name="welcome_sync_summary">AdAway stahuje reklamní sítě k zablokování z online zdrojů. Později si je můžete v nastavení přizpůsobit.</string>
+    <string name="welcome_sync_summary">AdMew stahuje reklamní sítě k zablokování z online zdrojů. Později si je můžete v nastavení přizpůsobit.</string>
     <string name="welcome_sync_retry_logo">Opakovat synchonizaci</string>
     <string name="welcome_sync_error">Synchronizace se nezdařila:\n%s.\nOpakovat nyní?</string>
 

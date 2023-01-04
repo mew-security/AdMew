@@ -6,7 +6,7 @@ And don't add newlines before or after p tags because of transifex -->
 <head><title>Aiuto riguardo S-ON</title></head>
 <body>
 <h2>Dispositivi HTC</h2>
-<p>AdAway non funziona se usi un dispositivo con il cosiddetto S-ON. Questa "caratteristica" è presente in molti dispositivi HTC e impedisce a AdAway di scrivere il file hosts.</p>
+<p>AdMew non funziona se usi un dispositivo con il cosiddetto S-ON. Questa "caratteristica" è presente in molti dispositivi HTC e impedisce a AdMew di scrivere il file hosts.</p>
 
 <h2>S-ON/S-OFF?</h2>
 <p>S-OFF significa che la porzione NAND del dispositivo è sbloccata e può essere scritta. L'impostazione predefinita nel dispositivi HTC è S-ON, il che significa che non si può né accedere a determinate aree del sistema, né puoi garantirti il root permanente. Inoltre, anche il controllo della firma per i firmware è assicurato dal flag S-ON.</p>
@@ -23,9 +23,9 @@ And don't add newlines before or after p tags because of transifex -->
 <li>Nella ClockWork Recovery andare al menu "partitions".</li>
 <li>Seleziona <cite>mount /system</cite>, <cite>mount /sdcard</cite> e <cite>mount /data</cite>.</li>
 <li>Collega il cavo USB e apri una riga di comando sul PC.</li>
-<li>Entra nella shell adb e digita <code>ln -s /data/hosts /system/etc/hosts</code> (In questo modo si crea un link simbolico che consente ad AdAway di modificare il file hosts situato in <code>/data</code>, consentendo allo stesso tempo al sistema operativo di usare il medesimo file come se fosse situato in <code>/system</code>).</li>
-<li>Riavvia il tuo dispositivo e imposta il <cite>Percorso file hosts</cite> in <cite>/data/hosts</cite> nelle preferenze di AdAway.</li>
-<li>Ora AdAway dovrebbe funzionare.</li>
+<li>Entra nella shell adb e digita <code>ln -s /data/hosts /system/etc/hosts</code> (In questo modo si crea un link simbolico che consente ad AdMew di modificare il file hosts situato in <code>/data</code>, consentendo allo stesso tempo al sistema operativo di usare il medesimo file come se fosse situato in <code>/system</code>).</li>
+<li>Riavvia il tuo dispositivo e imposta il <cite>Percorso file hosts</cite> in <cite>/data/hosts</cite> nelle preferenze di AdMew.</li>
+<li>Ora AdMew dovrebbe funzionare.</li>
 </ol>
 </body>
 </html>

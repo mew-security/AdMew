@@ -6,8 +6,8 @@
     <string name="welcome_last_step">Останній крок</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">Вітаємо в AdAway!</string>
-    <string name="welcome_method_summary">AdAway надає два способи блокування реклами. Виберіть один:</string>
+    <string name="welcome_method_header">Вітаємо в AdMew!</string>
+    <string name="welcome_method_summary">AdMew надає два способи блокування реклами. Виберіть один:</string>
 
     <string name="welcome_root_method_logo">Логотип рут</string>
     <string name="welcome_root_method_title">Блокування\nчерез рут</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">Сумісність</string>
 
     <string name="welcome_root_missing_title">Необхідні права суперкористувача (root)</string>
-    <string name="welcome_root_missile_description">Неможливо знайти бінарний файл su, або ви не надали AdAway рут права.\n\nЦе може трапитися, якщо ваш пристрій не рутовано. Ви можете дізнатися, як поставити рут права на ваш пристрій на wiki.lineageos.org або інших сайтах про Android.</string>
+    <string name="welcome_root_missile_description">Неможливо знайти бінарний файл su, або ви не надали AdMew рут права.\n\nЦе може трапитися, якщо ваш пристрій не рутовано. Ви можете дізнатися, як поставити рут права на ваш пристрій на wiki.lineageos.org або інших сайтах про Android.</string>
 
     <string name="welcome_method_pro_logo">Переваги</string>
     <string name="welcome_method_con_logo">Недоліки</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">Синхронізація</string>
     <string name="welcome_synced_header">Синхронізовано!</string>
-    <string name="welcome_sync_summary">AdAway завантажує мережі оголошень, які потрібно блокувати. Ви можете змінити їх в налаштуваннях.</string>
+    <string name="welcome_sync_summary">AdMew завантажує мережі оголошень, які потрібно блокувати. Ви можете змінити їх в налаштуваннях.</string>
     <string name="welcome_sync_retry_logo">Повторити синхронізацію</string>
     <string name="welcome_sync_error">Не вдалося синхронізувати:\n%s.\nПовторити?</string>
 

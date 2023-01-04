@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     if: |
       github.event.label.name == 'bug :bug:' && 
-      !contains(github.event.issue.body, 'AdAway version')
+      !contains(github.event.issue.body, 'AdMew version')
     steps:
       - name: Add context request comment
         uses: peter-evans/create-or-update-comment@v2
@@ -19,7 +19,7 @@ jobs:
           body: |
             Hello @${{ github.event.issue.user.login }}
             
-            It looks like you report a bug without providing all the context details like the AdAway version you use.
+            It looks like you report a bug without providing all the context details like the AdMew version you use.
             Thanks to update your issue with the most details you can, and use the bug report template instead of free form issue.
             
             Regards

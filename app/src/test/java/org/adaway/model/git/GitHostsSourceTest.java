@@ -1,4 +1,4 @@
-package org.adaway.model.git;
+package org.admew.model.git;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;

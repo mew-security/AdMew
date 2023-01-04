@@ -6,8 +6,8 @@
     <string name="welcome_last_step">精靈最後一步</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">歡迎來到 AdAway！</string>
-    <string name="welcome_method_summary">AdAway 提供了兩種廣告阻擋方法，選擇一個您喜歡的：</string>
+    <string name="welcome_method_header">歡迎來到 AdMew！</string>
+    <string name="welcome_method_summary">AdMew 提供了兩種廣告阻擋方法，選擇一個您喜歡的：</string>
 
     <string name="welcome_root_method_logo">Root logo</string>
     <string name="welcome_root_method_title">基於 Root\n 廣告阻擋</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">相容性</string>
 
     <string name="welcome_root_missing_title">需要 root 權限</string>
-    <string name="welcome_root_missile_description">找不到 su 二進位制檔案，或者您沒有允許 AdAway root 權限。\n\n 當您的裝置沒有 root 權限時，可能會發生這種情況。您可以在 wiki.lineageos.org 或其他 Android 網站上找到有關如何 root 裝置的資訊。</string>
+    <string name="welcome_root_missile_description">找不到 su 二進位制檔案，或者您沒有允許 AdMew root 權限。\n\n 當您的裝置沒有 root 權限時，可能會發生這種情況。您可以在 wiki.lineageos.org 或其他 Android 網站上找到有關如何 root 裝置的資訊。</string>
 
     <string name="welcome_method_pro_logo">Pro</string>
     <string name="welcome_method_con_logo">Con</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">同步中</string>
     <string name="welcome_synced_header">已同步！</string>
-    <string name="welcome_sync_summary">AdAway 從線上來源下載要阻擋的廣告網路，您可以稍後在設定中設定它們。</string>
+    <string name="welcome_sync_summary">AdMew 從線上來源下載要阻擋的廣告網路，您可以稍後在設定中設定它們。</string>
     <string name="welcome_sync_retry_logo">重新同步</string>
     <string name="welcome_sync_error">無法同步：\n%s。\n 是否立即重試？</string>
 

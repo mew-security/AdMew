@@ -3,7 +3,7 @@
     <string name="hosts_title">Sumber host</string>
     <!-- Default hosts source -->
     <string name="hosts_user_source">User list</string>
-    <string name="hosts_adaway_source">Official AdAway host</string>
+    <string name="hosts_admew_source">Official AdMew host</string>
     <string name="hosts_stevenblack_source">Hosts StevenBlack Unified</string>
     <string name="hosts_peterlowe_source">Hosts Pete Lowe blocklist</string>
     <!-- List -->

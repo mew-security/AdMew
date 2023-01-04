@@ -6,8 +6,8 @@
     <string name="welcome_last_step">Dernière étape de l’assistant</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">Bienvenue dans AdAway !</string>
-    <string name="welcome_method_summary">AdAway offre deux modes de blocage des publicités. Sélectionnez celui qui vous convient :</string>
+    <string name="welcome_method_header">Bienvenue dans AdMew !</string>
+    <string name="welcome_method_summary">AdMew offre deux modes de blocage des publicités. Sélectionnez celui qui vous convient :</string>
 
     <string name="welcome_root_method_logo">Logo de la racine</string>
     <string name="welcome_root_method_title">Bloqueur de publicités\nfondé sur la racine</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">Compatibilité</string>
 
     <string name="welcome_root_missing_title">Un Android débridé est exigé</string>
-    <string name="welcome_root_missile_description">Soit le fichier binaire su est introuvable, soit vous n’avez pas donné l’accès racine à AdAway.\n\nCela peut arriver quand votre appareil n’est pas débridé. Vous trouverez des renseignements sur comment débrider votre appareil sur wiki.lineageos.org ou sur d’autres sites Web dédiés à Android.</string>
+    <string name="welcome_root_missile_description">Soit le fichier binaire su est introuvable, soit vous n’avez pas donné l’accès racine à AdMew.\n\nCela peut arriver quand votre appareil n’est pas débridé. Vous trouverez des renseignements sur comment débrider votre appareil sur wiki.lineageos.org ou sur d’autres sites Web dédiés à Android.</string>
 
     <string name="welcome_method_pro_logo">Avantages</string>
     <string name="welcome_method_con_logo">Inconvénients</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">Synchronisation</string>
     <string name="welcome_synced_header">La synchronisation est terminée</string>
-    <string name="welcome_sync_summary">AdAway télécharge de sources en ligne la liste de réseaux publicitaires à bloquer. Vous pouvez les personnaliser ultérieurement dans les paramètres.</string>
+    <string name="welcome_sync_summary">AdMew télécharge de sources en ligne la liste de réseaux publicitaires à bloquer. Vous pouvez les personnaliser ultérieurement dans les paramètres.</string>
     <string name="welcome_sync_retry_logo">Essayer de resynchroniser</string>
     <string name="welcome_sync_error">Échec de synchronisation :\n%s.\nRéessayer maintenant ?</string>
 

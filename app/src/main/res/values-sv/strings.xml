@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Välkommen!</string>
-    <string name="text_help">AdAway är gratis och öppen källkod gjord för att blockera annonser. Den laddar ner annonsnätverk och konfigurerar din enhet att blockera dem.\nVill du veta mer? Ta en titt på hjälpen nedan!</string>
+    <string name="text_help">AdMew är gratis och öppen källkod gjord för att blockera annonser. Den laddar ner annonsnätverk och konfigurerar din enhet att blockera dem.\nVill du veta mer? Ta en titt på hjälpen nedan!</string>
     <string name="button_show_help">Visa mer hjälp</string>
     <string name="icon_update_status">Uppdateringsstatus</string>
     <string name="text_update">Alla värdfiler från de förinställda källorna är hämtade, ihopslagna med dina egna listor och tillämpade som en värdfil på ditt system.</string>
@@ -44,7 +44,7 @@
     <string name="export_dialog">Exporterar…</string>
     <!--Hosts content-->
     <string name="hosts_header">Värdfilen</string>
-    <string name="hosts_description">Värdfilen (HOSTS) är en systemfil som mappar om värdnamn till IP-adresser. Det är en vanlig textfil som AdAway kan hantera. Här är några rader från början av filen:</string>
+    <string name="hosts_description">Värdfilen (HOSTS) är en systemfil som mappar om värdnamn till IP-adresser. Det är en vanlig textfil som AdMew kan hantera. Här är några rader från början av filen:</string>
     <string name="hosts_content">Laddar värdfilens innehåll…</string>
     <string name="hosts_open_button">Öppna värdfilen</string>
 
@@ -86,7 +86,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Symlinken till värdfilsmålet saknas</string>
-    <string name="apply_symlink_missing">Symlink från ditt mål till /system/etc/hosts existerar ej eller är inkorrekt! AdAway kommer inte fungera om den inte pekar på rätt fil.\n\nVill du försöka skapa en symlink?</string>
+    <string name="apply_symlink_missing">Symlink från ditt mål till /system/etc/hosts existerar ej eller är inkorrekt! AdMew kommer inte fungera om den inte pekar på rätt fil.\n\nVill du försöka skapa en symlink?</string>
     <string name="apply_symlink_missing_title">Symlink saknas</string>
     <string name="apply_not_enough_space">Inte tillräckligt med utrymme på partitionen!\nFörsök ändra målvärdfil i inställningarna till /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Inte tillräckligt med utrymme</string>
@@ -105,7 +105,7 @@
     <string name="apply_symlink_fail">Symlink kunde ej skapas av Android.\nDetta fel beror oftast på en \'funktion\' som kallas S-ON på HTC-telefoner!\n\nEn lösning är att boota telefonen i återställningsläge och skapa en symlink därifrån med \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nOm detta inte fungerar, sök på internet efter S-OFF och din telefonmodell.</string>
     <string name="apply_symlink_fail_title">Skapande av symlink misslyckades</string>
     <string name="apply_help">Läs Hjälp för mer information.</string>
-    <string name="apply_apn_proxy">En APN-proxy är inställd på din Android!\nAdAway fungerar inte lika tillförlitligt på mobila nätverk som på 3G. Du kan inaktivera proxyn genom att gå till din valda APN (från appen Inställningar: Nätverk &amp; Internet -&gt; Mobilnätverk -&gt; Avancerat -&gt; Åtkomstpunktsnamn) och ta bort värdet i proxyfältet.</string>
+    <string name="apply_apn_proxy">En APN-proxy är inställd på din Android!\nAdMew fungerar inte lika tillförlitligt på mobila nätverk som på 3G. Du kan inaktivera proxyn genom att gå till din valda APN (från appen Inställningar: Nätverk &amp; Internet -&gt; Mobilnätverk -&gt; Avancerat -&gt; Åtkomstpunktsnamn) och ta bort värdet i proxyfältet.</string>
     <string name="apply_apn_proxy_title">APN-proxy inställt!</string>
     <string name="no_connection">Internetanslutningen fungerar ej.</string>
     <string name="no_connection_title">Ingen anslutning</string>
@@ -163,7 +163,7 @@
 
     <!--Adware-->
     <string name="adware_header">Annonsappar</string>
-    <string name="adware_description">Här hittar du installerade annonsappar, stygga applikationer som inte kan blockeras med AdAway. Dessa appar använder till exempel Airpush-aviseringar som kan visa sig även om appen inte körs och den kan även ändra din ringsignal. Den enda tillgängliga lösningen är att avinstallera dessa appar genom att trycka i listan.</string>
+    <string name="adware_description">Här hittar du installerade annonsappar, stygga applikationer som inte kan blockeras med AdMew. Dessa appar använder till exempel Airpush-aviseringar som kan visa sig även om appen inte körs och den kan även ändra din ringsignal. Den enda tillgängliga lösningen är att avinstallera dessa appar genom att trycka i listan.</string>
     <string name="adware_scanning">Söker…</string>
     <string name="adware_empty">Hittade inga annonsappar!</string>
 

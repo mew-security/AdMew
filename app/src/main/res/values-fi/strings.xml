@@ -57,7 +57,7 @@
     <string name="status_enabled_subtitle">Uusimmat hosts-tiedostot ovat käytössä</string>
     <string name="status_disabled">Pois käytöstä</string>
     <string name="notification_configuration_changed_action">Hyväksy</string>
-    <string name="apply_symlink_missing">Symbolista linkkiä kohteeseen /system/etc/hosts ei ole olemassa tai se on virheellinen! AdAway ei toimi, jos se ei osoita oikeaan tiedostoon.\n\nHaluatko yrittää luoda symbolisen linkin?</string>
+    <string name="apply_symlink_missing">Symbolista linkkiä kohteeseen /system/etc/hosts ei ole olemassa tai se on virheellinen! AdMew ei toimi, jos se ei osoita oikeaan tiedostoon.\n\nHaluatko yrittää luoda symbolisen linkin?</string>
     <string name="apply_symlink_missing_title">Symbolinen linkki puuttuu</string>
     <string name="apply_not_enough_space">Ei tarpeeksi tilaa osiossa!\nYritä muuttaa asetuksissa hosts-tiedoston kohde /data/data/hosts -vaihtoehdoksi.</string>
     <string name="apply_not_enough_space_title">Ei tarpeeksi tilaa</string>

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Сярдэчна запрашаем!</string>
-    <string name="text_help">AdAway - гэта бясплатная праграма з адкрытым зыходным кодам для блакіроўкі рэкламы. Яна збірае адрасы з рэкламнай сеткі і блакуе іх на вашай прыладзе.\nХочаце даведацца больш? Чытайце даведку!</string>
+    <string name="text_help">AdMew - гэта бясплатная праграма з адкрытым зыходным кодам для блакіроўкі рэкламы. Яна збірае адрасы з рэкламнай сеткі і блакуе іх на вашай прыладзе.\nХочаце даведацца больш? Чытайце даведку!</string>
     <string name="button_show_help">Паказаць дадатковую дапамогу</string>
     <string name="icon_update_status">Статус абнаўленняў</string>
     <string name="text_update">Усе файлы hosts, спампаваных з пэўных крыніц, зліваюцца з вашым уласным спісам і ўсталёўваюцца ў вашай сістэме ў выглядзе аднаго файла host</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Файл hosts</string>
-    <string name="hosts_description">Файл hosts - гэта сістэмны файл, супастаўляючы імёны вузлоў з IP-адрасамі. Гэта звычайны тэкставы файл, змесціва якога апрацоўвае AdAway. Вось яго першыя радкі:</string>
+    <string name="hosts_description">Файл hosts - гэта сістэмны файл, супастаўляючы імёны вузлоў з IP-адрасамі. Гэта звычайны тэкставы файл, змесціва якога апрацоўвае AdMew. Вось яго першыя радкі:</string>
     <string name="hosts_content">Загрузка змесціва файла hosts</string>
     <string name="hosts_open_button">Адкрыць файл hosts</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Адсутнічае сімвалічная спасылка на мэтавай файл hosts</string>
-    <string name="apply_symlink_missing">Спасылка на ваш /system/etc/hosts няправільная або не існуе! AdAway не будзе працаваць, калі не паказаць правільны файл. Вы хочаце паспрабаваць стварыць спасылку?</string>
+    <string name="apply_symlink_missing">Спасылка на ваш /system/etc/hosts няправільная або не існуе! AdMew не будзе працаваць, калі не паказаць правільны файл. Вы хочаце паспрабаваць стварыць спасылку?</string>
     <string name="apply_symlink_missing_title">Спасылка адсутнічае</string>
     <string name="apply_not_enough_space">Не хапае месца на раздзеле! Паспрабуйце змяніць шлях да файла ў наладах на /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Не хапае месца</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Android не змог стварыць спасылку.\nМагчыма гэта з-за асаблівасці тэлефонаў HTC, званай S-ON!\n\nРашэнне заключаецца ў загрузцы тэлефона ў рэжыме аднаўлення і стварэння спасылкі пры дапамозе \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nКалі гэта не дапаможа, то трэба шукаць інфармацыю ў інтэрнэце па S-OFF і вашаму тэлефоне.</string>
     <string name="apply_symlink_fail_title">Памылка стварэння спасылкі</string>
     <string name="apply_help">Калі ласка, чытайце Даведку для атрымання большай інфармацыі.</string>
-    <string name="apply_apn_proxy">У наладах APN вашага Android паказаны проксі-сервер!\nAdAway не будзе працаваць у мабільных сетках, такіх як 3G. Вы можаце адключыць гэты сервер проксі у наладах выкарыстаннай APN (з праграмы Налад: Сетка і Інтэрнэт -&gt; Мабільная сетка -&gt; Дадаткова -&gt; Кропкі доступу APN) і выдаліць значэнне ў полі Проксі.</string>
+    <string name="apply_apn_proxy">У наладах APN вашага Android паказаны проксі-сервер!\nAdMew не будзе працаваць у мабільных сетках, такіх як 3G. Вы можаце адключыць гэты сервер проксі у наладах выкарыстаннай APN (з праграмы Налад: Сетка і Інтэрнэт -&gt; Мабільная сетка -&gt; Дадаткова -&gt; Кропкі доступу APN) і выдаліць значэнне ў полі Проксі.</string>
     <string name="apply_apn_proxy_title">Выкарыстоўваная кропка доступу працуе праз проксі-сервер!</string>
     <string name="no_connection">Адсутнічае падключэнне да інтэрнэту.</string>
     <string name="no_connection_title">Няма злучэння</string>
@@ -168,7 +168,7 @@
 
     <!--Adware-->
     <string name="adware_header">Праграмы з рэкламай</string>
-    <string name="adware_description">Пошук праграм з рэкламай, званыя Adware, і якія AdAway не можа заблакаваць. Гэтыя праграмы выкарыстоўваюць, напрыклад, сістэму апавяшчэнняў Airpush, якая паказвае рэкламу нават тады, калі праграма не працуе, ці нават можа змяніць мелодыю вашага званка. Пазбавіцца ад такой рэкламы можна толькі выдаліўшы праграму, названыя ў выніках сканавання, шляхам націску на складнікі спісаў.</string>
+    <string name="adware_description">Пошук праграм з рэкламай, званыя Adware, і якія AdMew не можа заблакаваць. Гэтыя праграмы выкарыстоўваюць, напрыклад, сістэму апавяшчэнняў Airpush, якая паказвае рэкламу нават тады, калі праграма не працуе, ці нават можа змяніць мелодыю вашага званка. Пазбавіцца ад такой рэкламы можна толькі выдаліўшы праграму, названыя ў выніках сканавання, шляхам націску на складнікі спісаў.</string>
     <string name="adware_scanning">Сканаванне…</string>
     <string name="adware_empty">Праграм з рэкламай не знойдзена!</string>
 
@@ -259,9 +259,9 @@
     <string name="vpn_notification_action_resume">Аднавіць</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Дазволы AdAway</string>
-    <string name="permission_group_api_description">Дазволіць узаемадзеянне з AdAway</string>
-    <string name="permission_send_command_label">Адпраўляць каманды на AdAway</string>
-    <string name="permission_send_command_description">Дазволіць адпраўку каманд у AdAway, напрыклад, уключэнне або адключэнне сістэмнай блакіроўкі рэкламы</string>
+    <string name="permission_group_api_label">Дазволы AdMew</string>
+    <string name="permission_group_api_description">Дазволіць узаемадзеянне з AdMew</string>
+    <string name="permission_send_command_label">Адпраўляць каманды на AdMew</string>
+    <string name="permission_send_command_description">Дазволіць адпраўку каманд у AdMew, напрыклад, уключэнне або адключэнне сістэмнай блакіроўкі рэкламы</string>
 
 </resources>

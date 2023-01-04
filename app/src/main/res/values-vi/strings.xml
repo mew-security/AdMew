@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Chào mừng!</string>
-    <string name="text_help">AdAway là một phần mềm miễn phí và mã nguồn mở được thiết kế để chặn quảng cáo. Nó lấy địa chỉ các mạng quảng cáo để chặn chúng trên thiết bị của bạn.\nBạn có muốn biết thêm không? Hãy xem trợ giúp ở bên dưới!</string>
+    <string name="text_help">AdMew là một phần mềm miễn phí và mã nguồn mở được thiết kế để chặn quảng cáo. Nó lấy địa chỉ các mạng quảng cáo để chặn chúng trên thiết bị của bạn.\nBạn có muốn biết thêm không? Hãy xem trợ giúp ở bên dưới!</string>
     <string name="button_show_help">Hiện thêm trợ giúp</string>
     <string name="icon_update_status">Cập nhật tình trạng</string>
     <string name="text_update">Tất cả các tập tin miền từ nguồn xác định sẽ được tải về, ghép với danh sách của bạn và cài đặt thành một tập tin miền duy nhất trên hệ thống.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Tệp hosts</string>
-    <string name="hosts_description">Tệp hosts là mootk tệp hệ thống nằm trong /system/etc dùng để chỉ dẫn tên miền đến địa chỉ IP. Nó là một tệp txt được cấu hình bởi AdAway. Đây là một vài dòng</string>
+    <string name="hosts_description">Tệp hosts là mootk tệp hệ thống nằm trong /system/etc dùng để chỉ dẫn tên miền đến địa chỉ IP. Nó là một tệp txt được cấu hình bởi AdMew. Đây là một vài dòng</string>
     <string name="hosts_content">Đang tải tệp hosts trong máy</string>
     <string name="hosts_open_button">Mở tệp hosts</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Thiếu liên kết đến mục tiêu tệp máy chủ</string>
-    <string name="apply_symlink_missing">Liên kết biểu trưng từ mục tiêu đến /system/etc/hosts không tồn tại hoặc không đúng! AdAway sẽ không hoạt động nếu nó không được dẫn đến đúng tập tin.\n\nBạn có muốn thử tạo liên kết mới?</string>
+    <string name="apply_symlink_missing">Liên kết biểu trưng từ mục tiêu đến /system/etc/hosts không tồn tại hoặc không đúng! AdMew sẽ không hoạt động nếu nó không được dẫn đến đúng tập tin.\n\nBạn có muốn thử tạo liên kết mới?</string>
     <string name="apply_symlink_missing_title">Thiếu liên kết biểu trưng</string>
     <string name="apply_not_enough_space">Không đủ dung lượng trên ổ đĩa!\nHãy thử đổi tập tin miền mục tiêu trong tuỳ chỉnh thành /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Không đủ dung lượng</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Liên kết biểu tượng không thể được tạo bởi Android.\nViệc này thất bại phần lớn vì một \'tính năng\' gọi là S-ON trên các điện thoại HTC!\n\nMột giải pháp là khởi động điện thoại của bạn vào chế độ phục hồi và tạo liên kết biểu tượng ở đó bằng lệnh \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nNếu việc này không được thì hãy tìm kiếm S-OFF và điện thoại của bạn trên Internet.</string>
     <string name="apply_symlink_fail_title">Tạo liên kết biểu trưng thất bại</string>
     <string name="apply_help">Hãy đọc Trợ giúp để biết thêm thông tin.</string>
-    <string name="apply_apn_proxy">An APN proxy is set on your Android!\nAdAway will not work reliably when on Mobile Networks like 3G. You can deactivate that proxy by going to your selected APN (From the Settings app: Network &amp; Internet -> Mobile network -> Advanced -> Access Point Names) and remove the value in the proxy field. </string>
+    <string name="apply_apn_proxy">An APN proxy is set on your Android!\nAdMew will not work reliably when on Mobile Networks like 3G. You can deactivate that proxy by going to your selected APN (From the Settings app: Network &amp; Internet -> Mobile network -> Advanced -> Access Point Names) and remove the value in the proxy field. </string>
     <string name="apply_apn_proxy_title">Đã tạo proxy APN!</string>
     <string name="no_connection">Kết nối mạng không hoạt động.</string>
     <string name="no_connection_title">Không có kết nối</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Ở đây bạn có thể tìm thấy ứng dụng quảng cáo, đó là những ứng dụng xấu không thể bị chặn bởi AdAway. Các ứng dụng này sử dụng, ví dụ là các thông báo Airpush hiện lên kể cả khi ứng dụng đó không chạy hoặc kể cả là thay đổi nhạc chuông của bạn. Biện pháp phản lại duy nhất có sẵn là gỡ cài đặt các ứng dụng đó bằng cách nhấn vào các mục trong danh sách.</string>
+    <string name="adware_description">Ở đây bạn có thể tìm thấy ứng dụng quảng cáo, đó là những ứng dụng xấu không thể bị chặn bởi AdMew. Các ứng dụng này sử dụng, ví dụ là các thông báo Airpush hiện lên kể cả khi ứng dụng đó không chạy hoặc kể cả là thay đổi nhạc chuông của bạn. Biện pháp phản lại duy nhất có sẵn là gỡ cài đặt các ứng dụng đó bằng cách nhấn vào các mục trong danh sách.</string>
     <string name="adware_scanning">Đang quét…</string>
     <string name="adware_empty">Không tìm thấy Adware!</string>
 
@@ -246,9 +246,9 @@
     <string name="vpn_notification_action_resume">Tiếp tục</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Quyền truy cập của AdAway</string>
-    <string name="permission_group_api_description">Cho phép tương tác với AdAway</string>
-    <string name="permission_send_command_label">Gửi lệnh đến AdAway</string>
-    <string name="permission_send_command_description">Cho phép gửi các lệnh như bật hoặc tắt chặn quảng cáo toàn hệ thống đến AdAway</string>
+    <string name="permission_group_api_label">Quyền truy cập của AdMew</string>
+    <string name="permission_group_api_description">Cho phép tương tác với AdMew</string>
+    <string name="permission_send_command_label">Gửi lệnh đến AdMew</string>
+    <string name="permission_send_command_description">Cho phép gửi các lệnh như bật hoặc tắt chặn quảng cáo toàn hệ thống đến AdMew</string>
 
 </resources>

@@ -3,7 +3,7 @@
     <string name="hosts_title">Източници за Hosts файла</string>
     <!-- Default hosts source -->
     <string name="hosts_user_source">Потребителски списък</string>
-    <string name="hosts_adaway_source">Официалния хостове на AdAway</string>
+    <string name="hosts_admew_source">Официалния хостове на AdMew</string>
     <string name="hosts_stevenblack_source">Обединени хостове на StevenBlack</string>
     <string name="hosts_peterlowe_source">Списък с блокирани хостове на Pete Lowe</string>
     <!-- List -->

@@ -35,7 +35,7 @@
     <string name="status_enabled_subtitle">Noviji host-ovi fajlovi omogućeni</string>
     <string name="status_disabled">Onemogućeno</string>
     <string name="notification_configuration_changed_action">Primeni</string>
-    <string name="apply_symlink_missing">Simbolički link od tvojeg fajla do /system/etc/hosts ne postoji ili nije dobar. AdAway neće raditi ako ne pokazuje na dobar fajl.\n\nDa li želiš da pokušaš da kreiraš simbolički link?</string>
+    <string name="apply_symlink_missing">Simbolički link od tvojeg fajla do /system/etc/hosts ne postoji ili nije dobar. AdMew neće raditi ako ne pokazuje na dobar fajl.\n\nDa li želiš da pokušaš da kreiraš simbolički link?</string>
     <string name="apply_symlink_missing_title">Nedostaje symlink.</string>
     <string name="apply_not_enough_space">Na particiji nema dovoljno mesta!\nProbaj da promeniš lokaciju hosts fajla u podešavanjima na /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Nema dovoljno memorije</string>

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Willkommen!</string>
-    <string name="text_help">AdAway ist ein freier Open-Source Werbeblocker. AdAway schaut ob eine Netzwerkadresse eines Werbeanbieters aufgerufen wird und blockiert auf Ihrem Gerät diesen Aufruf.\nMöchten Sie mehr darüber erfahren? Rufen sie dazu weiter unten \"Hilfe anzeigen\"  auf!</string>
+    <string name="text_help">AdMew ist ein freier Open-Source Werbeblocker. AdMew schaut ob eine Netzwerkadresse eines Werbeanbieters aufgerufen wird und blockiert auf Ihrem Gerät diesen Aufruf.\nMöchten Sie mehr darüber erfahren? Rufen sie dazu weiter unten \"Hilfe anzeigen\"  auf!</string>
     <string name="button_show_help">Hilfe anzeigen</string>
     <string name="icon_update_status">Status der Aktualisierung</string>
     <string name="text_update">Alle Hosts-Dateien aus den hinterlegten Quellen werden heruntergeladen. Anschließend diese zur ihrer eigenen Liste hinzugefügt und als eine Hosts-Datei im System installiert.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Die Hosts-Datei</string>
-    <string name="hosts_description">Die Hosts-Datei ist eine Datei aus dem Systembereich, bei der Hostnamen (Webadressen) zu IP-Adressen zugewiesen werden. Die Konfiguration der reinen Textdatei wird von AdAway übernommen. Nachfolgend ihre ersten Zeilen:</string>
+    <string name="hosts_description">Die Hosts-Datei ist eine Datei aus dem Systembereich, bei der Hostnamen (Webadressen) zu IP-Adressen zugewiesen werden. Die Konfiguration der reinen Textdatei wird von AdMew übernommen. Nachfolgend ihre ersten Zeilen:</string>
     <string name="hosts_content">Inhalt der Hosts-Datei laden…</string>
     <string name="hosts_open_button">Hosts-Datei öffnen</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Die symbolische Verknüpfung (Symlink) zur Hosts-Datei fehlt</string>
-    <string name="apply_symlink_missing">Die symbolische Verknüpfung (Symlink) zwischen Ziel und /system/etc/hosts ist nicht vorhanden oder falsch! Ohne diese Verknüpfung wird AdAway nicht funktionieren.\n\nMöchten Sie versuchen eine symbolische Verknüpfung zu erstellen?</string>
+    <string name="apply_symlink_missing">Die symbolische Verknüpfung (Symlink) zwischen Ziel und /system/etc/hosts ist nicht vorhanden oder falsch! Ohne diese Verknüpfung wird AdMew nicht funktionieren.\n\nMöchten Sie versuchen eine symbolische Verknüpfung zu erstellen?</string>
     <string name="apply_symlink_missing_title">Symbolische Verknüpfung fehlt</string>
     <string name="apply_not_enough_space">Nicht genügend Speicherplatz auf der Partition frei!\nVersuchen Sie die zu benutzende Hosts-Datei auf /data/data/hosts zu ändern.</string>
     <string name="apply_not_enough_space_title">Nicht genügend Speicherplatz</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Symbolische Verknüpfung konnte nicht von Android erstellt werden.\nDies liegt wahrscheinlich an einer \'Funktion\' namens S-ON auf HTC-Geräten!\n\nEine Lösung ist es, Ihr Gerät im Wiederherstellungsmodus zu starten und die Verknüpfung von dort mit »ln -s /data/data/hosts /system/etc/hosts« zu erstellen.\n\nWenn dies nicht funktioniert, suchen Sie bitte im Internet nach S-OFF und Ihrem Gerät.</string>
     <string name="apply_symlink_fail_title">Symbolische Verknüpfung konnte nicht erstellt werden</string>
     <string name="apply_help">Bitte Hilfe für mehr Informationen lesen.</string>
-    <string name="apply_apn_proxy">Auf Ihrem Android-Gerät ist ein Zugangspunktvermittlungsserver (APN-Proxy) aktiviert!\nAdAway wird in Mobilfunknetzen (2G, 3G, 4G, 5G) nicht zuverlässig funktionieren. Sie können diesen Vermittlungsserver (Proxy) deaktivieren, indem Sie in den Einstellungen wechseln: Netzwerk &amp; Internet -&gt; Mobilfunknetz -&gt; Zugangspunkte (APNs)) und den Wert im Proxy-Feld entfernen.</string>
+    <string name="apply_apn_proxy">Auf Ihrem Android-Gerät ist ein Zugangspunktvermittlungsserver (APN-Proxy) aktiviert!\nAdMew wird in Mobilfunknetzen (2G, 3G, 4G, 5G) nicht zuverlässig funktionieren. Sie können diesen Vermittlungsserver (Proxy) deaktivieren, indem Sie in den Einstellungen wechseln: Netzwerk &amp; Internet -&gt; Mobilfunknetz -&gt; Zugangspunkte (APNs)) und den Wert im Proxy-Feld entfernen.</string>
     <string name="apply_apn_proxy_title">APN-Proxy eingestellt!</string>
     <string name="no_connection">Die Internetverbindung funktioniert nicht.</string>
     <string name="no_connection_title">Keine Verbindung</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Hier sind schlechte Werbesoftware Anwendungen aufgelistet, die nicht von AdAway blockiert werden können. Diese Apps nutzen zum Beispiel Airpush-Benachrichtigungen die selbst dann erscheinen, wenn die App gar nicht läuft oder es wird sogar Ihr Klingelton umgestellt. Die einzige Gegenmaßnahme ist solche Apps zu deinstalieren, indem Sie auf die Listeneinträge klicken.</string>
+    <string name="adware_description">Hier sind schlechte Werbesoftware Anwendungen aufgelistet, die nicht von AdMew blockiert werden können. Diese Apps nutzen zum Beispiel Airpush-Benachrichtigungen die selbst dann erscheinen, wenn die App gar nicht läuft oder es wird sogar Ihr Klingelton umgestellt. Die einzige Gegenmaßnahme ist solche Apps zu deinstalieren, indem Sie auf die Listeneinträge klicken.</string>
     <string name="adware_scanning">Durchsuchen …</string>
     <string name="adware_empty">Keine Adware gefunden!</string>
 
@@ -180,7 +180,7 @@
 
     <!--Tcpdump-->
     <string name="tcpdump_header">TCPdump</string>
-    <string name="tcpdump_description">Mit TCPDump können DNS-Anfragen aufgezeichnet und in einer Protokolldatei gespeichert werden. Dazu TCPDump im Hintergrund starten und anschließend die App mit Werbung ausführen. Danach die Protokolldatei in AdAway analysieren. Mögliche Werbe-Server können nun zu Ihrer Negativliste(blacklist) hinzugefügt werden.</string>
+    <string name="tcpdump_description">Mit TCPDump können DNS-Anfragen aufgezeichnet und in einer Protokolldatei gespeichert werden. Dazu TCPDump im Hintergrund starten und anschließend die App mit Werbung ausführen. Danach die Protokolldatei in AdMew analysieren. Mögliche Werbe-Server können nun zu Ihrer Negativliste(blacklist) hinzugefügt werden.</string>
     <string name="tcpdump_disable_monitoring">Aufzeichnung deaktivieren</string>
     <string name="tcpdump_enable_monitoring">Aufzeichnung aktivieren</string>
     <string name="tcpdump_show_results">Ergebnisse anzeigen</string>
@@ -254,9 +254,9 @@
     <string name="vpn_notification_action_resume">Weiter</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway Bewilligung</string>
-    <string name="permission_group_api_description">Mit AdAway den Kontakt bewilligen</string>
-    <string name="permission_send_command_label">Befehle an AdAway senden</string>
-    <string name="permission_send_command_description">Bewillige das Senden von Befehlen an AdAway, wie \"Einschalten\" oder \"Ausschalten\" des Werbeblockers</string>
+    <string name="permission_group_api_label">AdMew Bewilligung</string>
+    <string name="permission_group_api_description">Mit AdMew den Kontakt bewilligen</string>
+    <string name="permission_send_command_label">Befehle an AdMew senden</string>
+    <string name="permission_send_command_description">Bewillige das Senden von Befehlen an AdMew, wie \"Einschalten\" oder \"Ausschalten\" des Werbeblockers</string>
 
 </resources>

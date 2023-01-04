@@ -6,7 +6,7 @@ And don't add newlines before or after p tags because of transifex -->
 <head><title>Ajuda relacionada ao S-ON</title></head>
 <body>
 <h2>Dispositivos HTC</h2>
-<p>AdAway não funciona quando você está usando um dispositivo com então chamado S-ON. Este 'recurso' existe em muitos dispositivos HTC e evita AdAway de escrever o arquivo hosts.</p>
+<p>AdMew não funciona quando você está usando um dispositivo com então chamado S-ON. Este 'recurso' existe em muitos dispositivos HTC e evita AdMew de escrever o arquivo hosts.</p>
 
 <h2>S-ON/S-OFF?</h2>
 <p>S-OFF significa que a partição NAND do dispositivo está desbloqueada e pode ser escrita. A definição padrão para dispositivos HTC é S-ON, que significa que você não pode acessar certas áreas do sistema nem garantir um root permanente. Além disto, a verificação de assinatura para imagens de firmware é também assegurada pela bandeira S-ON.</p>
@@ -23,9 +23,9 @@ And don't add newlines before or after p tags because of transifex -->
 <li>Na recuperação do clockwork, acesse "menu de partições".</li>
 <li>Selecione <cite>mount /system</cite>, <cite>mount /sdcard</cite> e <cite>mount /data</cite>.</li>
 <li>Conecte seu cabo USB e abra uma linha de comando no seu computador.</li>
-<li>Entre no ADB Shell e digite <code>ln -s /data/hosts /system/etc/hosts</code> (Isso cria um link simbólico que permite que o AdAway edite o arquivo hosts que é guardado em <code>/data</code>permitindo que o OS use o arquivo como se ele estivesse guardado em <code>/system</code>.)</li>
-<li>Reinicialize seu dispositivo e defina o <cite>Arquivo de Hosts de destino</cite> para <cite>/data/hosts</cite> nas preferências da AdAway.</li>
-<li>AdAway deve funcionar agora.</li>
+<li>Entre no ADB Shell e digite <code>ln -s /data/hosts /system/etc/hosts</code> (Isso cria um link simbólico que permite que o AdMew edite o arquivo hosts que é guardado em <code>/data</code>permitindo que o OS use o arquivo como se ele estivesse guardado em <code>/system</code>.)</li>
+<li>Reinicialize seu dispositivo e defina o <cite>Arquivo de Hosts de destino</cite> para <cite>/data/hosts</cite> nas preferências da AdMew.</li>
+<li>AdMew deve funcionar agora.</li>
 </ol>
 </body>
 </html>

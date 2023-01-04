@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">أهلاً وسهلاً!</string>
-    <string name="text_help">AdAway هو تصميم برامج مجاني ومفتوح المصدر لمنع الإعلانات. إنه يجلب عناوين الشبكات الإعلانية لمنعها من الظهور على جهازك. \nهل تود معرفة المزيد؟ يرجى رؤية المساعدة أدناه!</string>
+    <string name="text_help">AdMew هو تصميم برامج مجاني ومفتوح المصدر لمنع الإعلانات. إنه يجلب عناوين الشبكات الإعلانية لمنعها من الظهور على جهازك. \nهل تود معرفة المزيد؟ يرجى رؤية المساعدة أدناه!</string>
     <string name="button_show_help">إظهار المزيد من المساعدة</string>
     <string name="icon_update_status">حالة التحديث</string>
     <string name="text_update">جميع ملفات المضيف ستحمل و ستدمج مع قوائمك و ستثبت في ملف واحد على نظامك.</string>
@@ -48,7 +48,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">ملف المضيف</string>
-    <string name="hosts_description">ملف المضيف هو ملف نظام يقوم بربط أسماء المضيف مع عناوين الإنترنت بروتوكول .إنه عبارة عن ملف نصّي ويهتم AdAway به ويقوم بإعداده. تبدو بعض الخطوط الأولى فيه كما يلي:</string>
+    <string name="hosts_description">ملف المضيف هو ملف نظام يقوم بربط أسماء المضيف مع عناوين الإنترنت بروتوكول .إنه عبارة عن ملف نصّي ويهتم AdMew به ويقوم بإعداده. تبدو بعض الخطوط الأولى فيه كما يلي:</string>
     <string name="hosts_content">جارٍ تحميل محتوى ملف المضيف…</string>
     <string name="hosts_open_button">فتح ملف المضيف</string>
 
@@ -168,7 +168,7 @@
 
     <!--Adware-->
     <string name="adware_header">الإعلانات المُتسلّلة</string>
-    <string name="adware_description">هنا يمكنك العثور على تطبيقات Adware مثبّتة ، وهي تطبيقات سيئة لا يمكن منعها من قِبَل AdAway . على سبيل المثال تستخدم هذه التطبيقات إشعارات Airpush التي تظهر حتى عند عدم تشغيل التطبيق وتستطيع حتى تغيير نغمة الرنين لجهازك . الحل الوحيد هو حذف هذه التطبيقات التي عُثِرَ عليها من خلال النقر على أسماء التطبيقات في الأسفل .</string>
+    <string name="adware_description">هنا يمكنك العثور على تطبيقات Adware مثبّتة ، وهي تطبيقات سيئة لا يمكن منعها من قِبَل AdMew . على سبيل المثال تستخدم هذه التطبيقات إشعارات Airpush التي تظهر حتى عند عدم تشغيل التطبيق وتستطيع حتى تغيير نغمة الرنين لجهازك . الحل الوحيد هو حذف هذه التطبيقات التي عُثِرَ عليها من خلال النقر على أسماء التطبيقات في الأسفل .</string>
     <string name="adware_scanning">جارٍ الفحص</string>
     <string name="adware_empty">لم يتم العثور على إعلانات مُتسلّلة!</string>
 
@@ -267,9 +267,9 @@
     <string name="vpn_notification_action_resume">إستئناف</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">صلاحيات AdAway</string>
-    <string name="permission_group_api_description">السماح لـ AdAway بالوصول لـ</string>
-    <string name="permission_send_command_label">أرسل الأوامر لـ AdAway</string>
-    <string name="permission_send_command_description">السماح بإرسال أوامر إلى AdAway مثل تمكين أو تعطيل حظر الإعلانات على مستوى النظام</string>
+    <string name="permission_group_api_label">صلاحيات AdMew</string>
+    <string name="permission_group_api_description">السماح لـ AdMew بالوصول لـ</string>
+    <string name="permission_send_command_label">أرسل الأوامر لـ AdMew</string>
+    <string name="permission_send_command_description">السماح بإرسال أوامر إلى AdMew مثل تمكين أو تعطيل حظر الإعلانات على مستوى النظام</string>
 
 </resources>

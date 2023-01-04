@@ -5,7 +5,7 @@
     <string name="notification_update_host_available_title">Actualización da fonte dispoñibel</string>
     <string name="notification_update_host_available_text">Novos arquivos hosts dispoñíbeis para descargar.</string>
     <string name="notification_update_app_available_title">Actualización da app dispoñibel</string>
-    <string name="notification_update_app_available_text">Unha nova versión de AdAway está dispoñíbel para descargar</string>
+    <string name="notification_update_app_available_text">Unha nova versión de AdMew está dispoñíbel para descargar</string>
     <!-- VPN notification -->
     <string name="notification_vpn_channel_name">VPN</string>
     </resources>

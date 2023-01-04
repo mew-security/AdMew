@@ -487,7 +487,7 @@ Special thanks to MSF-Jarvis and Ralayax for their contributions
 
 ## [4.1.0] - 2018-12-13
 
-- Add [telemetry feature](https://github.com/AdAway/AdAway/wiki/Telemetry)
+- Add [telemetry feature](https://github.com/AdMew/AdMew/wiki/Telemetry)
 - Add snackbar notification to update host when editing hosts sources or lists
 - Update translations and fix english locale issues
 
@@ -676,7 +676,7 @@ This release has mainly been done by Dāvis Mošenkovs.
 - Separate whitelisting and redirections options - "Allow whitelisting" defaults to checked; "Allow redirections" defaults to state of "Allow redirections and whitelisting" (or unchecked on new installations)
 - Fix tcpdump logging upon file deletion
 - Fix possible crash on DB update
-- Fix AdAway's default hosts source
+- Fix AdMew's default hosts source
 
 ## [2.9.1]
 - Fixing regression bugs
@@ -687,14 +687,14 @@ This release has mainly been done by Dāvis Mošenkovs, thanks!
 - Workaround for Android 4.4 (see Help)
 - Fixed Hide reboot dialog setting being ignored after symlink creation
 - Fix crashes
-- Change AdAway's default hosts source to https
+- Change AdMew's default hosts source to https
 
 ## [2.8.1]
 - Fix mobile hosts source
 
 ## [2.8]
 - Higher timeout for root commands
-- New version of RootCommands library (If you experience problems install busybox, AdAway will then use it!)
+- New version of RootCommands library (If you experience problems install busybox, AdMew will then use it!)
 - Remove unused billing permission
 
 ## [2.7]
@@ -711,12 +711,12 @@ This release has mainly been done by Dāvis Mošenkovs, thanks!
 - Fix auto update on ethernet connection
 
 ## [2.3]
-- AdAway was removed from Google Play!
+- AdMew was removed from Google Play!
 - Because http://www.ismeh.com/HOSTS is down, a alternative source has been added
 
 ## [2.2]
 - Introduce SUPERUSER permission for new Superuser app
-- Allow backups of AdAway (for Carbon)
+- Allow backups of AdMew (for Carbon)
 - Logo reworked thanks to Alin Ţoţea-Radu
 
 ## [2.1]
@@ -726,7 +726,7 @@ This release has mainly been done by Dāvis Mošenkovs, thanks!
 - Webserver should not be killed on low memory
 
 ## [2.0]
-IF YOU HAVE PROBLEMS WITH 2.0: Please uninstall and then reinstall AdAway!
+IF YOU HAVE PROBLEMS WITH 2.0: Please uninstall and then reinstall AdMew!
 - New library for root access: RootCommands
 - Tcpdump and Webserver now included for ARM, x86, MIPS (Please test and report problems!)
 - Google forced me to remove the possibility to donate via Flattr and PayPal
@@ -744,9 +744,9 @@ IF YOU HAVE PROBLEMS WITH 2.0: Please uninstall and then reinstall AdAway!
 
 ## [1.35]
 - New method for background update checking
-- AdAway will now reschedule the update check to execute it when the Internet connection is established
+- AdMew will now reschedule the update check to execute it when the Internet connection is established
 - New preference to update only when on Wifi
-- AdAway now allows empty hosts sources for people who only want to maintain their own lists
+- AdMew now allows empty hosts sources for people who only want to maintain their own lists
 
 ## [1.34]
 - In-app PayPal donations are now possible
@@ -793,7 +793,7 @@ IF YOU HAVE PROBLEMS WITH 2.0: Please uninstall and then reinstall AdAway!
 - Tcpdump DNS request logging
 - Preference to allow redirection rules from Hosts Sources
 - New hosts source for mobile ads: http://www.ismeh.com/HOSTS
-- Webserver binary now updates correctly from old AdAway versions
+- Webserver binary now updates correctly from old AdMew versions
 
 ## [1.23]
 - Fix for import/export
@@ -833,7 +833,7 @@ IF YOU HAVE PROBLEMS WITH 2.0: Please uninstall and then reinstall AdAway!
   Thanks to all contributors!
 - Better check for symlink
 - Newer version of web server mongoose
-- Better handling of AdAway database
+- Better handling of AdMew database
 - Fixed "Not enough space available" bug
 - Fixed problem with applying
 
@@ -871,17 +871,17 @@ IF YOU HAVE PROBLEMS WITH 2.0: Please uninstall and then reinstall AdAway!
 - Removed hosts source sysctl.org because of false positives
 
 ## [1.08]
-- AdAway got a redesign
-- AdAway ships with a webserver, that listens on localhost
+- AdMew got a redesign
+- AdMew ships with a webserver, that listens on localhost
 - Dates of all hosts sources are saved and can be seen in Hosts sources
 - Preference to hide reboot question dialog
-- Help page with information about AdAway
+- Help page with information about AdMew
 - Added new hosts source sysctl.org
 - Daily update check can be enabled in preferences
 - Should now work on roms which doesn't symlink busybox commands
 
 ## [1.07]
-- AdAway can now create a symlink
+- AdMew can now create a symlink
 - better error handling
 - No update check on orientation change
 

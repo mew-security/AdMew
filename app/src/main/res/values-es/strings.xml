@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">¡Bienvenido!</string>
-    <string name="text_help">AdAway es software libre y código abierto para bloquear anuncios. Descarga las direcciones de red publicitarias para bloquearlas en tu dispositivo.\n¿Quieres saber más? ¡Revisa la ayuda más abajo!</string>
+    <string name="text_help">AdMew es software libre y código abierto para bloquear anuncios. Descarga las direcciones de red publicitarias para bloquearlas en tu dispositivo.\n¿Quieres saber más? ¡Revisa la ayuda más abajo!</string>
     <string name="button_show_help">Mostrar más ayuda</string>
     <string name="icon_update_status">Estado de la actualización</string>
     <string name="text_update">Todos los archivos hosts de las fuentes especificadas se han descargado, se fusionan con tus propias listas y se instala como un archivo hosts en tu sistema.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Archivo hosts</string>
-    <string name="hosts_description">El archivo hosts es un archivo del sistema que asigna los nombres de los hosts a las direcciones IP. Es un archivo de texto plano cuya configuración es manejada por AdAway. Estas son sus primeras líneas:</string>
+    <string name="hosts_description">El archivo hosts es un archivo del sistema que asigna los nombres de los hosts a las direcciones IP. Es un archivo de texto plano cuya configuración es manejada por AdMew. Estas son sus primeras líneas:</string>
     <string name="hosts_content">Cargando el contenido del archivo hosts…</string>
     <string name="hosts_open_button">Abrir el archivo hosts</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">El enlace simbólico del archivo hosts ha desaparecido</string>
-    <string name="apply_symlink_missing">¡No existe enlace simbólico, o no es correcto, desde su ruta a /system/etc/hosts! AdAway no funcionará si no está enlazado al archivo correcto.\n\n¿Quieres intentar crear un enlace simbólico?</string>
+    <string name="apply_symlink_missing">¡No existe enlace simbólico, o no es correcto, desde su ruta a /system/etc/hosts! AdMew no funcionará si no está enlazado al archivo correcto.\n\n¿Quieres intentar crear un enlace simbólico?</string>
     <string name="apply_symlink_missing_title">Falta enlace simbólico</string>
     <string name="apply_not_enough_space">¡No hay suficiente espacio en la partición!\nIntenta cambiar la ruta del archivo hosts a /data/data/hosts en las preferencias.</string>
     <string name="apply_not_enough_space_title">No hay suficiente espacio</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">El enlace simbólico no pudo ser creado por Android.\nEste fallo principalmente se debe a una \'característica\' llamada S-ON en los teléfonos HTC!\n\nUna solución es arrancar el teléfono en modo de recuperación y crear el enlace simbólico allí con \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nSi esto no funciona busca en Internet S-OFF y tu modelo de teléfono.</string>
     <string name="apply_symlink_fail_title">No se pudo crear el enlace simbólico</string>
     <string name="apply_help">Por favor lee la Ayuda para más información.</string>
-    <string name="apply_apn_proxy">¡Un proxy APN está configurado en tu Android!\nAdAway no funcionará de manera fiable cuando se encuentre en redes móviles como 3G. Puedes deshabilitar ese proxy al ir a su APN seleccionado (en la aplicación Configuración: Red e Internet -&gt; Red móvil -&gt; Avanzado -&gt; Nombres de puntos de acceso) y borra el valor existente en el campo proxy.</string>
+    <string name="apply_apn_proxy">¡Un proxy APN está configurado en tu Android!\nAdMew no funcionará de manera fiable cuando se encuentre en redes móviles como 3G. Puedes deshabilitar ese proxy al ir a su APN seleccionado (en la aplicación Configuración: Red e Internet -&gt; Red móvil -&gt; Avanzado -&gt; Nombres de puntos de acceso) y borra el valor existente en el campo proxy.</string>
     <string name="apply_apn_proxy_title">¡Proxy APN configurado!</string>
     <string name="no_connection">La conexión a Internet no funciona.</string>
     <string name="no_connection_title">Sin conexión</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Aquí se puedes encontrar adware instalado, aplicaciones defectuosas que no pueden ser bloqueados por AdAway. Estas aplicaciones utilizan, por ejemplo, notificaciones Airpush que aparecen incluso cuando la aplicación no se está funcionando o incluso cambiar el tono de llamada. La única contramedida disponible es desinstalar esas aplicaciones haciendo clic en los elementos de la lista.</string>
+    <string name="adware_description">Aquí se puedes encontrar adware instalado, aplicaciones defectuosas que no pueden ser bloqueados por AdMew. Estas aplicaciones utilizan, por ejemplo, notificaciones Airpush que aparecen incluso cuando la aplicación no se está funcionando o incluso cambiar el tono de llamada. La única contramedida disponible es desinstalar esas aplicaciones haciendo clic en los elementos de la lista.</string>
     <string name="adware_scanning">Escaneando…</string>
     <string name="adware_empty">¡No se ha encontrado Adware!</string>
 
@@ -258,9 +258,9 @@
     <string name="vpn_notification_action_resume">Reanudar</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Permisos de AdAway</string>
-    <string name="permission_group_api_description">Permitir interactuar con AdAway</string>
-    <string name="permission_send_command_label">Enviar comandos a AdAway</string>
-    <string name="permission_send_command_description">Permite enviar comandos a AdAway como habilitar o deshabilitar el bloqueo de anuncios en todo el sistema</string>
+    <string name="permission_group_api_label">Permisos de AdMew</string>
+    <string name="permission_group_api_description">Permitir interactuar con AdMew</string>
+    <string name="permission_send_command_label">Enviar comandos a AdMew</string>
+    <string name="permission_send_command_description">Permite enviar comandos a AdMew como habilitar o deshabilitar el bloqueo de anuncios en todo el sistema</string>
 
 </resources>

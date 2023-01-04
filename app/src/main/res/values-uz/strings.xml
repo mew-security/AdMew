@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Xush kelibsiz!</string>
-    <string name="text_help">AdAway - bu reklamani blokirovka qilish uchun bepul va ochiq kodli dasturiy ta\'minot dizayni. U bilgan reklama adreslari bilan sizning qurilmangizdagi reklamani bloklaydi. \nQo\'shimcha ma\'lumot bilmoqchimisiz? Quyidagi yordamni tekshiring.</string>
+    <string name="text_help">AdMew - bu reklamani blokirovka qilish uchun bepul va ochiq kodli dasturiy ta\'minot dizayni. U bilgan reklama adreslari bilan sizning qurilmangizdagi reklamani bloklaydi. \nQo\'shimcha ma\'lumot bilmoqchimisiz? Quyidagi yordamni tekshiring.</string>
     <string name="button_show_help">Qo\'shimcha yordamni ko\'rish</string>
     <string name="icon_update_status">Holatni yangilash</string>
     <string name="text_update">Hamma xost fayllar belgilangan manbadan yuklab olinib, sizning bor ro\'yxatingiz bilan birlashitrilib, sizning sistemangizda bitta xost fayl qilib o\'rnatildi.</string>

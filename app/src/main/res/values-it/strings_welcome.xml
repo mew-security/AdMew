@@ -6,8 +6,8 @@
     <string name="welcome_last_step">Procedura Guida ultimo passo</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">Benvenuto in AdAway!</string>
-    <string name="welcome_method_summary">AdAway ha due modalità per bloccare le pubblicità. Scegli quella che preferisci:</string>
+    <string name="welcome_method_header">Benvenuto in AdMew!</string>
+    <string name="welcome_method_summary">AdMew ha due modalità per bloccare le pubblicità. Scegli quella che preferisci:</string>
 
     <string name="welcome_root_method_logo">Logo root</string>
     <string name="welcome_root_method_title">Blocco pubblicità\ntramite root</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">Compatibilità</string>
 
     <string name="welcome_root_missing_title">Richiesto Android con root</string>
-    <string name="welcome_root_missile_description">Non è stato trovato il binario SU o non hai concesso i permessi di root ad AdAway.\n\nPuò succedere quando il tuo dispositivo non ha i diritti di root.\nPuoi trovare maggiori informazioni su come effettuare il root al tuo dispositivo su wiki.lineageos.org o su altri siti web Android</string>
+    <string name="welcome_root_missile_description">Non è stato trovato il binario SU o non hai concesso i permessi di root ad AdMew.\n\nPuò succedere quando il tuo dispositivo non ha i diritti di root.\nPuoi trovare maggiori informazioni su come effettuare il root al tuo dispositivo su wiki.lineageos.org o su altri siti web Android</string>
 
     <string name="welcome_method_pro_logo">Pro</string>
     <string name="welcome_method_con_logo">Contro</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">Sincronizzazione in corso</string>
     <string name="welcome_synced_header">Sincronizzato!</string>
-    <string name="welcome_sync_summary">AdAway scarica da sorgenti online le reti pubblicitarie da bloccare. Puoi personalizzarle dalle impostazioni</string>
+    <string name="welcome_sync_summary">AdMew scarica da sorgenti online le reti pubblicitarie da bloccare. Puoi personalizzarle dalle impostazioni</string>
     <string name="welcome_sync_retry_logo">Riprova sincronizzazione</string>
     <string name="welcome_sync_error">Sincronizzazione fallita:\n%s.\nRiprovare?</string>
 

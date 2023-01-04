@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Vitajte!</string>
-    <string name="text_help">AdAway je bezplatný, open sourceový softvér navrhnutý na blokovanie reklamy. Získava adresy reklamných sietí a blokuje ich na vašom zariadení.\nChcete vedieť viac? Pozrite si pomocníka nižšie!</string>
+    <string name="text_help">AdMew je bezplatný, open sourceový softvér navrhnutý na blokovanie reklamy. Získava adresy reklamných sietí a blokuje ich na vašom zariadení.\nChcete vedieť viac? Pozrite si pomocníka nižšie!</string>
     <string name="button_show_help">Zobraziť ďalšiu pomoc</string>
     <string name="icon_update_status">Aktualizovať status</string>
     <string name="text_update">Všetky hosts súbory z vybraných zdrojov budú stiahnuté, zlúčené s vašimi zoznamami a nainštalované ako jeden hosts súbor do vášho systému.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Hosts súbor</string>
-    <string name="hosts_description">Súbor hosts je systémový súbor, ktorý mapuje názvy hostiteľov k IP adresám. Je to jednoduchý textový súbor, ktorého konfiguráciu spracováva AdAway. Tu je zopár jeho prvých riadkov:</string>
+    <string name="hosts_description">Súbor hosts je systémový súbor, ktorý mapuje názvy hostiteľov k IP adresám. Je to jednoduchý textový súbor, ktorého konfiguráciu spracováva AdMew. Tu je zopár jeho prvých riadkov:</string>
     <string name="hosts_content">Načítavanie obsahu hosts súboru…</string>
     <string name="hosts_open_button">Otvoriť hosts súbor</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Chýba symbolický odkaz na cieľový súbor hosts</string>
-    <string name="apply_symlink_missing">Odkaz z vášho cieľa do /system/etc/hosts neexistuje alebo je nesprávny! AdAway nebude fungovať, pokiaľ odkaz nebude smerovať na správny súbor.\n\nChcete sa pokúsiť vytvoriť odkaz?</string>
+    <string name="apply_symlink_missing">Odkaz z vášho cieľa do /system/etc/hosts neexistuje alebo je nesprávny! AdMew nebude fungovať, pokiaľ odkaz nebude smerovať na správny súbor.\n\nChcete sa pokúsiť vytvoriť odkaz?</string>
     <string name="apply_symlink_missing_title">Odkaz chýba</string>
     <string name="apply_not_enough_space">Nedostatok miesta na partícii!\nSkúste zmeniť umiestnenie hosts súboru v nastaveniach na /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Nedostatok miesta</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Symbolický odkaz nemohol byť vytvorený Androidom.\nTúto chybu zväčša spôsobuje \"funkcia S-ON na telefónoch HTC!\"\n\nRiešením je spustiť telefón do režimu recovery a vytvoriť symbolický odkaz tam pomocou \"n -s /data/data/hosts /system/etc/hosts\".\n\nAk to nepomôže, vyhľadajte na internete informácie o S-OFF pre váš telefón.</string>
     <string name="apply_symlink_fail_title">Vytvorenie odkazu zlyhalo</string>
     <string name="apply_help">Prosím, pre viac informácií si prečítajte Pomoc.</string>
-    <string name="apply_apn_proxy">Na zariadení je nastavené APN proxy!\nAdAway nebude správne fungovať na mobilných sieťach, napr. 3G. Proxy môžete deaktivovať v nastaveniach APN (Nastavenia -&gt; Bezdrôtové pripojenia a siete -&gt; Viac… -&gt; Mobilné siete -&gt; Názvy prístupových bodov) a vymazaním hodnoty  Server proxy.</string>
+    <string name="apply_apn_proxy">Na zariadení je nastavené APN proxy!\nAdMew nebude správne fungovať na mobilných sieťach, napr. 3G. Proxy môžete deaktivovať v nastaveniach APN (Nastavenia -&gt; Bezdrôtové pripojenia a siete -&gt; Viac… -&gt; Mobilné siete -&gt; Názvy prístupových bodov) a vymazaním hodnoty  Server proxy.</string>
     <string name="apply_apn_proxy_title">Nastavené APN proxy!</string>
     <string name="no_connection">Pripojenie k internetu nefunguje.</string>
     <string name="no_connection_title">Bez pripojenia</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Tu môžete nájsť nainštalované Adware aplikácie, zlé aplikácie, ktoré AdAway nemôže zablokovať. Tieto aplikácie používajú napríklad Airpush upozornenia, ktoré sa zobrazujú aj keď aplikácia nie je spustená alebo vám môžu zmeniť zvonenie. Jediné dostupné protiopatrenie je odinštalovať tieto aplikácie kliknutím na položku v zozname.</string>
+    <string name="adware_description">Tu môžete nájsť nainštalované Adware aplikácie, zlé aplikácie, ktoré AdMew nemôže zablokovať. Tieto aplikácie používajú napríklad Airpush upozornenia, ktoré sa zobrazujú aj keď aplikácia nie je spustená alebo vám môžu zmeniť zvonenie. Jediné dostupné protiopatrenie je odinštalovať tieto aplikácie kliknutím na položku v zozname.</string>
     <string name="adware_scanning">Vyhľadávanie…</string>
     <string name="adware_empty">Nebol nájdený žiadny adware.</string>
 
@@ -262,9 +262,9 @@
     <string name="vpn_notification_action_resume">Pokračovať</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Povolenia AdAway</string>
-    <string name="permission_group_api_description">Povoliť interakciu s AdAway</string>
-    <string name="permission_send_command_label">Odoslať príkazy do AdAway</string>
-    <string name="permission_send_command_description">Umožňuje odoslať príkazy do AdAway ako zapnutie alebo vypnutie blokovania reklamy v systéme</string>
+    <string name="permission_group_api_label">Povolenia AdMew</string>
+    <string name="permission_group_api_description">Povoliť interakciu s AdMew</string>
+    <string name="permission_send_command_label">Odoslať príkazy do AdMew</string>
+    <string name="permission_send_command_description">Umožňuje odoslať príkazy do AdMew ako zapnutie alebo vypnutie blokovania reklamy v systéme</string>
 
 </resources>

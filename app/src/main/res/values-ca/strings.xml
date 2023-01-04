@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Us donem la benvinguda!</string>
-    <string name="text_help">L\'AdAway és una aplicació de codi obert i gratuïta dissenyat per blocar anuncis. Obté adreces de xarxa publicitària per blocar-les al dispositiu.\nVoleu saber-ne més? Feu un cop d\'ull a l\'ajuda de sota!</string>
+    <string name="text_help">L\'AdMew és una aplicació de codi obert i gratuïta dissenyat per blocar anuncis. Obté adreces de xarxa publicitària per blocar-les al dispositiu.\nVoleu saber-ne més? Feu un cop d\'ull a l\'ajuda de sota!</string>
     <string name="button_show_help">Mostra més ajuda</string>
     <string name="icon_update_status">Estat d\'actualització</string>
     <string name="text_update">Es baixen tots els fitxers d\'amfitrió d\'unes fonts definides, s\'uneixen amb les vostres llistes que personalitzeu i s\'instal·len com a un únic fitxer amfitrió al vostre sistema.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">El fitxer d\'amfitrions</string>
-    <string name="hosts_description">El fitxer d\'amfitrions és un fitxer del sistema on s\'associen  noms d\'amfitrió a les corresponents adreces IP. És un fitxer en text pla on la seva configuració és administrada per l\'AdAway. Aquí podeu veure les primeres línies:</string>
+    <string name="hosts_description">El fitxer d\'amfitrions és un fitxer del sistema on s\'associen  noms d\'amfitrió a les corresponents adreces IP. És un fitxer en text pla on la seva configuració és administrada per l\'AdMew. Aquí podeu veure les primeres línies:</string>
     <string name="hosts_content">S\'està carregant el contingut del fitxer d\'amfitrions…</string>
     <string name="hosts_open_button">Obre el fitxer d\'amfitrions</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">No es troba l\'enllaç simbolic al fitxer hosts escollit</string>
-    <string name="apply_symlink_missing">L\'enllaç simbòlic cap a /system/etc/hosts no existeix o no és correcte! L\'AdAway no funcionarà si no apunta al fitxer correcte.\n\nVoleu intentar crear un enllaç simbòlic?</string>
+    <string name="apply_symlink_missing">L\'enllaç simbòlic cap a /system/etc/hosts no existeix o no és correcte! L\'AdMew no funcionarà si no apunta al fitxer correcte.\n\nVoleu intentar crear un enllaç simbòlic?</string>
     <string name="apply_symlink_missing_title">Falta l\'enllaç simbòlic</string>
     <string name="apply_not_enough_space">No hi ha prou espai a la partició!\nProveu canviant el fitxer a les preferències a /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">No hi ha prou espai</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">L\'Android no ha pogut crear l\'enllaç simbòlic.\nAixò falla normalment per una característica anomenada S-ON als telèfons HTC.\n\nUna solució és iniciar el telèfon en mode recuperació i crear l\'enllaç simbòlic allà amb \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nSi no funciona, cerqueu a Internet S-OFF i el model del vostre telèfon.</string>
     <string name="apply_symlink_fail_title">S\'ha produït un error en la creació de l\'enllaç simbòlic</string>
     <string name="apply_help">Veieu l\'ajuda per a més informació.</string>
-    <string name="apply_apn_proxy">S\'ha configurat un servidor intermediari APN al vostre Android!\nL\'AdAway no funcionarà correctament amb xarxes com ara 3G. Podeu desactivar aquest servidor intermediari d\'aquest APN (des del menú Configuració -&gt; Connexions sense fils i xarxes -&gt; Xarxes mòbils -&gt; APN -&gt; Nom del vostre APN) i suprimint el valor del camp Servidor intermediari.</string>
+    <string name="apply_apn_proxy">S\'ha configurat un servidor intermediari APN al vostre Android!\nL\'AdMew no funcionarà correctament amb xarxes com ara 3G. Podeu desactivar aquest servidor intermediari d\'aquest APN (des del menú Configuració -&gt; Connexions sense fils i xarxes -&gt; Xarxes mòbils -&gt; APN -&gt; Nom del vostre APN) i suprimint el valor del camp Servidor intermediari.</string>
     <string name="apply_apn_proxy_title">S\'ha desat el servidor intermediari d\'APN</string>
     <string name="no_connection">La connexió a Internet no funciona.</string>
     <string name="no_connection_title">Sense connexió</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Aquí podeu trobar aplicacions Adware malignes que no es poden bloquejar amb AdAway. Aquestes aplicacions utilitzen, entre altres, notificacions Airpush que poden apareixer inclús quan l\'aplicació no està funcionant o poden inclús canviar el vostre to de trucada. La única defensa possible és desinstalar-les clicant en la llista de elements</string>
+    <string name="adware_description">Aquí podeu trobar aplicacions Adware malignes que no es poden bloquejar amb AdMew. Aquestes aplicacions utilitzen, entre altres, notificacions Airpush que poden apareixer inclús quan l\'aplicació no està funcionant o poden inclús canviar el vostre to de trucada. La única defensa possible és desinstalar-les clicant en la llista de elements</string>
     <string name="adware_scanning">S\'està escanejant…</string>
     <string name="adware_empty">No s\'ha trobat Adware! </string>
 
@@ -254,9 +254,9 @@
     <string name="vpn_notification_action_resume">Reprèn </string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Permisos del AdAway </string>
-    <string name="permission_group_api_description">Permetre la interacció amb l\'AdAway</string>
-    <string name="permission_send_command_label">Enviar ordres a l\'AdAway</string>
-    <string name="permission_send_command_description">Permet enviar ordres al AdAway com activar/desactivar el sistema de bloqueig d\'anuncis</string>
+    <string name="permission_group_api_label">Permisos del AdMew </string>
+    <string name="permission_group_api_description">Permetre la interacció amb l\'AdMew</string>
+    <string name="permission_send_command_label">Enviar ordres a l\'AdMew</string>
+    <string name="permission_send_command_description">Permet enviar ordres al AdMew com activar/desactivar el sistema de bloqueig d\'anuncis</string>
 
 </resources>

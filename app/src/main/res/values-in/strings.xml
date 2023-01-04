@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Selamat Datang</string>
-    <string name="text_help">AdAway adalah perangkat lunak gratis dengan desain kode terbuka untuk memblokir iklan. AdAway menangkap alamat-alamat jaringan iklan untuk memblokirnya di perangkatmu.\nIngin tahu lebih? Lihat bantuan di bawah!</string>
+    <string name="text_help">AdMew adalah perangkat lunak gratis dengan desain kode terbuka untuk memblokir iklan. AdMew menangkap alamat-alamat jaringan iklan untuk memblokirnya di perangkatmu.\nIngin tahu lebih? Lihat bantuan di bawah!</string>
     <string name="button_show_help">Tampilkan semua bantuan</string>
     <string name="icon_update_status">Keterangan pembaharuan</string>
     <string name="text_update">Semua file hosts dari sumber yang ditentukan sudah didownload dan digabungkan dengan daftar anda dan dipasang menjadi satu file host dalam sistem anda.</string>
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Symlink ke target file host tidak di temukan</string>
-    <string name="apply_symlink_missing">Symlink dari target ke /system/etc/hosts tidak benar atau tidak ada! AdAway tidak akan bekerja jika hal itu tidak dibetulkan.\n\nApa anda ingin mencoba membuat symlink?</string>
+    <string name="apply_symlink_missing">Symlink dari target ke /system/etc/hosts tidak benar atau tidak ada! AdMew tidak akan bekerja jika hal itu tidak dibetulkan.\n\nApa anda ingin mencoba membuat symlink?</string>
     <string name="apply_symlink_missing_title">Symlink tidak ditemukan</string>
     <string name="apply_not_enough_space">Tidak ada cukup ruang di partisi!\nCobalah mengganti target file host di prefrensi menjadi /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Tidak cukup ruang</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Symlink tidak dapat di buat oleh Android.\nKebanyakan ini gagal karena \'fitur\' yang disebut S-ON pada ponsel HTC!\n\nSolusi untuk masalah ini adalah dengan masuk ke mode recovery lalu buat symlink dengan perintah \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nJika masih tidak mempan carilah di Internet cara untuk S-OFF ponselmu.</string>
     <string name="apply_symlink_fail_title">Pembuatan symlink gagal</string>
     <string name="apply_help">Silahkan baca Help untuk informasi lebih lanjut.</string>
-    <string name="apply_apn_proxy">Sebuah proksi APN terkonfigurasi pada Android mu!\nAdAway mungkin tidak berdungsi semestinya pada jaringan seperti 3G. Kamu bisa mematikan proksi pada APN terkonfigurasi (Pengaturan aplikasi: Jaringan &amp; Internet -> Jaringan Mobile -> Lanjutan -> Nama Akses Poin) dan hapus nilai pada kolom proksi.</string>
+    <string name="apply_apn_proxy">Sebuah proksi APN terkonfigurasi pada Android mu!\nAdMew mungkin tidak berdungsi semestinya pada jaringan seperti 3G. Kamu bisa mematikan proksi pada APN terkonfigurasi (Pengaturan aplikasi: Jaringan &amp; Internet -> Jaringan Mobile -> Lanjutan -> Nama Akses Poin) dan hapus nilai pada kolom proksi.</string>
     <string name="apply_apn_proxy_title">APN peladen pewali ditentukan!</string>
     <string name="no_connection">Koneksi internet tidak berfungsi.</string>
     <string name="no_connection_title">Tidak ada koneksi</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Disini Anda dapat menemukan adware yang terpasang, aplikasi jelek yang tidak dapat diblok oleh AdAway. Aplikasi ini digunakan sebagai contoh, notifikasi Airpush yang muncul ketika aplikasi tidak berjalan ataupun mengganti ringtonemu. Satu-satunya penanggulangan yang tersedia adalah melepas aplikasi-aplikasi tersebut dengan mengklik pada daftar item.</string>
+    <string name="adware_description">Disini Anda dapat menemukan adware yang terpasang, aplikasi jelek yang tidak dapat diblok oleh AdMew. Aplikasi ini digunakan sebagai contoh, notifikasi Airpush yang muncul ketika aplikasi tidak berjalan ataupun mengganti ringtonemu. Satu-satunya penanggulangan yang tersedia adalah melepas aplikasi-aplikasi tersebut dengan mengklik pada daftar item.</string>
     <string name="adware_scanning">Memindai…</string>
     <string name="adware_empty">Adware tidak ditemukan!</string>
 
@@ -250,9 +250,9 @@
     <string name="vpn_notification_action_resume">Lanjutkan</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Izin AdAway</string>
-    <string name="permission_group_api_description">Izinkan untuk berinteraksi dengan AdAway</string>
-    <string name="permission_send_command_label">Kirim perintah ke AdAway</string>
-    <string name="permission_send_command_description">Izinkan untuk mengirim perintah ke AdAway, seperti mengaktifkan atau mematikan system-wide ad-blocking</string>
+    <string name="permission_group_api_label">Izin AdMew</string>
+    <string name="permission_group_api_description">Izinkan untuk berinteraksi dengan AdMew</string>
+    <string name="permission_send_command_label">Kirim perintah ke AdMew</string>
+    <string name="permission_send_command_description">Izinkan untuk mengirim perintah ke AdMew, seperti mengaktifkan atau mematikan system-wide ad-blocking</string>
 
 </resources>

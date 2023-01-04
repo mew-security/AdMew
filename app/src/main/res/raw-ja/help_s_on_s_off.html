@@ -6,7 +6,7 @@ And don't add newlines before or after p tags because of transifex -->
 <head><title>S-ON 関連ヘルプ</title></head>
 <body>
 <h2>HTC製デバイス</h2>
-<p>S-ONと呼ばれるデバイスではAdAwayは動作しません。この'機能'は多くのHTC製デバイスにありhostsファイルの書き込みをできなくさせます。</p>
+<p>S-ONと呼ばれるデバイスではAdMewは動作しません。この'機能'は多くのHTC製デバイスにありhostsファイルの書き込みをできなくさせます。</p>
 
 <h2>S-ON/S-OFF?</h2>
 <p>S-OFFとはデバイスのNANDをアンロックし書き込めるようにすることです。HTC製デバイスのデフォルト設定はS-ONでシステムのあるエリアにアクセス出来なかったり常時rootにできません。(日本ではシャープ製も同じような状態です)</p>
@@ -25,9 +25,9 @@ And don't add newlines before or after p tags because of transifex -->
 <li>
 <cite>mount /system</cite>、<cite>mount /sdcard</cite>、<cite>mount /data</cite>を選択します</li>
 <li>USBケーブルを差し込んで PC でコマンドラインを立ち上げてください。</li>
-<li>adbシェルを入力し、<code>ln -s /data/hosts /system/etc/hosts</code>と入力します（これによりシンボリックリンクが作成され、AdAwayは<code>/dataに</code>格納し、OSは<code>/system</code>に格納されているかのようにファイルを使用出来ます）</li>
-<li>デバイスを再起動し、AdAwayの設定で<cite>Target hostsファイル</cite>を<cite>/data/hosts</cite>に設定します</li>
-<li>AdAwayが動作するはずです。</li>
+<li>adbシェルを入力し、<code>ln -s /data/hosts /system/etc/hosts</code>と入力します（これによりシンボリックリンクが作成され、AdMewは<code>/dataに</code>格納し、OSは<code>/system</code>に格納されているかのようにファイルを使用出来ます）</li>
+<li>デバイスを再起動し、AdMewの設定で<cite>Target hostsファイル</cite>を<cite>/data/hosts</cite>に設定します</li>
+<li>AdMewが動作するはずです。</li>
 </ol>
 </body>
 </html>

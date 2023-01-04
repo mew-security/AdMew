@@ -2,10 +2,10 @@ plugins {
     id 'com.android.application'
 }
 
-boolean keyStoreDefined = project.hasProperty('signingStoreLocation') &&
-        project.hasProperty('signingStorePassword') &&
-        project.hasProperty('signingKeyAlias') &&
-        project.hasProperty('signingKeyPassword')
+boolean keyStoreDefined = project.hasProperty('D:\\javatool\\apk.keystore') &&
+        project.hasProperty('hiepnv') &&
+        project.hasProperty('apkstore') &&
+        project.hasProperty('hiepnv')
 
 repositories {
     maven {
@@ -16,7 +16,7 @@ repositories {
 android {
     compileSdkVersion 32
     buildToolsVersion '32.0.0'
-    namespace 'org.adaway'
+    namespace 'org.admew'
 
     defaultConfig {
         minSdkVersion 26
@@ -74,7 +74,14 @@ android {
             useLegacyPackaging = true
         }
     }
-
+    signingConfigs {
+        release {
+            storeFile file("D:\\javatool\\apk.keystore")
+            storePassword "hiepnv"
+            keyAlias "apkstore"
+            keyPassword "hiepnv"
+        }
+    }
     buildTypes {
 //        debug {
 //            shrinkResources false
@@ -82,6 +89,7 @@ android {
 //            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
 //        }
         release {
+            signingConfig signingConfigs.release
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'

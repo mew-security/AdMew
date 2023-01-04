@@ -6,7 +6,7 @@
     <string name="notification_update_host_available_title">Actualització disponible</string>
     <string name="notification_update_host_available_text">Fitxers d\'amfitrió més nous disponibles per baixar.</string>
     <string name="notification_update_app_available_title">Actualització de l\'aplicació disponible</string>
-    <string name="notification_update_app_available_text">Hi ha disponible una versió nova d\'AdAway per baixar.</string>
+    <string name="notification_update_app_available_text">Hi ha disponible una versió nova d\'AdMew per baixar.</string>
     <!-- VPN notification -->
     <string name="notification_vpn_channel_name">VPN</string>
     <string name="notification_vpn_channel_description">Notificacions d\'execució de VPN</string>

@@ -6,7 +6,7 @@ And don't add newlines before or after p tags because of transifex -->
 <head><title>S-ON kapcsoló súgó</title></head>
 <body>
 <h2>HTC eszközök</h2>
-<p>AdAway nem működik S-ON-t használó eszközön. Ez a 'képesség' számos HTC eszközön létezik, és megakadályozza az AdAway alkalmazást a hosts fájl írásában.</p>
+<p>AdMew nem működik S-ON-t használó eszközön. Ez a 'képesség' számos HTC eszközön létezik, és megakadályozza az AdMew alkalmazást a hosts fájl írásában.</p>
 
 <h2>S-ON/S-OFF?</h2>
 <p>Az S-OFF azt jelenti, hogy az eszköz NAND rész nem zárolt, és írható. A HTC eszközök alapértéke S-ON, ami azt jelenti, hogy a rendszer bizonyos részeit nem érheti el és nem lehet állandó root jogot adni. Továbbá a firmware aláírásának ellenőrzése is be van kapcsolva az S-ON jelző miatt.</p>
@@ -23,9 +23,9 @@ And don't add newlines before or after p tags because of transifex -->
 <li>A clockwork recovery-ben lépj a "partíciók menübe".</li>
 <li>Válaszd ki ezeket: <cite>mount /system</cite>, <cite>mount /sdcard</cite> és <cite>mount /data</cite>.</li>
 <li>Csatlakoztasd az USB kábelt, és nyiss egy parancssort a számítógépen.</li>
-<li>adb shell és Enter majd írd be <code>ln -s /data/hosts /system/etc/hosts</code> (Ez létrehoz egy szimbolikus linket, ami lehetővé teszi az AdAway számára a <code>/data</code> helyen tárolt hosts fájlt szerkesztését, miközben azt az OS úgy használhatja, mintha a <code>/system</code>partíció tárolná.)</li>
-<li>Indítsd újra az eszközt és állítsd be a <cite>Cél hosts fájlt</cite> a <cite>/data/hosts</cite> helyre az AdAway beállításainál.</li>
-<li>Az AdAway alkalmazásnak így már működnie kell.</li>
+<li>adb shell és Enter majd írd be <code>ln -s /data/hosts /system/etc/hosts</code> (Ez létrehoz egy szimbolikus linket, ami lehetővé teszi az AdMew számára a <code>/data</code> helyen tárolt hosts fájlt szerkesztését, miközben azt az OS úgy használhatja, mintha a <code>/system</code>partíció tárolná.)</li>
+<li>Indítsd újra az eszközt és állítsd be a <cite>Cél hosts fájlt</cite> a <cite>/data/hosts</cite> helyre az AdMew beállításainál.</li>
+<li>Az AdMew alkalmazásnak így már működnie kell.</li>
 </ol>
 </body>
 </html>

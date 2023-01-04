@@ -6,7 +6,7 @@
     <string name="notification_update_host_available_title">Налице е актуализация на източник</string>
     <string name="notification_update_host_available_text">Нови хост файлове са достъпни за сваляне.</string>
     <string name="notification_update_app_available_title">Налице е актуализация на приложението</string>
-    <string name="notification_update_app_available_text">Нова версия на AdAway е налице за изтегляне.</string>
+    <string name="notification_update_app_available_text">Нова версия на AdMew е налице за изтегляне.</string>
     <!-- VPN notification -->
     <string name="notification_vpn_channel_name">VPN</string>
     <string name="notification_vpn_channel_description">Уведомления за работещ VPN</string>

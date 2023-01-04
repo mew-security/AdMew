@@ -28,7 +28,7 @@
     <string name="status_enabled">Omogočeno</string>
     <string name="status_enabled_subtitle">Uporabljene so najnovejše hosts datoteke</string>
     <string name="status_disabled">Onemogočeno</string>
-    <string name="apply_symlink_missing">Symlink vaše tarče /system/etc/hosts ne obstaja ali ni pravilen! AdAway ne bo deloval, če ne bo kazal na pravo datoteko.\n\nAli želite poizkusiti ustvariti symlink?</string>
+    <string name="apply_symlink_missing">Symlink vaše tarče /system/etc/hosts ne obstaja ali ni pravilen! AdMew ne bo deloval, če ne bo kazal na pravo datoteko.\n\nAli želite poizkusiti ustvariti symlink?</string>
     <string name="apply_symlink_missing_title">Symlink ne obstaja</string>
     <string name="apply_not_enough_space">Na particiji ni dovolj prostora!\nPoizkusite spremeniti pot hosts datoteke na /data/data/hosts v nastavitvah.</string>
     <string name="apply_not_enough_space_title">Ni dovolj prostora</string>

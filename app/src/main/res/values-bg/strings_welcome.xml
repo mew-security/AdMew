@@ -6,8 +6,8 @@
     <string name="welcome_last_step">Последна стъпка на помощника</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">Добре дошли от AdAway!</string>
-    <string name="welcome_method_summary">AdAway предлага два метода за спиране на реклами.
+    <string name="welcome_method_header">Добре дошли от AdMew!</string>
+    <string name="welcome_method_summary">AdMew предлага два метода за спиране на реклами.
 Изберете предпочитания от вас:</string>
 
     <string name="welcome_root_method_logo">Логотип на суперпотребител</string>
@@ -23,7 +23,7 @@
     <string name="welcome_vpn_method_text3">Съвместимост</string>
 
     <string name="welcome_root_missing_title">Изисква се Android с достъп до суперпотребител</string>
-    <string name="welcome_root_missile_description">Изпълниимият файл на su не е намерен или AdAway няма разрешение за достъп до правата на суперпотребителя.\n\n
+    <string name="welcome_root_missile_description">Изпълниимият файл на su не е намерен или AdMew няма разрешение за достъп до правата на суперпотребителя.\n\n
 Това може да се случи, когато тройството ви няма достъп до суперпотребителя. Можете да намерите информация как да получите достъп до него на устройството си в wiki.lineageos.org или в други страници за Android.</string>
 
     <string name="welcome_method_pro_logo">Предимства</string>
@@ -35,7 +35,7 @@
 
     <string name="welcome_sync_header">Синхронизиране</string>
     <string name="welcome_synced_header">Синхронизирано!</string>
-    <string name="welcome_sync_summary">AdAway изтегля от отдалечени източници рекламните мрежи, които да спира. По-късно ще можете да ги променяте в настройките.</string>
+    <string name="welcome_sync_summary">AdMew изтегля от отдалечени източници рекламните мрежи, които да спира. По-късно ще можете да ги променяте в настройките.</string>
     <string name="welcome_sync_retry_logo">Повторно синхронизиране</string>
     <string name="welcome_sync_error">Грешка при синхронизиране:\n%s.\nПовторен опит?</string>
 

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Witamy!</string>
-    <string name="text_help">AdAway to darmowy i otwarty program do blokowania reklam. Pobiera adresy sieci reklamowych, aby zablokować je na urządzeniu.\nChcesz wiedzieć więcej? Sprawdź pomoc poniżej!</string>
+    <string name="text_help">AdMew to darmowy i otwarty program do blokowania reklam. Pobiera adresy sieci reklamowych, aby zablokować je na urządzeniu.\nChcesz wiedzieć więcej? Sprawdź pomoc poniżej!</string>
     <string name="button_show_help">Pokaż więcej pomocy</string>
     <string name="icon_update_status">Stan aktualizacji</string>
     <string name="text_update">Wszystkie pliki ze zdefiniowanych źródeł zostaną pobrane, połączone z twoją listą i dodane do pliku hosts.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Plik hosts</string>
-    <string name="hosts_description">Plik hosts jest plikiem systemowym, który mapuje nazwy hostów na adresy IP. Jest to plik tekstowy, którego konfiguracja jest obsługiwana przez AdAway. Oto kilka pierwszych linii:</string>
+    <string name="hosts_description">Plik hosts jest plikiem systemowym, który mapuje nazwy hostów na adresy IP. Jest to plik tekstowy, którego konfiguracja jest obsługiwana przez AdMew. Oto kilka pierwszych linii:</string>
     <string name="hosts_content">Ładowanie zawartości pliku hosts…</string>
     <string name="hosts_open_button">Otwórz plik hosts</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Brak dowiązania symbolicznego do docelowego pliku hosts</string>
-    <string name="apply_symlink_missing">Symlink z Twojego celu do /system/etc/hosts nie istnieje lub nie jest poprawny! AdAway nie będzie działać jeśli nie jest wskazany poprawny plik.\n\n Czy chcesz spróbować stworzyć symlink?</string>
+    <string name="apply_symlink_missing">Symlink z Twojego celu do /system/etc/hosts nie istnieje lub nie jest poprawny! AdMew nie będzie działać jeśli nie jest wskazany poprawny plik.\n\n Czy chcesz spróbować stworzyć symlink?</string>
     <string name="apply_symlink_missing_title">Brak symlinka</string>
     <string name="apply_not_enough_space">Za mało miejsca na partycji!\nSpróbuj zmienić docelowy plik hosts w ustawieniach do /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Zbyt mało miejsca</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Symlink nie mógł być utworzony przez system Android.\nBłąd ten występuje głównie na telefonach HTC z \'funkcją\' zwaną S-ON!\n\nRozwiązaniem jest uruchomienie w trybie recovery i ręczne utworzenie symlinka komendą \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nJeżeli to nie pomaga poszukaj w Internecie informacji o S-OFF i Twoim telefonie.</string>
     <string name="apply_symlink_fail_title">Symlink nie został utworzony</string>
     <string name="apply_help">Proszę przeczytać Pomoc, aby uzyskać więcej informacji.</string>
-    <string name="apply_apn_proxy">Serwer proxy APN jest ustawiony na twoim Androidzie!\nAdAway nie będzie działać niezawodnie w sieciach komórkowych takich jak 3G. Możesz wyłączyć ten serwer proxy, przechodząc do wybranego APN (z poziomu aplikacji Ustawienia: Sieć i Internet -&gt; Sieć komórkowa -&gt; Zaawansowane -&gt; Punkty dostępu) i usuń wartość z pola proxy.</string>
+    <string name="apply_apn_proxy">Serwer proxy APN jest ustawiony na twoim Androidzie!\nAdMew nie będzie działać niezawodnie w sieciach komórkowych takich jak 3G. Możesz wyłączyć ten serwer proxy, przechodząc do wybranego APN (z poziomu aplikacji Ustawienia: Sieć i Internet -&gt; Sieć komórkowa -&gt; Zaawansowane -&gt; Punkty dostępu) i usuń wartość z pola proxy.</string>
     <string name="apply_apn_proxy_title">Ustawione proxy APN!</string>
     <string name="no_connection">Połączenie z Siecią jest niedostępne.</string>
     <string name="no_connection_title">Brak połączenia</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Tutaj możesz znaleźć zainstalowane adware, złe aplikacje, które nie mogą być blokowane przez AdAway. Te aplikacje używają na przykład powiadomień Airpush, które pojawiają się nawet wtedy, gdy aplikacja nie działa lub nawet zmienia dzwonek. Jedynym dostępnym środkiem zaradczym jest odinstalowanie tych aplikacji, klikając elementy listy.</string>
+    <string name="adware_description">Tutaj możesz znaleźć zainstalowane adware, złe aplikacje, które nie mogą być blokowane przez AdMew. Te aplikacje używają na przykład powiadomień Airpush, które pojawiają się nawet wtedy, gdy aplikacja nie działa lub nawet zmienia dzwonek. Jedynym dostępnym środkiem zaradczym jest odinstalowanie tych aplikacji, klikając elementy listy.</string>
     <string name="adware_scanning">Skanowanie…</string>
     <string name="adware_empty">Nie znaleziono adware!</string>
 
@@ -262,9 +262,9 @@
     <string name="vpn_notification_action_resume">Wznów</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway uprawnienia</string>
-    <string name="permission_group_api_description">Pozwól na interakcję z AdAway</string>
-    <string name="permission_send_command_label">Wyślij polecenia do AdAway</string>
-    <string name="permission_send_command_description">Zezwalaj na wysyłanie poleceń do AdAway, takich jak włączanie lub wyłączanie blokowania reklam w całym systemie</string>
+    <string name="permission_group_api_label">AdMew uprawnienia</string>
+    <string name="permission_group_api_description">Pozwól na interakcję z AdMew</string>
+    <string name="permission_send_command_label">Wyślij polecenia do AdMew</string>
+    <string name="permission_send_command_description">Zezwalaj na wysyłanie poleceń do AdMew, takich jak włączanie lub wyłączanie blokowania reklam w całym systemie</string>
 
 </resources>

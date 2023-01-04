@@ -3,7 +3,7 @@
     <string name="hosts_title">Servidors de fitxers hosts</string>
     <!-- Default hosts source -->
     <string name="hosts_user_source">Llista d\'usuaris</string>
-    <string name="hosts_adaway_source">Amfitrions oficials de l\'AdAway</string>
+    <string name="hosts_admew_source">Amfitrions oficials de l\'AdMew</string>
     <string name="hosts_stevenblack_source">StevenBlack Unified hosts</string>
     <string name="hosts_peterlowe_source">Pete Lowe blocklist hosts</string>
     <!-- List -->

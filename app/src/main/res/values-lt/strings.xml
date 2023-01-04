@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Sveiki!</string>
-    <string name="text_help">AdAway yra nemokama ir atviro kodo programinė įranga sukurta blokuoti reklamas. Ši programa filtruoja reklamų tinklo adresus jūsų įrenginyje, taip jas blokuodama. Norite sužinoti daugiau? Patikrinkite pagalbą apačioje!</string>
+    <string name="text_help">AdMew yra nemokama ir atviro kodo programinė įranga sukurta blokuoti reklamas. Ši programa filtruoja reklamų tinklo adresus jūsų įrenginyje, taip jas blokuodama. Norite sužinoti daugiau? Patikrinkite pagalbą apačioje!</string>
     <string name="button_show_help">Parodyti daugiau pagalbos</string>
     <string name="icon_update_status">Atnaujinti būseną</string>
     <string name="text_update">Visi hosts failai atsiųsti ir apjungti su įdiegtu hosts failu.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Hosts failas</string>
-    <string name="hosts_description">Hosts failas yra sistemos failas kuris pritaiko domenus prie IP adresų. Tai yra paprastas teksto failas kurio konfiguraciją tvarko ir naudoja AdAway. Čia yra jos pirmos eilutės:</string>
+    <string name="hosts_description">Hosts failas yra sistemos failas kuris pritaiko domenus prie IP adresų. Tai yra paprastas teksto failas kurio konfiguraciją tvarko ir naudoja AdMew. Čia yra jos pirmos eilutės:</string>
     <string name="hosts_content">Kraunama hosts failo duomenys…</string>
     <string name="hosts_open_button">Atverti hosts failą</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Trūksta symlink nuorodos į hosts failą</string>
-    <string name="apply_symlink_missing">Symlink nuoroda  /system/etc/hosts neteisinga! AdAway neveiks jei neteisingai nurodytas kelias.\n\nPabandyti sukurti teisingą symlink nuorodą?</string>
+    <string name="apply_symlink_missing">Symlink nuoroda  /system/etc/hosts neteisinga! AdMew neveiks jei neteisingai nurodytas kelias.\n\nPabandyti sukurti teisingą symlink nuorodą?</string>
     <string name="apply_symlink_missing_title">Nėra symlink</string>
     <string name="apply_not_enough_space">Particijoje neužtenka vietos!\nPabandykite pakeisti pasirenkamą hosts failą nustatymuose  /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Nepakanka vietos</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Symlink nuoroda jūsų įrenginyje negalėjo būti sukurta.\nTaip įvyksta dėl \'funkcijos\' pavadinimu S-ON HTC telefonuose!\n\nA Sprendimas yra įjungti jūsų įrenginį į atsarginių kopijų rėžimą recovery mode ir sukurti nuorodą symlink, ten, naudojant \'In -s /data/data/hosts /system/etc/hosts\'.\n\n Jei nesuveiks jums reikės internete surasti S-OFF jūsų įrenginiui.</string>
     <string name="apply_symlink_fail_title">Nepavyko sukurti symlink</string>
     <string name="apply_help">Detalesnę informaciją rasite skiltyje Pagalba</string>
-    <string name="apply_apn_proxy">APN proxy serveris yra įjungtas jūsų įrenginyje!\nAdAway neveiks patikimai kai naujomi mobilieji tinklai kaip 3G. Jūs galite deaktyvuoti jūsų proxy pasirenkant jūsų pasirinktą APN (Nustatymuose: Tinklas  &amp; Internetas -> Mobilusis tinklas -> Sudėtingiau -> Prieigų Taškų Pavadinimai) ir ištrinti adresą iš proxy laukelio.</string>
+    <string name="apply_apn_proxy">APN proxy serveris yra įjungtas jūsų įrenginyje!\nAdMew neveiks patikimai kai naujomi mobilieji tinklai kaip 3G. Jūs galite deaktyvuoti jūsų proxy pasirenkant jūsų pasirinktą APN (Nustatymuose: Tinklas  &amp; Internetas -> Mobilusis tinklas -> Sudėtingiau -> Prieigų Taškų Pavadinimai) ir ištrinti adresą iš proxy laukelio.</string>
     <string name="apply_apn_proxy_title">APN proxy nustatytas!</string>
     <string name="no_connection">Prisijungti pire interneto nepavyko.</string>
     <string name="no_connection_title">Nėra Interneto</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware Reklamų virusas</string>
-    <string name="adware_description">Čia jūs galite rasti blogas programas kurios negali būti užblokuotos AdAway programoje. Šios programos naudoja Airpush pranėšimus, kurie iššoka net jei ir programa išjungta, gali net pakeisti skambučio toną. Vienintelis būdas to išvengti - Ištrinti šias programas paspaudžiant ant programų sarašo.</string>
+    <string name="adware_description">Čia jūs galite rasti blogas programas kurios negali būti užblokuotos AdMew programoje. Šios programos naudoja Airpush pranėšimus, kurie iššoka net jei ir programa išjungta, gali net pakeisti skambučio toną. Vienintelis būdas to išvengti - Ištrinti šias programas paspaudžiant ant programų sarašo.</string>
     <string name="adware_scanning">Skanuojama…</string>
     <string name="adware_empty">Nerasta Adware Reklamų virusų.</string>
 
@@ -258,9 +258,9 @@
     <string name="vpn_notification_action_resume">Tęsti</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway leidimai</string>
-    <string name="permission_group_api_description">Leisti bendrauti su AdAway</string>
-    <string name="permission_send_command_label">Siųsti komandas AdAway</string>
-    <string name="permission_send_command_description">Leisti siųsti komandas AdAway, pvz., Įjungti arba išjungti sistemos reklamų blokavimą</string>
+    <string name="permission_group_api_label">AdMew leidimai</string>
+    <string name="permission_group_api_description">Leisti bendrauti su AdMew</string>
+    <string name="permission_send_command_label">Siųsti komandas AdMew</string>
+    <string name="permission_send_command_description">Leisti siųsti komandas AdMew, pvz., Įjungti arba išjungti sistemos reklamų blokavimą</string>
 
 </resources>

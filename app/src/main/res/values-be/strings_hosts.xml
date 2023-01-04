@@ -3,7 +3,7 @@
     <string name="hosts_title">Крыніцы hosts</string>
     <!-- Default hosts source -->
     <string name="hosts_user_source">Спіс карыстальнікаў</string>
-    <string name="hosts_adaway_source">AdAway афіцыйны hosts</string>
+    <string name="hosts_admew_source">AdMew афіцыйны hosts</string>
     <string name="hosts_stevenblack_source">StevenBlack уніфікаваны hosts</string>
     <string name="hosts_peterlowe_source">Pete Lowe blocklist hosts</string>
     <!-- List -->

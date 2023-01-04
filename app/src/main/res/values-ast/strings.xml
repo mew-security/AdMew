@@ -96,7 +96,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Equí pues alcontrar adware, aplicaciones malicioses qu\'AdAway nun pue bloquiar. Estes aplicaciones camuden el tonu d\'avisu del preséu o usen, por exemplu, avisos Airpush qu\'apaecen magar que l\'aplicación nun tea n\'execución. La única midida pa facer qu\'esto nun pase ye desinstalar eses aplicaciones calcando nos elementos de la llista.</string>
+    <string name="adware_description">Equí pues alcontrar adware, aplicaciones malicioses qu\'AdMew nun pue bloquiar. Estes aplicaciones camuden el tonu d\'avisu del preséu o usen, por exemplu, avisos Airpush qu\'apaecen magar que l\'aplicación nun tea n\'execución. La única midida pa facer qu\'esto nun pase ye desinstalar eses aplicaciones calcando nos elementos de la llista.</string>
     <!--Other-->
     <string name="app_subtitle">Bloquiador d\'anuncios</string>
     <string name="no_text_editor_title">Nun hai dal editor de testos instaláu</string>

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Welkom!</string>
-    <string name="text_help">AdAway is vrije software, ontworpen om advertenties te blokkeren. Het haalt de adressen van reclamenetwerken en blokkeert deze op uw apparaat.\nWilt u meer weten? Bekijk de hulpsectie hieronder.</string>
+    <string name="text_help">AdMew is vrije software, ontworpen om advertenties te blokkeren. Het haalt de adressen van reclamenetwerken en blokkeert deze op uw apparaat.\nWilt u meer weten? Bekijk de hulpsectie hieronder.</string>
     <string name="button_show_help">Meer help tonen</string>
     <string name="icon_update_status">Status bijwerken</string>
     <string name="text_update">Alle hosts-bestanden van de gedefinieerde bronnen worden gedownload, samengevoegd met uw eigen lijsten en als één hosts-bestand op uw systeem geïnstalleerd.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Het hosts-bestand</string>
-    <string name="hosts_description">Het hosts-bestand is een systeembestand dat ip-adressen toewijst aan hostnamen. Het is een tekstbestand waarvan de configuratie door AdAway wordt afgehandeld. Hier zijn de eerste regels:</string>
+    <string name="hosts_description">Het hosts-bestand is een systeembestand dat ip-adressen toewijst aan hostnamen. Het is een tekstbestand waarvan de configuratie door AdMew wordt afgehandeld. Hier zijn de eerste regels:</string>
     <string name="hosts_content">Bezig met laden van inhoud van hosts-bestand…</string>
     <string name="hosts_open_button">Hosts-bestand openen</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">De symlink naar het hosts-bestand ontbreekt</string>
-    <string name="apply_symlink_missing">Symlink van de gekozen locatie naar /system/etc/hosts bestaat niet, of verwijst niet naar het juiste bestand! AdAway werkt niet als de symlink niet naar het juiste bestand verwijst. Wilt u proberen een symlink te maken?</string>
+    <string name="apply_symlink_missing">Symlink van de gekozen locatie naar /system/etc/hosts bestaat niet, of verwijst niet naar het juiste bestand! AdMew werkt niet als de symlink niet naar het juiste bestand verwijst. Wilt u proberen een symlink te maken?</string>
     <string name="apply_symlink_missing_title">Symlink ontbreekt</string>
     <string name="apply_not_enough_space">Onvoldoende ruimte op de systeempartitie!
 Verander de locatie van het hosts-bestand naar /data/data/hosts in de voorkeuren.</string>
@@ -118,7 +118,7 @@ Wilt u herstarten?
     <string name="apply_symlink_fail">De symlink kon niet door Android worden aangemaakt. Dit mislukt meestal door een \'feature\' genaamd S-ON op HTC telefoons! Een oplossing is uw telefoon in recoverymodus opstarten en hier de symlink aanmaken met \'ln -s /data/data/hosts /system/etc/hosts\'. Als dit niet werkt, zoek dan op internet naar S-OFF en uw telefoon.</string>
     <string name="apply_symlink_fail_title">Symlink aanmaken mislukt</string>
     <string name="apply_help">Bekijk de hulpsectie voor meer informatie.</string>
-    <string name="apply_apn_proxy">Een APN proxy is ingesteld op jouw Android! AdAway zal niet betrouwbaar werken als er gebruik gemaakt wordt van mobiele netwerken zoals 3G/4G. Je kan je proxy uitschakelen door naar je geselecteerde APN te gaan. (Op Android 4: draadloos en netwerken -&gt; meer… -&gt; Mobiele netwerken -&gt; namen toegangspunten) en de waarde in het proxy veld te verwijderen.</string>
+    <string name="apply_apn_proxy">Een APN proxy is ingesteld op jouw Android! AdMew zal niet betrouwbaar werken als er gebruik gemaakt wordt van mobiele netwerken zoals 3G/4G. Je kan je proxy uitschakelen door naar je geselecteerde APN te gaan. (Op Android 4: draadloos en netwerken -&gt; meer… -&gt; Mobiele netwerken -&gt; namen toegangspunten) en de waarde in het proxy veld te verwijderen.</string>
     <string name="apply_apn_proxy_title">APN-proxy ingesteld!</string>
     <string name="no_connection">De internetverbinding werkt niet.</string>
     <string name="no_connection_title">Geen verbinding</string>
@@ -177,7 +177,7 @@ Wilt u herstarten?
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Hier kunt u scannen naar slechte Adware applicaties, welke niet door AdAway geblokkeerd kunnen worden. Deze applicaties gebruiken bijvoorbeeld Airpush notificaties, welke zelfs opkomen als de applicatie niet draait, of veranderen zelfs uw ringtone. De enige beschikbare oplossing is deze applicaties te deïnstalleren door op de lijst elementen te klikken!</string>
+    <string name="adware_description">Hier kunt u scannen naar slechte Adware applicaties, welke niet door AdMew geblokkeerd kunnen worden. Deze applicaties gebruiken bijvoorbeeld Airpush notificaties, welke zelfs opkomen als de applicatie niet draait, of veranderen zelfs uw ringtone. De enige beschikbare oplossing is deze applicaties te deïnstalleren door op de lijst elementen te klikken!</string>
     <string name="adware_scanning">Scannen…</string>
     <string name="adware_empty">Geen slechte Adware apps gevonden!</string>
 
@@ -264,9 +264,9 @@ Wilt u herstarten?
     <string name="vpn_notification_action_resume">Hervat</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway rechten</string>
-    <string name="permission_group_api_description">Toestaan om samen te werken met AdAway</string>
-    <string name="permission_send_command_label">Zend opdrachten naar AdAway</string>
-    <string name="permission_send_command_description">Toestaan om opdrachten te verzenden naar AdAway zoals het aan- of uitzetten van de advertentieblokkering</string>
+    <string name="permission_group_api_label">AdMew rechten</string>
+    <string name="permission_group_api_description">Toestaan om samen te werken met AdMew</string>
+    <string name="permission_send_command_label">Zend opdrachten naar AdMew</string>
+    <string name="permission_send_command_description">Toestaan om opdrachten te verzenden naar AdMew zoals het aan- of uitzetten van de advertentieblokkering</string>
 
 </resources>

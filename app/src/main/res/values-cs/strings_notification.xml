@@ -6,7 +6,7 @@
     <string name="notification_update_host_available_title">Je k dispozici aktualizace zdroje</string>
     <string name="notification_update_host_available_text">Ke stažení jsou dostupné novější soubory hostitelů.</string>
     <string name="notification_update_app_available_title">Je k dispozici aktualizace aplikace</string>
-    <string name="notification_update_app_available_text">Ke stažení je dostupná nová verze AdAway.</string>
+    <string name="notification_update_app_available_text">Ke stažení je dostupná nová verze AdMew.</string>
     <!-- VPN notification -->
     <string name="notification_vpn_channel_name">VPN</string>
     <string name="notification_vpn_channel_description">Upozornění na spuštěnou VPN</string>

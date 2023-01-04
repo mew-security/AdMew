@@ -1,8 +1,8 @@
-# Contributing to AdAway
+# Contributing to AdMew
 
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
-The following is a set of guidelines for contributing to AdAway.
+The following is a set of guidelines for contributing to AdMew.
 These are mostly guidelines, not rules.
 It will help you to understand the projet, find answers, deal with the source code and interact with maitainers.
 The project is open to any kind of contribution so feel free to share your ideas and participate to the development.
@@ -35,7 +35,7 @@ The project is open to any kind of contribution so feel free to share your ideas
 
 We have a dedicated forum with a welcoming community and wiki to answer your question:
 
-* [Check the common issues and solution on wiki](https://github.com/AdAway/AdAway/wiki/Solutions)
+* [Check the common issues and solution on wiki](https://github.com/AdMew/AdMew/wiki/Solutions)
 * [Read and post on the dedicated developer forum](https://forum.xda-developers.com/showthread.php?t=2190753)
 
 ## What should I know before I get started?
@@ -72,13 +72,13 @@ The first full build of the apk could take a lot of time, about 20 minutes, wher
 
 #### Running on emulator
 
-In order to test the application on emulator, disable [the root check in the Constants source file](https://github.com/AdAway/AdAway/blob/c90336cb9b062220540317bc6c7cfedb19927c63/app/src/main/java/org/adaway/util/Constants.java#L28).
+In order to test the application on emulator, disable [the root check in the Constants source file](https://github.com/AdMew/AdMew/blob/c90336cb9b062220540317bc6c7cfedb19927c63/app/src/main/java/org/admew/util/Constants.java#L28).
 
 ## How can I contribute?
 
 ### Reporting bugs
 
-> **Note:** Before submitting a bug report, please use [the GitHub search on Issues page](https://github.com/AdAway/AdAway/issues) to check if there is already similar reports.
+> **Note:** Before submitting a bug report, please use [the GitHub search on Issues page](https://github.com/AdMew/AdMew/issues) to check if there is already similar reports.
 
 #### How do I submit a (good) bug report?
 
@@ -88,10 +88,10 @@ In order to test the application on emulator, disable [the root check in the Con
 Include hosts sources or domains you use, web pages URL you test.
 * **Describe the behavior you observed after following the steps** and point out what exactly is the problem with that behavior.
 * **Explain which behavior you expected to see instead and why.**
-* **If you're reporting that AdAway crashed**, include a logcat.
+* **If you're reporting that AdMew crashed**, include a logcat.
 Use `adb logcat` if you have developer settings enabled on your device or use any application like [CatLog](https://play.google.com/store/apps/details?id=com.nolanlawson.logcat) to save logs.
 Include the crash report in the issue in a [code block](https://help.github.com/articles/markdown-basics/#multiple-lines), a [file attachment](https://help.github.com/articles/file-attachments-on-issues-and-pull-requests/), or put it in a [gist](https://gist.github.com/) and provide link to that gist.
-* **Specify which version of AdAway you're using.**
+* **Specify which version of AdMew you're using.**
 You can get the exact version by opening in-app help and checking the last _About_ tab.
 * **Specify the Android version and the ROM you're using.**
 You can also include any root or customization related information like _Magisk_ or _SuperSU_ version and _Xposed_ modules is installed.
@@ -120,8 +120,8 @@ So if you want to complete or edit your language support for the application, ch
 Unsure where to begin contributing?
  You can start by looking through these `good first issue` and `help wanted` issues:
 
-* [Good first issues](https://github.com/AdAway/AdAway/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
-* [Help wanted issues](https://github.com/AdAway/AdAway/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) - issues which should be a bit more involved than `beginner` issues.
+* [Good first issues](https://github.com/AdMew/AdMew/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) - issues which should only require a few lines of code, and a test or two.
+* [Help wanted issues](https://github.com/AdMew/AdMew/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) - issues which should be a bit more involved than `beginner` issues.
 
 Both issue lists are sorted by total number of comments. While not perfect, number of comments is a reasonable proxy for impact a given change will have.
 
@@ -164,6 +164,6 @@ Forked from the following sources and slightly modified to compile:
 
 Please review the following commits for the changes made to the sources above in order for them to compile in this project:
 
-* Commit: https://github.com/AdAway/AdAway/commit/1f4ccb3cec3758757341ad90813506fc2a8fdf7b
-* Commit: https://github.com/AdAway/AdAway/commit/289df896c0ac4f96bd862e8a5054f1011ec07cac
-* Commit: https://github.com/AdAway/AdAway/commit/08da0745b0732b94221c0f5746160fef8126fd99
+* Commit: https://github.com/AdMew/AdMew/commit/1f4ccb3cec3758757341ad90813506fc2a8fdf7b
+* Commit: https://github.com/AdMew/AdMew/commit/289df896c0ac4f96bd862e8a5054f1011ec07cac
+* Commit: https://github.com/AdMew/AdMew/commit/08da0745b0732b94221c0f5746160fef8126fd99

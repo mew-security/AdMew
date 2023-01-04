@@ -6,7 +6,7 @@ And don't add newlines before or after p tags because of transifex -->
 <head><title>S-ON related help</title></head>
 <body>
 <h2>HTC uređaji</h2>
-<p>AdAway ne radi kada koristite uređjaje sa S-ON-om. Ova "funkcija" postoji na mnogim HTC uređajima i sprečava AdAway da menja host fajl.</p>
+<p>AdMew ne radi kada koristite uređjaje sa S-ON-om. Ova "funkcija" postoji na mnogim HTC uređajima i sprečava AdMew da menja host fajl.</p>
 
 <h2>S-ON/S-OFF?</h2>
 <p>S-OFF znači da je NAND deo uređjaja otključan i da se na njega može pisati. Fabrički je podešen S-On na HTC uređajima, što znači da ne možete da pristupite pojedinim oblastima sistema niti možete da garantujete trajni "Root". Štaviše, provera potpisa za sistemske nadogradnje je takođje osiguran S-ON-om.</p>
@@ -23,9 +23,9 @@ And don't add newlines before or after p tags because of transifex -->
 <li>U clockwork recovery-u udjite u "partitions menu".</li>
 <li>Selektujte <cite>mount /system</cite>, <cite>mount /sdcard</cite> i <cite>mount /data</cite>.</li>
 <li>Priključite svoje USB kabl i zatim otvoride command line na svom računaru.</li>
-<li>Otvorite adb shell i ukucajte <code>ln -s /data/hosts /system/etc/hosts</code> (Ovo kreira symbolic link, koji doyvoljava AdAway-u da edituje host file sačuvan u <code>/data</code> istovremeno dozvoljavajući OS-u da koristi fajl kao da je sačuvan u <code>/system</code>.)</li>
-<li>Restartujte svoj uredjaj i namestite <cite>Target hosts file</cite> na <cite>/data/hosts</cite> u AdAway's podešavanjima.</li>
-<li>AdAway bi trebalo da radi sada.</li>
+<li>Otvorite adb shell i ukucajte <code>ln -s /data/hosts /system/etc/hosts</code> (Ovo kreira symbolic link, koji doyvoljava AdMew-u da edituje host file sačuvan u <code>/data</code> istovremeno dozvoljavajući OS-u da koristi fajl kao da je sačuvan u <code>/system</code>.)</li>
+<li>Restartujte svoj uredjaj i namestite <cite>Target hosts file</cite> na <cite>/data/hosts</cite> u AdMew's podešavanjima.</li>
+<li>AdMew bi trebalo da radi sada.</li>
 </ol>
 </body>
 </html>

@@ -3,7 +3,7 @@
     <string name="hosts_title">Hosts-lähteet</string>
     <!-- Default hosts source -->
     <string name="hosts_user_source">Käyttäjälista</string>
-    <string name="hosts_adaway_source">AdAwayn virallinen hosts-lähde</string>
+    <string name="hosts_admew_source">AdMewn virallinen hosts-lähde</string>
     <string name="hosts_stevenblack_source">StevenBlackin yhtenäinen hosts-lähde</string>
     <string name="hosts_peterlowe_source">Pete Lowen estolista hosts-lähde</string>
     <!-- List -->

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">ברוך הבא!</string>
-    <string name="text_help">AdAway היא תוכנת קוד פתוח חינמית לחסימת פרסומות. התוכנה שולפת כתובות רשת של מפרסמים כדי לחסום אותן במכשיר שלך.\nרוצה לדעת עוד? היעזר בעזרה למטה!</string>
+    <string name="text_help">AdMew היא תוכנת קוד פתוח חינמית לחסימת פרסומות. התוכנה שולפת כתובות רשת של מפרסמים כדי לחסום אותן במכשיר שלך.\nרוצה לדעת עוד? היעזר בעזרה למטה!</string>
     <string name="button_show_help">הצג עזרה נוספת</string>
     <string name="icon_update_status">מצב העדכון</string>
     <string name="text_update">כל קבצי המארחים מהמקורות המוגדרים הורדו, מוזגו עם הרשימות שלך והותקנו כקובץ מארח יחיד במערכת שלך.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">קובץ מארחים</string>
-    <string name="hosts_description">קובץ המארחים הוא קובץ מערכת הממפה שמות מארחים לכתובות IP. זהו קובץ טקסט רגיל שנוצר ומתוחזק על־ידי AdAway. להלן כמה שורות ראשונות:
+    <string name="hosts_description">קובץ המארחים הוא קובץ מערכת הממפה שמות מארחים לכתובות IP. זהו קובץ טקסט רגיל שנוצר ומתוחזק על־ידי AdMew. להלן כמה שורות ראשונות:
 
 </string>
     <string name="hosts_content">טוען תוכן קובץ מארחים…</string>
@@ -92,7 +92,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">ההפניה ליעד של קובץ המארחים חסרה.</string>
-    <string name="apply_symlink_missing">קישור המערכת שלך אל /system/etc/hosts אינו קיים או אינו נכון! AdAway לא יפעל אם לא תבחר את הקובץ הנכון.\n\nהאם ברצונך לנסות ליצור קישור מערכת?</string>
+    <string name="apply_symlink_missing">קישור המערכת שלך אל /system/etc/hosts אינו קיים או אינו נכון! AdMew לא יפעל אם לא תבחר את הקובץ הנכון.\n\nהאם ברצונך לנסות ליצור קישור מערכת?</string>
     <string name="apply_symlink_missing_title">קישור סימבולי לא קיים</string>
     <string name="apply_not_enough_space">אין מספיק שטח איחסון בדיכרון!\nנסה לשנות בהעדפות התוכנה את הגדרת היעד ל /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">אין מספיק זיכרון</string>
@@ -111,7 +111,7 @@
     <string name="apply_symlink_fail">אנדרואיד לא יכול היה ליצור את Symlink.\n הכישלון בד״כ בעיקר בגלל \'פיצ\'ר\' שנקרא S-ON בטלפונים של HTC! \n\n הפיתרון הוא לאתחל את הטלפון שלך למצב שחזור וליצור שם את ה- symlink עם \'ln -s /data/data/hosts /system/etc/hosts\'.\n\n אם זה לא עובד חפש באינטרנט ובטלפון שלך את: S-OFF.</string>
     <string name="apply_symlink_fail_title">יצירת קישור סימבולי נכשלה</string>
     <string name="apply_help">קרא את העזרה למידע נוסף.</string>
-    <string name="apply_apn_proxy">פרוקסי APN מוגדר באנדרואיד שלך!\n AdAway לא יעבוד באופן אמין ברשתות סלולריות כמו 3G. אתה יכול להשבית את ה- proxy הזה על ידי מעבר ל- APN שבחרת. (בתפריט הגדרות רשת -&gt; רשתות מובייל -&gt; מתקדם -&gt; APN והסר משם את הערך בשדה proxy).</string>
+    <string name="apply_apn_proxy">פרוקסי APN מוגדר באנדרואיד שלך!\n AdMew לא יעבוד באופן אמין ברשתות סלולריות כמו 3G. אתה יכול להשבית את ה- proxy הזה על ידי מעבר ל- APN שבחרת. (בתפריט הגדרות רשת -&gt; רשתות מובייל -&gt; מתקדם -&gt; APN והסר משם את הערך בשדה proxy).</string>
     <string name="apply_apn_proxy_title">פרוקסי APN הוגדר!</string>
     <string name="no_connection">החיבור לאינטרנט אינו פעיל</string>
     <string name="no_connection_title">אין חיבור</string>
@@ -169,7 +169,7 @@
 
     <!--Adware-->
     <string name="adware_header">תוכנת פירסום</string>
-    <string name="adware_description">כאן תוכלו למצוא תוכנות פרסום מותקנות ויישומים שלא ניתן לחסום בהם על־ידי AdAway. אפליקציות אלה משתמשות למשל בהתראות דחיפה שצצות גם כאשר האפליקציה אינה פועלת וביכולתן אפילו לשנות את הצלצול שלכם. אמצעי הנגד היחידי הזמין הוא הסרת התקנה של יישומים אלה על־ידי לחיצה על רשימת הפריטים הללו.</string>
+    <string name="adware_description">כאן תוכלו למצוא תוכנות פרסום מותקנות ויישומים שלא ניתן לחסום בהם על־ידי AdMew. אפליקציות אלה משתמשות למשל בהתראות דחיפה שצצות גם כאשר האפליקציה אינה פועלת וביכולתן אפילו לשנות את הצלצול שלכם. אמצעי הנגד היחידי הזמין הוא הסרת התקנה של יישומים אלה על־ידי לחיצה על רשימת הפריטים הללו.</string>
     <string name="adware_scanning">סורק…</string>
     <string name="adware_empty">לא נמצאו תוכנות פרסום!</string>
 
@@ -260,9 +260,9 @@
     <string name="vpn_notification_action_resume">קורות חיים</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">הרשאות AdAway</string>
-    <string name="permission_group_api_description">אפשר אינטראקציה עם AdAway</string>
-    <string name="permission_send_command_label">שלח פקודות אל AdAway</string>
-    <string name="permission_send_command_description">אפשר לשלוח פקודות ל-AdAway כמו הפעלה או השבתה של חסימת מודעות בכל המערכת</string>
+    <string name="permission_group_api_label">הרשאות AdMew</string>
+    <string name="permission_group_api_description">אפשר אינטראקציה עם AdMew</string>
+    <string name="permission_send_command_label">שלח פקודות אל AdMew</string>
+    <string name="permission_send_command_description">אפשר לשלוח פקודות ל-AdMew כמו הפעלה או השבתה של חסימת מודעות בכל המערכת</string>
 
 </resources>

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Bine ați venit!</string>
-    <string name="text_help">AdAway este un software gratuit cu sursă deschisă proiectat pentru blocarea anunțurilor. Acesta preia adresele reclamelor pentru a le restricționa pe dispozitivul tău.\nVrei să aflii mai multe? Vezi secțiunea de ajutor de mai jos!</string>
+    <string name="text_help">AdMew este un software gratuit cu sursă deschisă proiectat pentru blocarea anunțurilor. Acesta preia adresele reclamelor pentru a le restricționa pe dispozitivul tău.\nVrei să aflii mai multe? Vezi secțiunea de ajutor de mai jos!</string>
     <string name="button_show_help">Afișează mai multe sfaturi</string>
     <string name="icon_update_status">Starea actualizărilor</string>
     <string name="text_update">Toate fișierele \"host\" din sursa definită vor fi descărcate, combinate cu lista personală și apoi instalate ca un fișier \"hosts\" unitar.  </string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Fișierul \'hosts\'</string>
-    <string name="hosts_description">Fișierul hosts este un fișier de sistem care mapează numele serverelor la adrese IP. Este pur și simplu un fișier text a cărui configurație este gestionată de către  AdAway. Iată câteva linii din începutul fișierului:</string>
+    <string name="hosts_description">Fișierul hosts este un fișier de sistem care mapează numele serverelor la adrese IP. Este pur și simplu un fișier text a cărui configurație este gestionată de către  AdMew. Iată câteva linii din începutul fișierului:</string>
     <string name="hosts_content">Încărcare conținut din fișierul hosts…</string>
     <string name="hosts_open_button">Deschidere fișier hosts</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Legătura simbolică către fișierul hosts lipsește</string>
-    <string name="apply_symlink_missing">Legătura simbolică de la ținta dumneavoastră către /system/etc/hosts nu există sau este incorectă! AdAway nu va funcționa dacă nu este direcționat către fișierul corect.\n\nVreți să încercați să creați o nouă legătură simbolică?</string>
+    <string name="apply_symlink_missing">Legătura simbolică de la ținta dumneavoastră către /system/etc/hosts nu există sau este incorectă! AdMew nu va funcționa dacă nu este direcționat către fișierul corect.\n\nVreți să încercați să creați o nouă legătură simbolică?</string>
     <string name="apply_symlink_missing_title">Legătura simbolică lipsește</string>
     <string name="apply_not_enough_space">Spațiu insuficient pe partiție! \nÎncercați să schimbați din setări fișierul hosts  către /data/data/hosts. </string>
     <string name="apply_not_enough_space_title">Spațiu insuficient</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Legătura simbolică nu a putut fi creată de către Android.\nAcest lucru se întâmplă de obicei datorită \'funcției\' S-ON pe dispozitivele HTC!\n\nO soluție ar putea fi repornirea în modul de recuperare și realizarea arborelui legăturii simbolice de acolo prin \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nDacă nici această soluție nu funcționează căutați pe Internet despre S-OFF pentru dispozitivul curent.</string>
     <string name="apply_symlink_fail_title">Crearea legăturii simbolice a eșuat</string>
     <string name="apply_help">Citește secțiunea \"Ajutor\" pentru mai multe informații.</string>
-    <string name="apply_apn_proxy">Un proxy de la furnizorul mobil de tip APN este activat pe Android!nAdAway nu va funcționa corespunzător când se află pe rețele de date mobile 3G/4G/5G. Poți dezactiva acel proxy din lista de APN (Aplicația de Setări: Conexiuni &amp; Internet -&gt; Rețele Mobile -&gt; Avansat-&gt;Nume puncte de acces) prin ștergea valorii introduse în câmpul de proxy.</string>
+    <string name="apply_apn_proxy">Un proxy de la furnizorul mobil de tip APN este activat pe Android!nAdMew nu va funcționa corespunzător când se află pe rețele de date mobile 3G/4G/5G. Poți dezactiva acel proxy din lista de APN (Aplicația de Setări: Conexiuni &amp; Internet -&gt; Rețele Mobile -&gt; Avansat-&gt;Nume puncte de acces) prin ștergea valorii introduse în câmpul de proxy.</string>
     <string name="apply_apn_proxy_title">Punctul de acces APN proxy a fost setat!</string>
     <string name="no_connection">Conexiunea la Internet nu funcționează.</string>
     <string name="no_connection_title">Nu există conexiune!</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Aplicație cu reclame</string>
-    <string name="adware_description">Aici se regăsesc aplicațiile ce conțin reclame, aplicații pe care AdAway nu le poate bloca. Aceste aplicații pot de exemplu să trimită notificări chiar dacă aplicația nu rulează sau pot chiar modifica tonul de apel. Singura măsură împotriva acestora este dezinstalarea prin atingerea lor în această listă.</string>
+    <string name="adware_description">Aici se regăsesc aplicațiile ce conțin reclame, aplicații pe care AdMew nu le poate bloca. Aceste aplicații pot de exemplu să trimită notificări chiar dacă aplicația nu rulează sau pot chiar modifica tonul de apel. Singura măsură împotriva acestora este dezinstalarea prin atingerea lor în această listă.</string>
     <string name="adware_scanning">Scanare…</string>
     <string name="adware_empty">Niciun Adware găsit!</string>
 
@@ -258,9 +258,9 @@
     <string name="vpn_notification_action_resume">Atingeți pentru continuare</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Permisiuni AdAway</string>
-    <string name="permission_group_api_description">Permite interacțiune cu AdAway</string>
+    <string name="permission_group_api_label">Permisiuni AdMew</string>
+    <string name="permission_group_api_description">Permite interacțiune cu AdMew</string>
     <string name="permission_send_command_label">Activare sau dezactivare sistem de blocare al reclamelor</string>
-    <string name="permission_send_command_description">Permite trimiterea comenzilor către AdAway, precum activarea/dezactivarea protecției globale AdAway.</string>
+    <string name="permission_send_command_description">Permite trimiterea comenzilor către AdMew, precum activarea/dezactivarea protecției globale AdMew.</string>
 
 </resources>

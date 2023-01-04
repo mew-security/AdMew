@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Καλώς ήρθατε! </string>
-    <string name="text_help">Το AdAway είναι μια δωρεάν και ανοιχτού κώδικα εφαργμογή σχεδιασμένη να μπλοκάρει τις διαφημίσεις. Παίρνει τις διαφημιστικές διευθύνσεις των δικτύων και τις μπλοκάρει στην συσκευή σας. \nΘέλετε να μάθετε περισσότερα; Δείτε την βοήθεια παρακάτω!</string>
+    <string name="text_help">Το AdMew είναι μια δωρεάν και ανοιχτού κώδικα εφαργμογή σχεδιασμένη να μπλοκάρει τις διαφημίσεις. Παίρνει τις διαφημιστικές διευθύνσεις των δικτύων και τις μπλοκάρει στην συσκευή σας. \nΘέλετε να μάθετε περισσότερα; Δείτε την βοήθεια παρακάτω!</string>
     <string name="button_show_help">Εμφάνιση περισσότερης βοήθειας</string>
     <string name="icon_update_status">Κατάσταση ενημέρωσης</string>
     <string name="text_update">Όλα τα αρχεία hosts από τις πηγές που ορίστηκαν λήφθηκαν, συγχωνεύθηκαν με τις δικές σας λίστες και εγκαταστάθηκαν ως ένα αρχείο hosts στο σύστημά σας.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Το αρχείο hosts</string>
-    <string name="hosts_description">Το αρχείο hosts είναι ένα αρχείο συστήματος το οποίο αντιστοιχίζει ονόματα διακομιστών σε διευθύνσεις IP. Είναι ένα αρχείο απλού κειμένου το οποίο ρυθμίζει το AdAway. Εδώ παρατίθενται οι πρώτες του γραμμές:</string>
+    <string name="hosts_description">Το αρχείο hosts είναι ένα αρχείο συστήματος το οποίο αντιστοιχίζει ονόματα διακομιστών σε διευθύνσεις IP. Είναι ένα αρχείο απλού κειμένου το οποίο ρυθμίζει το AdMew. Εδώ παρατίθενται οι πρώτες του γραμμές:</string>
     <string name="hosts_content">Γίνεται φόρτωση του περιεχομένου του αρχείου hosts…</string>
     <string name="hosts_open_button">Άνοιγμα του αρχείου hosts</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Το symlink με στόχο το hosts file λείπει</string>
-    <string name="apply_symlink_missing">Ο σύνδεσμος από τον προορισμό στο /system/etc/hosts δεν υπάρχει ή είναι λανθασμένος! Το AdAway δεν θα λειτουργήσει αν δεν δείχνει στο σωστό αρχείο.
+    <string name="apply_symlink_missing">Ο σύνδεσμος από τον προορισμό στο /system/etc/hosts δεν υπάρχει ή είναι λανθασμένος! Το AdMew δεν θα λειτουργήσει αν δεν δείχνει στο σωστό αρχείο.
 
 Θέλετε να προσπαθήσετε να δημιουργήσετε έναν σύνδεσμο;</string>
     <string name="apply_symlink_missing_title">Η συντόμευση λείπει</string>
@@ -123,7 +123,7 @@
 Αν αυτό δεν επιτύχει, αναζητήστε στο Internet για S-OFF και το μοντέλο της συσκευής σας.</string>
     <string name="apply_symlink_fail_title">Η δημιουργία συντόμευσης απέτυχε</string>
     <string name="apply_help">Παρακαλούμε ανατρέξτε στην Βοήθεια για περισσότερες πληροφορίες</string>
-    <string name="apply_apn_proxy">Ένας διαμεσολαβητής APN είναι ορίσμενος στο Android σας!\nΤο AdAway δεν λειτουργεί αξιόπιστα  σε δίκυτα κινητής τηλεφωνίας όπως 3G. Μπορείτε να απενεργοποιήσετε τον διαμεσολαβητή πηγαίνοντας στο επιλεγμένο APN (Απο τα Settings app: Network &amp; Internet -> Mobile network -> Advanced -> Access Point Names) και να αφαιρέσετε την τιμή στο πεδίο proxy.</string>
+    <string name="apply_apn_proxy">Ένας διαμεσολαβητής APN είναι ορίσμενος στο Android σας!\nΤο AdMew δεν λειτουργεί αξιόπιστα  σε δίκυτα κινητής τηλεφωνίας όπως 3G. Μπορείτε να απενεργοποιήσετε τον διαμεσολαβητή πηγαίνοντας στο επιλεγμένο APN (Απο τα Settings app: Network &amp; Internet -> Mobile network -> Advanced -> Access Point Names) και να αφαιρέσετε την τιμή στο πεδίο proxy.</string>
     <string name="apply_apn_proxy_title">Υπάρχει ορισμένος διαμεσολαβητής APN!</string>
     <string name="no_connection">Η σύνδεση στο ίντερνετ δεν λειτουργεί</string>
     <string name="no_connection_title">Αδυναμία συνδεσης</string>
@@ -185,7 +185,7 @@
 
     <!--Adware-->
     <string name="adware_header">Κακόβουλο λογισμικό διαφημίσεων</string>
-    <string name="adware_description">Εδώ μπορείτε να βρείτε τα εγκατεστημένα κακόβουλα λογισμικά διαφημίσεων, εφαρμογές τις οποίες το AdAway δεν μπορεί να αποκλείσει. Αυτές οι εφαρμογές χρησιμοποιούν, για παράδειγμα, ειδοποιήσεις Airpush οι οποίες εμφανίζονται ακόμα και όταν οι κακόβουλες εφαρμογές δεν εκτελούνται, ενώ μπορούν ακόμα να αλλάξουν και τον ήχο κλήσης σας. Η μόνη διαθέσιμη μέθοδος αντιμετώπισής του είναι να τις απεγκαταστήσετε, κάνοντας κλικ στα περιεχόμενα της λίστας.</string>
+    <string name="adware_description">Εδώ μπορείτε να βρείτε τα εγκατεστημένα κακόβουλα λογισμικά διαφημίσεων, εφαρμογές τις οποίες το AdMew δεν μπορεί να αποκλείσει. Αυτές οι εφαρμογές χρησιμοποιούν, για παράδειγμα, ειδοποιήσεις Airpush οι οποίες εμφανίζονται ακόμα και όταν οι κακόβουλες εφαρμογές δεν εκτελούνται, ενώ μπορούν ακόμα να αλλάξουν και τον ήχο κλήσης σας. Η μόνη διαθέσιμη μέθοδος αντιμετώπισής του είναι να τις απεγκαταστήσετε, κάνοντας κλικ στα περιεχόμενα της λίστας.</string>
     <string name="adware_scanning">Σάρωση…</string>
     <string name="adware_empty">Δεν βρέθηκαν Adware!</string>
 
@@ -276,9 +276,9 @@
     <string name="vpn_notification_action_resume">Συνέχεια</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Δικαιώματα AdAway</string>
-    <string name="permission_group_api_description">Επιτρέπει την αλληλεπίδραση με το AdAway</string>
-    <string name="permission_send_command_label">Αποστολή εντολών στο AdAway</string>
-    <string name="permission_send_command_description">Να επιτρέπεται η αποστολή εντολών στο AdAway όπως η ενεργοποίηση ή η απενεργοποίηση του αποκλεισμού διαφημίσεων σε όλο το σύστημα</string>
+    <string name="permission_group_api_label">Δικαιώματα AdMew</string>
+    <string name="permission_group_api_description">Επιτρέπει την αλληλεπίδραση με το AdMew</string>
+    <string name="permission_send_command_label">Αποστολή εντολών στο AdMew</string>
+    <string name="permission_send_command_description">Να επιτρέπεται η αποστολή εντολών στο AdMew όπως η ενεργοποίηση ή η απενεργοποίηση του αποκλεισμού διαφημίσεων σε όλο το σύστημα</string>
 
 </resources>

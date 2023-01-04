@@ -6,7 +6,7 @@ And don't add newlines before or after p tags because of transifex -->
 <head><title>S-ON related help</title></head>
 <body>
 <h2>HTC-enheter</h2>
-<p>AdAway virker ikke når du bruker en enhet som har en såkalt S-ON. Denne "funksjonen" finnes på mange HTC-enheter og hindrer AdAway fra å skrive til vertsfilen.</p>
+<p>AdMew virker ikke når du bruker en enhet som har en såkalt S-ON. Denne "funksjonen" finnes på mange HTC-enheter og hindrer AdMew fra å skrive til vertsfilen.</p>
 
 <h2>S-ON/S-OFF?</h2>
 <p>S-OFF betyr at NAND-området i enheten din er låst opp og at den kan bli skrevet til. Standardinnstillingen for HTC-enheter er S-ON, som betyr at du hverken kan få tilgang til bestemte områder i systemet eller å garantere for en permanent rooting. I tillegg er signatursjekker for systemoppdateringer også avhengige av S-ON-flagget.</p>
@@ -23,9 +23,9 @@ And don't add newlines before or after p tags because of transifex -->
 <li>In clockwork recovery go to "partitions menu".</li>
 <li>Select <cite>mount /system</cite>, <cite>mount /sdcard</cite> and <cite>mount /data</cite>.</li>
 <li>Plug in your USB cord and open a command line on your pc.</li>
-<li>Enter adb shell and type <code>ln -s /data/hosts /system/etc/hosts</code> (This creates a symbolic link, which allows AdAway to edit the hosts file stored in <code>/data</code> while allowing the OS to use the file as if it were stored in <code>/system</code>.)</li>
-<li>Reboot your device and set <cite>Target hosts file</cite> to <cite>/data/hosts</cite> in AdAway's preferences.</li>
-<li>AdAway burde virke nå.</li>
+<li>Enter adb shell and type <code>ln -s /data/hosts /system/etc/hosts</code> (This creates a symbolic link, which allows AdMew to edit the hosts file stored in <code>/data</code> while allowing the OS to use the file as if it were stored in <code>/system</code>.)</li>
+<li>Reboot your device and set <cite>Target hosts file</cite> to <cite>/data/hosts</cite> in AdMew's preferences.</li>
+<li>AdMew burde virke nå.</li>
 </ol>
 </body>
 </html>

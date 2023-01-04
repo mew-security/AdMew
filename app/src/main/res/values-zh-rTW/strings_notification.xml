@@ -6,7 +6,7 @@
     <string name="notification_update_host_available_title">有更新</string>
     <string name="notification_update_host_available_text">較新的 hosts 檔案可供下載。</string>
     <string name="notification_update_app_available_title">應用程式更新可用</string>
-    <string name="notification_update_app_available_text">可以下載新版本的 AdAway。</string>
+    <string name="notification_update_app_available_text">可以下載新版本的 AdMew。</string>
     <!-- VPN notification -->
     <string name="notification_vpn_channel_name">VPN</string>
     <string name="notification_vpn_channel_description">VPN 運作通知</string>

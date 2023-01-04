@@ -22,5 +22,5 @@
     <string name="pref_enable_telemetry_summary">Az alkalmazás hibaüzenet- és összeomlási jelentést küld a Sentry-nek (sentry.io).</string>
     <string name="pref_enable_telemetry_disabled_summary">Nem támogatott ezen a verzión</string>
     <string name="pref_enable_debug">Részletes naplózás bekapcsolása</string>
-    <string name="pref_enable_debug_summary">Újra kell indítani az AdAway-t a beállítás életbe léptetéséhez.</string>
+    <string name="pref_enable_debug_summary">Újra kell indítani az AdMew-t a beállítás életbe léptetéséhez.</string>
 </resources>

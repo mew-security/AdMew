@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Добре дошли!</string>
-    <string name="text_help">AdAway е безплатно приложение с отворен код, създадено да спира рекламите. То изтегля адресите на рекламните мрежи и спира заявките от устройството към тях.\nИскате ли да научите повече? Потърсете помощ по-долу!</string>
+    <string name="text_help">AdMew е безплатно приложение с отворен код, създадено да спира рекламите. То изтегля адресите на рекламните мрежи и спира заявките от устройството към тях.\nИскате ли да научите повече? Потърсете помощ по-долу!</string>
     <string name="button_show_help">Помощ</string>
     <string name="icon_update_status">Състояние на обновяване</string>
     <string name="text_update">Всички hosts файлове от зададените източници се изтеглят, сливат се с вашите списъци и се инсталират като един host файл във вашата система.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Файлът hosts</string>
-    <string name="hosts_description">Файлът hosts е системен файл, който свързва имена на хостове с адреси по IP. Той е обикновен текстов файл, настройката на който се извършва от AdAway. Ето първите няколко реда:</string>
+    <string name="hosts_description">Файлът hosts е системен файл, който свързва имена на хостове с адреси по IP. Той е обикновен текстов файл, настройката на който се извършва от AdMew. Ето първите няколко реда:</string>
     <string name="hosts_content">Зареждане съдържанието на файла hosts…</string>
     <string name="hosts_open_button">Отваряне на файла hosts</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Символната връзка целта на хост файла липсва</string>
-    <string name="apply_symlink_missing">Символната връзка от целевия файл към /system/etc/hosts не съществува или е недействителна! AdAway няма да работи ако тя не е правилна.\n\nЖелаете ли да бъде създадена символна връзка?</string>
+    <string name="apply_symlink_missing">Символната връзка от целевия файл към /system/etc/hosts не съществува или е недействителна! AdMew няма да работи ако тя не е правилна.\n\nЖелаете ли да бъде създадена символна връзка?</string>
     <string name="apply_symlink_missing_title">Липсва символна връзка</string>
     <string name="apply_not_enough_space">Няма достатъчно място на дяла!\nОпитайте да промените целевия Hosts файл в настройките на /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Няма достатъчно място</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Символната връзка не може да бъде създадена от Android.\nТова се дължи най-вече на „функция“, наречена S-ON при телефоните на HTC!\n\nЕдно от възможните решения е да заредите телефона си в режим на възстановяване и там да създадете символна връзка с командата „ln -s /data/data/hosts /system/etc/hosts“.\n\nАко това и не работи, потърсете в интернет за S-OFF и вашия модел на телефона.</string>
     <string name="apply_symlink_fail_title">Грешка при създаване на символна връзка</string>
     <string name="apply_help">Моля, прочетете Помощ за повече информация.</string>
-    <string name="apply_apn_proxy">Зададено е APN прокси на вашия Android!\nAdAway няма да работи надеждно, когато сте на мобилни мрежи като 3G. Можете да деактивирате това прокси като отидете на вашия избран APN (От Настройки: Мрежа и интернет -&gt; Мобилна мрежа -&gt; Разширени -&gt; Имена на точки за достъп) и премахнете стойността в полето за прокси.</string>
+    <string name="apply_apn_proxy">Зададено е APN прокси на вашия Android!\nAdMew няма да работи надеждно, когато сте на мобилни мрежи като 3G. Можете да деактивирате това прокси като отидете на вашия избран APN (От Настройки: Мрежа и интернет -&gt; Мобилна мрежа -&gt; Разширени -&gt; Имена на точки за достъп) и премахнете стойността в полето за прокси.</string>
     <string name="apply_apn_proxy_title">APN прокси е зададено!</string>
     <string name="no_connection">Връзката с интернет не работи.</string>
     <string name="no_connection_title">Няма връзка</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Рекламен софтуер</string>
-    <string name="adware_description">Тук може на намерите инсталиран рекламен софтуер, лоши приложения, които не могат да бъдат блокирани от AdAway. Тези приложения използват например изскачащи известия, които се появяват дори когато приложението не работи. Могат дори да променят мелодията ви. Единственото налично противодействие е да деинсталирате тези приложения като натиснете върху елементите в списъка.</string>
+    <string name="adware_description">Тук може на намерите инсталиран рекламен софтуер, лоши приложения, които не могат да бъдат блокирани от AdMew. Тези приложения използват например изскачащи известия, които се появяват дори когато приложението не работи. Могат дори да променят мелодията ви. Единственото налично противодействие е да деинсталирате тези приложения като натиснете върху елементите в списъка.</string>
     <string name="adware_scanning">Сканиране…</string>
     <string name="adware_empty">Не са открити рекламни приложения!</string>
 
@@ -254,9 +254,9 @@
     <string name="vpn_notification_action_resume">Възстановяване</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Разрешения на AdAway</string>
-    <string name="permission_group_api_description">Разрешаване на взаимодействие с AdAway</string>
-    <string name="permission_send_command_label">Изпращане на команди към AdAway</string>
-    <string name="permission_send_command_description">Разрешете изпращането на команди към AdAway като включване или изключване на спирането на реклами на ниво система.</string>
+    <string name="permission_group_api_label">Разрешения на AdMew</string>
+    <string name="permission_group_api_description">Разрешаване на взаимодействие с AdMew</string>
+    <string name="permission_send_command_label">Изпращане на команди към AdMew</string>
+    <string name="permission_send_command_description">Разрешете изпращането на команди към AdMew като включване или изключване на спирането на реклами на ниво система.</string>
 
 </resources>

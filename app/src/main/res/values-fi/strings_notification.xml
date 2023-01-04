@@ -6,7 +6,7 @@
     <string name="notification_update_host_available_title">Päivitys saatavilla</string>
     <string name="notification_update_host_available_text">Uudet hosts-tiedostot ovat ladattavissa</string>
     <string name="notification_update_app_available_title">Sovelluspäivitys saatavilla</string>
-    <string name="notification_update_app_available_text">Uusi AdAway versio ladattavissa</string>
+    <string name="notification_update_app_available_text">Uusi AdMew versio ladattavissa</string>
     <!-- VPN notification -->
     <string name="notification_vpn_channel_name">VPN</string>
     <string name="notification_vpn_channel_description">VPN käynnissä ilmoitukset</string>

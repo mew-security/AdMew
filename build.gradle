@@ -22,9 +22,9 @@ allprojects {
 sonarqube {
     properties {
         // Root project information
-        property 'sonar.projectKey', 'org.adaway'
-        property 'sonar.organization', 'adaway'
-        property 'sonar.projectName', 'AdAway'
+        property 'sonar.projectKey', 'org.admew'
+        property 'sonar.organization', 'admew'
+        property 'sonar.projectName', 'AdMew'
         property 'sonar.projectVersion', '6.0.3'
         property 'sonar.host.url', 'https://sonarcloud.io'
     }

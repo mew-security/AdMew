@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">خوش آمدید!</string>
-    <string name="text_help">AdAway یک نرم افزار مجانی و اوپن سورس است که به منظور بلاک کردن تبلیغات طراحی شده است.این برنامه آدرس های شبکه تبلیغات را واکشی میکند تا آنها را بر روی دستگاه شما بلاک کند./میخواهید بیشتر بدانید؟راهنمای زیر را بخوانید!</string>
+    <string name="text_help">AdMew یک نرم افزار مجانی و اوپن سورس است که به منظور بلاک کردن تبلیغات طراحی شده است.این برنامه آدرس های شبکه تبلیغات را واکشی میکند تا آنها را بر روی دستگاه شما بلاک کند./میخواهید بیشتر بدانید؟راهنمای زیر را بخوانید!</string>
     <string name="button_show_help">راهنمایی بیشتر</string>
     <string name="icon_update_status">وضعیت به روزرسانی</string>
     <string name="text_update">تمامی فایلهای hosts جدید از منابع تعریف شده دریافت شدند و با لیستی که از قبل موجود بوده است در یک قالب یک فایل hosts واحد یکی شدند.</string>
@@ -36,7 +36,7 @@
     <string name="export_dialog">در حال خروجی گرفتن…</string>
     <!--Hosts content-->
     <string name="hosts_header">فایل هاست ها</string>
-    <string name="hosts_description">فایل هاست ها یک فایل سیستمی است که نام هاست ها را به آی پی آدرس ها مرتبط میکند.این یک فایل متنی ساده است که توسط  AdAway تنظیم شده است.در اینجا چند خط ابتدایی آن را داریم:</string>
+    <string name="hosts_description">فایل هاست ها یک فایل سیستمی است که نام هاست ها را به آی پی آدرس ها مرتبط میکند.این یک فایل متنی ساده است که توسط  AdMew تنظیم شده است.در اینجا چند خط ابتدایی آن را داریم:</string>
     <string name="hosts_content">بارگذاری محتوای فایل هاست…</string>
     <string name="hosts_open_button">بازکردن هاست فایل</string>
 
@@ -56,7 +56,7 @@
     <string name="status_disabled">غیر فعال</string>
     <string name="status_disabled_subtitle">هاست فایل‌های پیشفرض نصب شدند</string>
     <string name="notification_configuration_changed_action">اعمال تغییرات</string>
-    <string name="apply_symlink_missing">پیوند نمادین از هدف شما به /system/etc/hosts وجود ندارد و یا درست نمیباشد! اگر مسیر فایل به درستی تنظیم نشده باشد برنامه AdAway به درستی کار نخواهد کرد.\n\nآیا مایلید که یک پیوند نمادین ایجاد نمایید؟</string>
+    <string name="apply_symlink_missing">پیوند نمادین از هدف شما به /system/etc/hosts وجود ندارد و یا درست نمیباشد! اگر مسیر فایل به درستی تنظیم نشده باشد برنامه AdMew به درستی کار نخواهد کرد.\n\nآیا مایلید که یک پیوند نمادین ایجاد نمایید؟</string>
     <string name="apply_symlink_missing_title">پیوند نمادین موجود نیست</string>
     <string name="apply_not_enough_space">فضای کافی در پارتیشن موجود نیست!\nسعی نمایید مسیر فایل hosts را در تنظیمات به /data/data/hosts تغییر دهید.</string>
     <string name="apply_not_enough_space_title">فضای کافی موجود نیست</string>

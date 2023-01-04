@@ -6,8 +6,8 @@
     <string name="welcome_last_step">Posljednji korak instalacije</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">Dobrodošli u AdAway!</string>
-    <string name="welcome_method_summary">AdAway omogućuje dva načina blokiranja oglasa. Odaberite poželjni način:</string>
+    <string name="welcome_method_header">Dobrodošli u AdMew!</string>
+    <string name="welcome_method_summary">AdMew omogućuje dva načina blokiranja oglasa. Odaberite poželjni način:</string>
 
     <string name="welcome_root_method_logo">Root logotip</string>
     <string name="welcome_root_method_title">Root temeljeno\nblokiranje oglasa</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">Kompatibilnost</string>
 
     <string name="welcome_root_missing_title">Potreban je rootani Android</string>
-    <string name="welcome_root_missile_description">Nemoguće je pronaći su izvršnu datoteku ili AdAway nema root dozvole.\n\nOvo se može dogoditi kada vaš uređaj nije rootan. \n Možete pronaći informacije o rootanju vašeg uređaja na wiki.lineageos.org ili na drugim Android web stranicama.</string>
+    <string name="welcome_root_missile_description">Nemoguće je pronaći su izvršnu datoteku ili AdMew nema root dozvole.\n\nOvo se može dogoditi kada vaš uređaj nije rootan. \n Možete pronaći informacije o rootanju vašeg uređaja na wiki.lineageos.org ili na drugim Android web stranicama.</string>
 
     <string name="welcome_method_pro_logo">Prednosti</string>
     <string name="welcome_method_con_logo">Mane</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">Usklađivanje</string>
     <string name="welcome_synced_header">Usklađeno!</string>
-    <string name="welcome_sync_summary">AdAway preuzima mrežna oglašavanja kako bi ih blokirao iz mrežnih izvora. Možete ih prilagoditi kasnije u postavkama.</string>
+    <string name="welcome_sync_summary">AdMew preuzima mrežna oglašavanja kako bi ih blokirao iz mrežnih izvora. Možete ih prilagoditi kasnije u postavkama.</string>
     <string name="welcome_sync_retry_logo">Ponovno pokušaj uskladiti</string>
     <string name="welcome_sync_error">Neuspjelo usklađivanje:\n%s.\nPonovno pokušaj odmah?</string>
 

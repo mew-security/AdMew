@@ -3,7 +3,7 @@
     <string name="hosts_title">Värdkällor</string>
     <!-- Default hosts source -->
     <string name="hosts_user_source">Användarlista</string>
-    <string name="hosts_adaway_source">Oficiella AdAway-källor</string>
+    <string name="hosts_admew_source">Oficiella AdMew-källor</string>
     <string name="hosts_stevenblack_source">StevenBlack Unified hosts</string>
     <string name="hosts_peterlowe_source">Pete Lowe blocklist hosts</string>
     <!-- List -->

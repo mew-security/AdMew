@@ -6,8 +6,8 @@
     <string name="welcome_last_step">A varázsló utolsó lépése</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">Üdv az AdAway alkalmazásban!</string>
-    <string name="welcome_method_summary">Az AdAway két hirdetésblokkoló módot kínál. Válassza ki azt, amelyik tetszik:</string>
+    <string name="welcome_method_header">Üdv az AdMew alkalmazásban!</string>
+    <string name="welcome_method_summary">Az AdMew két hirdetésblokkoló módot kínál. Válassza ki azt, amelyik tetszik:</string>
 
     <string name="welcome_root_method_logo">Root logo</string>
     <string name="welcome_root_method_title">Root alapú\nhirdetésblokkolás</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">Kompatibilitás</string>
 
     <string name="welcome_root_missing_title">Rootolt Android szükséges</string>
-    <string name="welcome_root_missile_description">Vagy nem található a su bináris, vagy nem engedélyezte a root hozzáférést az AdAway számára.\n\nEz akkor fordulhat elő, ha az eszköt nem rendelkezik root jogosultságokkal. A készülék rootolásáról további információkat a wiki.lineageos.org vagy más Android weboldalon talál. </string>
+    <string name="welcome_root_missile_description">Vagy nem található a su bináris, vagy nem engedélyezte a root hozzáférést az AdMew számára.\n\nEz akkor fordulhat elő, ha az eszköt nem rendelkezik root jogosultságokkal. A készülék rootolásáról további információkat a wiki.lineageos.org vagy más Android weboldalon talál. </string>
 
     <string name="welcome_method_pro_logo">Előny</string>
     <string name="welcome_method_con_logo">Hátrány</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">Szinkronizálás</string>
     <string name="welcome_synced_header">Szinkronizálva!</string>
-    <string name="welcome_sync_summary">Az AdAway letölti a hirdetési hálózatokat, hogy blokkolja az online forrásokat. A beállításokban később testreszabhatja őket.</string>
+    <string name="welcome_sync_summary">Az AdMew letölti a hirdetési hálózatokat, hogy blokkolja az online forrásokat. A beállításokban később testreszabhatja őket.</string>
     <string name="welcome_sync_retry_logo">Szinkronizálás újrapróbálása</string>
     <string name="welcome_sync_error">Nem sikerült a szinkronizálás:\n%s.\nÚjrapróbálkozás?</string>
 

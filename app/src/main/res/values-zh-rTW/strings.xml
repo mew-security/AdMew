@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">歡迎！</string>
-    <string name="text_help">AdAway 是一個自由及開放原始碼的軟體，設計來阻擋廣告。這個軟體會在您的裝置上獲取廣告網路位置來阻擋它們。\n想要了解更多嗎？看看下面的說明！</string>
+    <string name="text_help">AdMew 是一個自由及開放原始碼的軟體，設計來阻擋廣告。這個軟體會在您的裝置上獲取廣告網路位置來阻擋它們。\n想要了解更多嗎？看看下面的說明！</string>
     <string name="button_show_help">顯示更多說明</string>
     <string name="icon_update_status">更新狀態</string>
     <string name="text_update">所有來自已定義來源的 hosts 檔案已下載、與您的自訂清單整合，並以一個 hosts 檔案安裝至系統中。</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">hosts 檔案</string>
-    <string name="hosts_description">hosts 檔案是一個將主機名稱對應到 IP 位置的系統檔案。它是一個由 AdAway 配置的純文字檔案。這是這個檔案的前幾行：</string>
+    <string name="hosts_description">hosts 檔案是一個將主機名稱對應到 IP 位置的系統檔案。它是一個由 AdMew 配置的純文字檔案。這是這個檔案的前幾行：</string>
     <string name="hosts_content">正在載入 hosts 檔案內容…</string>
     <string name="hosts_open_button">開啟 hosts 檔案</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">hosts 檔案目標的符號連結遺失</string>
-    <string name="apply_symlink_missing">你設定的目標不存在或者不是正確的 /system/etc/hosts 符號連結！沒有正確的符號連結AdAway不能執行。 你需要建立符號連結嗎？</string>
+    <string name="apply_symlink_missing">你設定的目標不存在或者不是正確的 /system/etc/hosts 符號連結！沒有正確的符號連結AdMew不能執行。 你需要建立符號連結嗎？</string>
     <string name="apply_symlink_missing_title">符號連結遺失</string>
     <string name="apply_not_enough_space">分割區上沒有足夠的空間！\n請試著在設定裡面將目標 hosts 檔案變更為 /data/data/hosts。</string>
     <string name="apply_not_enough_space_title">空間不足</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">符號連結建立失敗。\n這很有可能是因為 HTC 上一個叫 S-ON 的「功能」！\n\n一個解決方法是啟動你的手機到還原模式並使用命令 \'ln -s /data/data/hosts /system/etc/hosts\' 來建立符號連結。\n\n如果沒有用，請上網搜尋 S-OFF 與你的手機。</string>
     <string name="apply_symlink_fail_title">符號連結建立失敗</string>
     <string name="apply_help">請閱讀說明以獲得更多訊息。</string>
-    <string name="apply_apn_proxy">你的 Android 設定了 APN 代理伺服器！\nAdAway 無法保證在行動網路如 3G 下正常的運作。你可以在 APN 設定中關閉代理伺服器設定（從設定程式：在無線與網路 -&gt; 行動網路 -&gt; 進階 -&gt; 存取點名稱）移除代理伺服器設定。</string>
+    <string name="apply_apn_proxy">你的 Android 設定了 APN 代理伺服器！\nAdMew 無法保證在行動網路如 3G 下正常的運作。你可以在 APN 設定中關閉代理伺服器設定（從設定程式：在無線與網路 -&gt; 行動網路 -&gt; 進階 -&gt; 存取點名稱）移除代理伺服器設定。</string>
     <string name="apply_apn_proxy_title">設定了 APN 代理伺服器！</string>
     <string name="no_connection">網際網路連線無法正常連線</string>
     <string name="no_connection_title">無法連線</string>
@@ -250,9 +250,9 @@
     <string name="vpn_notification_action_resume">恢復</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway 權限</string>
-    <string name="permission_group_api_description">允許與 AdAway 互動</string>
-    <string name="permission_send_command_label">傳送指令到 AdAway</string>
-    <string name="permission_send_command_description">允許向 AdAway 發送指令，如啟用或禁用系統級廣告攔截</string>
+    <string name="permission_group_api_label">AdMew 權限</string>
+    <string name="permission_group_api_description">允許與 AdMew 互動</string>
+    <string name="permission_send_command_label">傳送指令到 AdMew</string>
+    <string name="permission_send_command_description">允許向 AdMew 發送指令，如啟用或禁用系統級廣告攔截</string>
 
 </resources>

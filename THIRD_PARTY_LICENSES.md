@@ -1,16 +1,16 @@
 # Licenses
 
-AdAway is licensed under the GPLv3+.  
+AdMew is licensed under the GPLv3+.  
 The file [LICENSE.md](LICENSE.md) includes the full license text.
 
-## AdAway Application
+## AdMew Application
 
-AdAway is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+AdMew is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-AdAway is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
+AdMew is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  
 See the GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along with AdAway.  
+You should have received a copy of the GNU General Public License along with AdMew.  
 If not, see <https://www.gnu.org/licenses/>.
 
 ## Third-Party Libraries
@@ -70,7 +70,7 @@ If not, see <https://www.gnu.org/licenses/>.
 ## Images
 
 * icon.svg, banner.svg  
-  AdAway by Dominik Schürmann  
+  AdMew by Dominik Schürmann  
   New version by Alin Ţoţea-Radu  
   GPLv3
 

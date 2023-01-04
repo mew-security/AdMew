@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Dobrodošli!</string>
-    <string name="text_help">AdAway je slobodan softver otvorenog kôda dizajniran za blokiranje oglašavanja. Preuzima popis adresa oglasa i podešava vaš uređaj kako bi ih mogao blokirati.\nŽelite li saznati više? Pogledajte pomoć ispod!</string>
+    <string name="text_help">AdMew je slobodan softver otvorenog kôda dizajniran za blokiranje oglašavanja. Preuzima popis adresa oglasa i podešava vaš uređaj kako bi ih mogao blokirati.\nŽelite li saznati više? Pogledajte pomoć ispod!</string>
     <string name="button_show_help">Prikaži više pomoći</string>
     <string name="icon_update_status">Stanje ažuriranja</string>
     <string name="text_update">Sve datoteke poslužitelja su preuzete s određenih izvora, spojene s vašim popisima i instalirane kao jedna datoteka na vašem sustavu.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Datoteka poslužitelja</string>
-    <string name="hosts_description">Datoteka poslužitelja je datoteka sustava koja mapira nazive poslužitelja prema IP adresama. To je obična tekstna datoteka čijim se podešavanjem rukuje putem AdAwaya. Ovdje je prvih nekoliko redaka:</string>
+    <string name="hosts_description">Datoteka poslužitelja je datoteka sustava koja mapira nazive poslužitelja prema IP adresama. To je obična tekstna datoteka čijim se podešavanjem rukuje putem AdMewa. Ovdje je prvih nekoliko redaka:</string>
     <string name="hosts_content">Učitavanje sadržaja datoteke poslužitelja…</string>
     <string name="hosts_open_button">Otvori datoteku poslužitelja</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Simbolička poveznica na odredište datoteke poslužitelja nedostaje</string>
-    <string name="apply_symlink_missing">Simbolička poveznica s vašeg odredišta /system/etc/hosts ne postoji ili je neispravna! AdAway neće raditi ako nije usmjeren na ispravnu datoteku.\n\nŽelite li pokušati stvoriti simboličku poveznicu?</string>
+    <string name="apply_symlink_missing">Simbolička poveznica s vašeg odredišta /system/etc/hosts ne postoji ili je neispravna! AdMew neće raditi ako nije usmjeren na ispravnu datoteku.\n\nŽelite li pokušati stvoriti simboličku poveznicu?</string>
     <string name="apply_symlink_missing_title">Simbolička poveznica nedostaje</string>
     <string name="apply_not_enough_space">Nema dovoljno prostora na particiji!\nPokušajte promijeniti odredišnu datoteku poslužitelja u postavkama u /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Nedovoljno prostora</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Simbolička poveznica se ne može stvoriti na Androidu.\nOvo uobičajeno ne uspijeva zbog \'značajke\' zvane S-ON na HTC telefonima!\n\nRješenje je u ponovnom pokretanju vašeg telefona u način oporavka i stvaranju simboličke poveznice sa naredbom \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nAko ovo ne radi potražite na internetu za S-OFF za vaš telefon.</string>
     <string name="apply_symlink_fail_title">Stvaranje simboličke poveznice je neuspješno</string>
     <string name="apply_help">Pročitajte pomoć za više informacija.</string>
-    <string name="apply_apn_proxy">APN proxy je postavljen na vašem Androidu!\nAdAway neće pouzdano raditi na mobilnim 3G mrežama. Taj proxy možete deaktivirati odlaskom na vaš odabrani APN (Iz aplikacije Postavke: Sim kartice -> Sim postavke -> Pristupne točke -> Uredi pristupnu točku) i obrišite podatak u proxy polju.</string>
+    <string name="apply_apn_proxy">APN proxy je postavljen na vašem Androidu!\nAdMew neće pouzdano raditi na mobilnim 3G mrežama. Taj proxy možete deaktivirati odlaskom na vaš odabrani APN (Iz aplikacije Postavke: Sim kartice -> Sim postavke -> Pristupne točke -> Uredi pristupnu točku) i obrišite podatak u proxy polju.</string>
     <string name="apply_apn_proxy_title">APN proxy  je postavljen!</string>
     <string name="no_connection">Povezivanje s internetom ne radi.</string>
     <string name="no_connection_title">Internet nedostupan</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Zlonamjerne aplikacije</string>
-    <string name="adware_description">Ovdje možete potražiti zlonamjerne aplikacije, loše aplikacije koje AdAway ne može blokirati. Te aplikacije koriste, na primjer, Airpush obavijesti koje se pojavljuju čak i ako aplikacija nije pokrenuta, a mogu čak promijeniti i melodiju vašeg zvona. Jedina moguća mjera koju možete poduzeti protiv takvih aplikacija je uklanjanje klikom na stavke popisa.</string>
+    <string name="adware_description">Ovdje možete potražiti zlonamjerne aplikacije, loše aplikacije koje AdMew ne može blokirati. Te aplikacije koriste, na primjer, Airpush obavijesti koje se pojavljuju čak i ako aplikacija nije pokrenuta, a mogu čak promijeniti i melodiju vašeg zvona. Jedina moguća mjera koju možete poduzeti protiv takvih aplikacija je uklanjanje klikom na stavke popisa.</string>
     <string name="adware_scanning">Pretraživanje…</string>
     <string name="adware_empty">Nema pronađenih zlonamjernih aplikacija!</string>
 
@@ -258,9 +258,9 @@
     <string name="vpn_notification_action_resume">Nastavi</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway dozvole</string>
-    <string name="permission_group_api_description">Dopusti interakciju sa AdAwayom</string>
-    <string name="permission_send_command_label">Pošalji naredbu u AdAway</string>
-    <string name="permission_send_command_description">Dopusti slanje naredbe AdAwayu poput omogućavanja ili onemogućavanja blokiranja oglasa širom sustava</string>
+    <string name="permission_group_api_label">AdMew dozvole</string>
+    <string name="permission_group_api_description">Dopusti interakciju sa AdMewom</string>
+    <string name="permission_send_command_label">Pošalji naredbu u AdMew</string>
+    <string name="permission_send_command_description">Dopusti slanje naredbe AdMewu poput omogućavanja ili onemogućavanja blokiranja oglasa širom sustava</string>
 
 </resources>

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Hoşgeldiniz!</string>
-    <string name="text_help">AdAway, reklamları engellemek için ücretsiz ve açık kaynaklı bir yazılım tasarımdır. Cihazınızda bunları engellemek için reklam ağı adresleri getirir.\nDaha fazlasını öğrenmek ister misiniz? Aşağıdaki yardımı kontrol edin!</string>
+    <string name="text_help">AdMew, reklamları engellemek için ücretsiz ve açık kaynaklı bir yazılım tasarımdır. Cihazınızda bunları engellemek için reklam ağı adresleri getirir.\nDaha fazlasını öğrenmek ister misiniz? Aşağıdaki yardımı kontrol edin!</string>
     <string name="button_show_help">Daha fazla yardım göster</string>
     <string name="icon_update_status">Güncelleme durumu</string>
     <string name="text_update">Tüm kaynaklardaki host dosyaları indirildi, listenizdekilerle birleştirildi ve sisteminize tek bir host dosyası olarak yüklendi.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">Host dosyası</string>
-    <string name="hosts_description">Sunucu dosyası, sunucu adlarını IP adreslerine eşleyen bir sistem dosyasıdır. Bu yapılandırmanın AdAway tarafından ele alındığı düz bir metin dosyasıdır. İşte ilk birkaç satırı:</string>
+    <string name="hosts_description">Sunucu dosyası, sunucu adlarını IP adreslerine eşleyen bir sistem dosyasıdır. Bu yapılandırmanın AdMew tarafından ele alındığı düz bir metin dosyasıdır. İşte ilk birkaç satırı:</string>
     <string name="hosts_content">Hosts dosyası içeriği yükleniyor…</string>
     <string name="hosts_open_button">Host dosyasını açın</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">Hosts dosya hedefine yönelik sembolik bağlantı eksik</string>
-    <string name="apply_symlink_missing">Hedefiniz ile /system/etc/hosts dosyası symlink ile bağlanmamış veya hatalı bağlanmış! Bu bağlanma olmadan AdAway çalışamaz.\n\nŞimdi bir symlink ayarlansın mı?</string>
+    <string name="apply_symlink_missing">Hedefiniz ile /system/etc/hosts dosyası symlink ile bağlanmamış veya hatalı bağlanmış! Bu bağlanma olmadan AdMew çalışamaz.\n\nŞimdi bir symlink ayarlansın mı?</string>
     <string name="apply_symlink_missing_title">Symlink kayıp</string>
     <string name="apply_not_enough_space">Disk bölümünde yeterli boş alan yok!\nTercihlerden hedef hosts dosyası seçeneğini /data/data/hosts yapmayı deneyin.</string>
     <string name="apply_not_enough_space_title">Yeterli alan yok</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">Symlink Android tarafından oluşturulamadı.\nBu HTC telefonlarında S-ON adlı bir \'özellik\' nedeniyle başarısız oluyor!\n\nBunun bir çözümü, telefonunuzu kurtarma moduna geçirmek ve orada \'ln -s /data/data/hosts /system/etc/hosts\'\' ile sembolik bağlantı oluşturmaktır.\n\nBu işe yaramazsa, internette cihazınız ve S-OFF ile ilgili araştırma yapınız.</string>
     <string name="apply_symlink_fail_title">Symlink oluşturma başarısız</string>
     <string name="apply_help">Daha fazla bilgi için Yardım\'ı okuyunuz.</string>
-    <string name="apply_apn_proxy">Androidinizde bir APN proxy\'si ayarlandı!\n3G gibi Mobil Ağlarda AdAway güvenilir bir şekilde çalışmaz.Seçtiğiniz APN\'ye giderek bu proxy\'yi devre dışı bırakabilirsiniz (Ayarlar uygulamasından: Ağ ve İnternet -> Mobil şebeke -> Gelişmiş -> Erişim Noktası İsimleri) ve proxy alanındaki değeri kaldırın.</string>
+    <string name="apply_apn_proxy">Androidinizde bir APN proxy\'si ayarlandı!\n3G gibi Mobil Ağlarda AdMew güvenilir bir şekilde çalışmaz.Seçtiğiniz APN\'ye giderek bu proxy\'yi devre dışı bırakabilirsiniz (Ayarlar uygulamasından: Ağ ve İnternet -> Mobil şebeke -> Gelişmiş -> Erişim Noktası İsimleri) ve proxy alanındaki değeri kaldırın.</string>
     <string name="apply_apn_proxy_title">APN Vekil Sunucu ayarlandı</string>
     <string name="no_connection">İnternet bağlantısı çalışmıyor.</string>
     <string name="no_connection_title">Bağlantı Yok</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">AdAway tarafından engellenemeyen, adware yüklü kötü uygulamaları burada bulabilirsiniz. Bu uygulamalar, örneğin uygulama çalışmıyorken bile ortaya çıkan Airpush bildirimlerini kullanır ve hatta zil sesini değiştirir. Kullanılabilir tek önlem, listedeki öğeleri tıklatarak bu uygulamaları kaldırmaktır.</string>
+    <string name="adware_description">AdMew tarafından engellenemeyen, adware yüklü kötü uygulamaları burada bulabilirsiniz. Bu uygulamalar, örneğin uygulama çalışmıyorken bile ortaya çıkan Airpush bildirimlerini kullanır ve hatta zil sesini değiştirir. Kullanılabilir tek önlem, listedeki öğeleri tıklatarak bu uygulamaları kaldırmaktır.</string>
     <string name="adware_scanning">Taranıyor…</string>
     <string name="adware_empty">Adware bulunamadı!</string>
 
@@ -250,9 +250,9 @@
     <string name="vpn_notification_action_resume">Devam et</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">AdAway izinleri</string>
-    <string name="permission_group_api_description">AdAway ile etkileşime izin ver</string>
-    <string name="permission_send_command_label">AdAway\'e komutlar gönder</string>
-    <string name="permission_send_command_description">AdAway\'e sistem çapı reklam engellemeyi kapatma ve açma komutları göndermek için izin ver</string>
+    <string name="permission_group_api_label">AdMew izinleri</string>
+    <string name="permission_group_api_description">AdMew ile etkileşime izin ver</string>
+    <string name="permission_send_command_label">AdMew\'e komutlar gönder</string>
+    <string name="permission_send_command_description">AdMew\'e sistem çapı reklam engellemeyi kapatma ve açma komutları göndermek için izin ver</string>
 
 </resources>

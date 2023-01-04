@@ -34,7 +34,7 @@
     <string name="status_enabled">Skrudd på</string>
     <string name="status_enabled_subtitle">De nyeste vertsfilene er skrudd på</string>
     <string name="status_disabled">Skrudd av</string>
-    <string name="apply_symlink_missing">Symlinken fra målet ditt til /system/etc/hosts finnes ikke eller er feil! AdAway vil ikke virke dersom den ikke peker mot den riktige filen.\n\nVil du forsøke å lage en symlink?</string>
+    <string name="apply_symlink_missing">Symlinken fra målet ditt til /system/etc/hosts finnes ikke eller er feil! AdMew vil ikke virke dersom den ikke peker mot den riktige filen.\n\nVil du forsøke å lage en symlink?</string>
     <string name="apply_symlink_missing_title">Symlinken mangler</string>
     <string name="apply_not_enough_space">Ikke nok plass på partisjonen!\nPrøv å skifte målvertsfilen i innstillingene til /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Ikke nok plass</string>

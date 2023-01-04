@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Bem-vindo!</string>
-    <string name="text_help">O AdAway é um projeto de software livre e Open-Source para bloquear publicidade. Ele baixa o endereço de rede de anúncios e configura o dispositivo para bloqueá-los.\nQuer saber mais? Verifique a ajuda abaixo!</string>
+    <string name="text_help">O AdMew é um projeto de software livre e Open-Source para bloquear publicidade. Ele baixa o endereço de rede de anúncios e configura o dispositivo para bloqueá-los.\nQuer saber mais? Verifique a ajuda abaixo!</string>
     <string name="button_show_help">Mostrar mais ajuda</string>
     <string name="icon_update_status">Atualizar status</string>
     <string name="text_update">Todos os arquivos hosts das fontes selecionadas já estão baixados, mesclados com suas listas personalizadas e instalados como um único arquivo hosts no seu sistema.</string>
@@ -47,7 +47,7 @@
 
     <!--Hosts content-->
     <string name="hosts_header">O arquivo de hosts</string>
-    <string name="hosts_description">O arquivo hosts é um arquivo de sistema que mapeia nomes de host para endereços IP. É um arquivo de texto simples cuja configuração é gerenciada pela AdAway. Aqui estão suas poucas primeiras linhas:</string>
+    <string name="hosts_description">O arquivo hosts é um arquivo de sistema que mapeia nomes de host para endereços IP. É um arquivo de texto simples cuja configuração é gerenciada pela AdMew. Aqui estão suas poucas primeiras linhas:</string>
     <string name="hosts_content">Carregando o conteúdo do arquivo hosts…</string>
     <string name="hosts_open_button">Abrir arquivo hosts</string>
 
@@ -90,7 +90,7 @@
 
     <!--Apply and Revert Dialogs-->
     <string name="apply_symlink_missing_status">O symlink para o destino do arquivo hosts está ausente</string>
-    <string name="apply_symlink_missing">O link simbólico do seu destino para /system/etc/hosts não existe ou está incorreto! O AdAway não funcionará se ele não estiver direcionado ao arquivo certo.\n\nTentar criar um link simbólico?</string>
+    <string name="apply_symlink_missing">O link simbólico do seu destino para /system/etc/hosts não existe ou está incorreto! O AdMew não funcionará se ele não estiver direcionado ao arquivo certo.\n\nTentar criar um link simbólico?</string>
     <string name="apply_symlink_missing_title">Link simbólico ausente</string>
     <string name="apply_not_enough_space">Espaço insuficiente na partição!\nTente alterar o destino do arquivo hosts nas preferências para /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Espaço insuficiente</string>
@@ -109,7 +109,7 @@
     <string name="apply_symlink_fail">O link simbólico não pôde ser criado pelo Android.\nIsso falha principalmente devido a um \'recurso\' chamado S-ON nos telefones HTC!\n\nUma solução é inicializar seu telefone no modo de recuperação e criar o link simbólico com \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nSe isso não funcionar, procure na Internet por S-OFF e seu telefone.</string>
     <string name="apply_symlink_fail_title">Falha ao criar link simbólico</string>
     <string name="apply_help">Consulte a Ajuda para mais informações.</string>
-    <string name="apply_apn_proxy">Um proxy APN está definido no seu Android!\nO AdAway não funcionará de forma confiável quando estiver em redes móveis como o 3G. Você pode desativar esse proxy acessando o APN selecionado (no aplicativo Configurações: Rede &amp; Internet -> Rede móvel -> Avançado -> Nomes de pontos de acesso) e remova o valor no campo de proxy.</string>
+    <string name="apply_apn_proxy">Um proxy APN está definido no seu Android!\nO AdMew não funcionará de forma confiável quando estiver em redes móveis como o 3G. Você pode desativar esse proxy acessando o APN selecionado (no aplicativo Configurações: Rede &amp; Internet -> Rede móvel -> Avançado -> Nomes de pontos de acesso) e remova o valor no campo de proxy.</string>
     <string name="apply_apn_proxy_title">APN proxy definida!</string>
     <string name="no_connection">A conexão à Internet não está funcionando.</string>
     <string name="no_connection_title">Sem Conexão</string>
@@ -167,7 +167,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Aqui você pode encontrar adwares instalados, aplicativos ruins que não podem ser bloqueados pelo AdAway. Esses aplicativos usam, por exemplo, notificações do Airpush que aparecem mesmo quando o aplicativo não está em execução ou até mesmo mudam seu toque. A única contramedida disponível é desinstalar esses aplicativos clicando nos itens da lista.</string>
+    <string name="adware_description">Aqui você pode encontrar adwares instalados, aplicativos ruins que não podem ser bloqueados pelo AdMew. Esses aplicativos usam, por exemplo, notificações do Airpush que aparecem mesmo quando o aplicativo não está em execução ou até mesmo mudam seu toque. A única contramedida disponível é desinstalar esses aplicativos clicando nos itens da lista.</string>
     <string name="adware_scanning">Escaneando…</string>
     <string name="adware_empty">Nenhum Adware foi encontrado!</string>
 
@@ -258,9 +258,9 @@
     <string name="vpn_notification_action_resume">Retomar</string>
 
     <!-- Permission -->
-    <string name="permission_group_api_label">Permissões do AdAway</string>
-    <string name="permission_group_api_description">Permitir a interação com o AdAway</string>
-    <string name="permission_send_command_label">Mandar comandos ao AdAway</string>
-    <string name="permission_send_command_description">Permitir o envio de comandos para o AdAway, como habilitar ou desabilitar o bloqueio de anúncios em todo o sistema</string>
+    <string name="permission_group_api_label">Permissões do AdMew</string>
+    <string name="permission_group_api_description">Permitir a interação com o AdMew</string>
+    <string name="permission_send_command_label">Mandar comandos ao AdMew</string>
+    <string name="permission_send_command_description">Permitir o envio de comandos para o AdMew, como habilitar ou desabilitar o bloqueio de anúncios em todo o sistema</string>
 
 </resources>

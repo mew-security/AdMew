@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Velkommen!</string>
-    <string name="text_help">AdAway er et gratis og open source software design til blokering af reklamer. Det henter netværksadresser af reklame for at blokere dem på din enhed.\nVil du vide mere? Se hjælp nedenfor!</string>
+    <string name="text_help">AdMew er et gratis og open source software design til blokering af reklamer. Det henter netværksadresser af reklame for at blokere dem på din enhed.\nVil du vide mere? Se hjælp nedenfor!</string>
     <string name="button_show_help">Se mere hjælp</string>
     <string name="icon_update_status">Opdater status</string>
     <string name="text_update">Alle hosts-filer fra de definerede kilder er hentet, flettet sammen med dine egne lister og installeret som en hosts-fil på dit system.</string>
@@ -36,7 +36,7 @@
     <string name="export_dialog">Eksporterer…</string>
     <!--Hosts content-->
     <string name="hosts_header">Hosts filen</string>
-    <string name="hosts_description">Hosts filen er en systemfil, der kortlægger værtsnavne til IP-adresser. Det er en almindelig tekstfil, hvilken konfiguration håndteres af AdAway. Her er de få første linjer:</string>
+    <string name="hosts_description">Hosts filen er en systemfil, der kortlægger værtsnavne til IP-adresser. Det er en almindelig tekstfil, hvilken konfiguration håndteres af AdMew. Her er de få første linjer:</string>
     <string name="hosts_content">Indlæser indholdet af hosts filen…</string>
     <string name="hosts_open_button">Åbn hosts filen</string>
 
@@ -55,7 +55,7 @@
     <string name="status_disabled">Deaktiveret</string>
     <string name="status_disabled_subtitle">Standard hostsfil installeret</string>
     <string name="notification_configuration_changed_action">Anvend</string>
-    <string name="apply_symlink_missing">Symlink fra dit mål til /system/etc/hosts findes ikke eller er sat forkert! AdAway virker ikke, hvis den ikke peger det rigtige sted hen.\n\nVil du prøve at lave et symlink?</string>
+    <string name="apply_symlink_missing">Symlink fra dit mål til /system/etc/hosts findes ikke eller er sat forkert! AdMew virker ikke, hvis den ikke peger det rigtige sted hen.\n\nVil du prøve at lave et symlink?</string>
     <string name="apply_symlink_missing_title">Symlink mangler</string>
     <string name="apply_not_enough_space">Ikke nok plads på partitionen!\nPrøv at ændre hosts kildefilen i indstillingerne til /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Ikke nok plads</string>
@@ -73,7 +73,7 @@
     <string name="apply_symlink_fail">Symlink kunne ikke oprettes af Android.\nDet mislykkes hovedsageligt på grund af en \"funktion\", der hedder S-ON på HTC-telefoner!\n\nDen løsning er at starte din telefon i gendannelsesmodus og oprette symlink der med \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nHvis dette ikke virker, søg på internettet for S-OFF og din telefon.</string>
     <string name="apply_symlink_fail_title">Oprettelse af symlink mislykkedes</string>
     <string name="apply_help">Venligst læs Hjælp for mere information.</string>
-    <string name="apply_apn_proxy">En APN-proxy er indstillet på din Android!\nAdAway fungerer ikke pålideligt, når du er på mobilnetværk som 3G. Du kan deaktivere den pågældende proxy ved at gå til din valgte APN (Fra indstillingsappen: Netværk og internet -&gt; Mobilnetværk -&gt; Avanceret -&gt; Adgangspunktnavn) og fjerne værdien i proxy-feltet.</string>
+    <string name="apply_apn_proxy">En APN-proxy er indstillet på din Android!\nAdMew fungerer ikke pålideligt, når du er på mobilnetværk som 3G. Du kan deaktivere den pågældende proxy ved at gå til din valgte APN (Fra indstillingsappen: Netværk og internet -&gt; Mobilnetværk -&gt; Avanceret -&gt; Adgangspunktnavn) og fjerne værdien i proxy-feltet.</string>
     <string name="apply_apn_proxy_title">APN proxy indstillet!</string>
     <string name="no_connection">Internetforbindelsen virker ikke.</string>
     <string name="no_connection_title">Ingen forbindelse</string>
@@ -121,7 +121,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Her kan du finde installerede adware, dårlige applikationer, som ikke kan blokeres af AdAway. Disse apps bruger f.eks. Airpush-underretninger, der dukker op, selvom appen ikke kører eller endda ændrer din ringetone. Den eneste tilgængelige modforanstaltning er at afinstallere disse apps ved at klikke på listeposterne.</string>
+    <string name="adware_description">Her kan du finde installerede adware, dårlige applikationer, som ikke kan blokeres af AdMew. Disse apps bruger f.eks. Airpush-underretninger, der dukker op, selvom appen ikke kører eller endda ændrer din ringetone. Den eneste tilgængelige modforanstaltning er at afinstallere disse apps ved at klikke på listeposterne.</string>
     <string name="adware_scanning">Scanning…</string>
     <string name="adware_empty">Ingen Adware blev fundet!</string>
 

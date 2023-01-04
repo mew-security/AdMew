@@ -6,7 +6,7 @@ And don't add newlines before or after p tags because of transifex -->
 <head><title>S-ON 相關的說明</title></head>
 <body>
 <h2>HTC 的產品</h2>
-<p>這個軟體在 S-ON 的裝置上將無法運作，大部分的 HTC 產品都有這個“功能”，而這個功能會造成AdAway無法寫入hosts file的錯誤。</p>
+<p>這個軟體在 S-ON 的裝置上將無法運作，大部分的 HTC 產品都有這個“功能”，而這個功能會造成AdMew無法寫入hosts file的錯誤。</p>
 
 <h2>什麼是 S-ON / S-OFF ？</h2>
 <p>S-OFF 指的是安全鎖 Security Lock 是關閉的，此時系統分區是處於可寫入狀態。HTC 所生產的裝置在出廠時預設是S-ON，因此你將無法存取某些系統分區，也無法取得管理員權限，除此之外韌體的數位簽章檢查也是由安全鎖來提供保護。</p>
@@ -23,9 +23,9 @@ And don't add newlines before or after p tags because of transifex -->
 <li>在 clockwork recovery 中前往 "partitions menu".</li>
 <li>選擇 <cite>mount /system</cite>，<cite>mount /sdcard</cite> 以及 <cite>mount /data</cite>。</li>
 <li>在PC上插入您的USB傳輸線並開啟命令列。</li>
-<li>進入 adb 介面，輸入 <code>ln -s /data/data/hosts /system/etc/hosts</code> （這會建立一個符號連結，讓 AdAway 可以修改存放在 <code>/data</code> 中的 hosts 檔案，同時允許作業系統使用檔案，如同存放在 <code>/system</code> 一樣）。</li>
-<li>重新啟動你的裝置，並且在 AdAway 的設定中將 <cite>目標 hosts 檔案</cite> 設定為 <cite>/data/hosts</cite>。</li>
-<li>AdAway 現在應該可以正常運作了。</li>
+<li>進入 adb 介面，輸入 <code>ln -s /data/data/hosts /system/etc/hosts</code> （這會建立一個符號連結，讓 AdMew 可以修改存放在 <code>/data</code> 中的 hosts 檔案，同時允許作業系統使用檔案，如同存放在 <code>/system</code> 一樣）。</li>
+<li>重新啟動你的裝置，並且在 AdMew 的設定中將 <cite>目標 hosts 檔案</cite> 設定為 <cite>/data/hosts</cite>。</li>
+<li>AdMew 現在應該可以正常運作了。</li>
 </ol>
 </body>
 </html>

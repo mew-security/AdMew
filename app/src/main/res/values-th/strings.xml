@@ -67,7 +67,7 @@
     <string name="notification_configuration_installing">ใช้ตั้งค่าใหม่</string>
     <string name="notification_configuration_failed">ใช้ตั้งค่าใหม่ล้มเหลว</string>
 
-    <string name="apply_symlink_missing">Symlink จากเป้าหมายของคุณไปยัง /system/etc/hosts ไม่พบหรือไม่ถูกต้อง AdAway จะไม่ทำงานหากไม่เลือกไปยังไฟล์ที่ถูกต้อง\n\nต้องการสร้างไฟล์ Symlink?</string>
+    <string name="apply_symlink_missing">Symlink จากเป้าหมายของคุณไปยัง /system/etc/hosts ไม่พบหรือไม่ถูกต้อง AdMew จะไม่ทำงานหากไม่เลือกไปยังไฟล์ที่ถูกต้อง\n\nต้องการสร้างไฟล์ Symlink?</string>
     <string name="apply_symlink_missing_title">ไม่พบ Symlink</string>
     <string name="apply_not_enough_space">พื้นที่ไม่เพียงพอ\nลองเปลี่ยนไฟล์โฮสต์ในการตั้งค่าไปยัง /data/data/hosts</string>
     <string name="apply_not_enough_space_title">พื้นที่ไม่เพียงพอ</string>

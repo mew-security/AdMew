@@ -3,7 +3,7 @@
     <string name="hosts_title">Źródła hostów</string>
     <!-- Default hosts source -->
     <string name="hosts_user_source">Lista użytkownika</string>
-    <string name="hosts_adaway_source">Oficjalny plik hostów AdAway</string>
+    <string name="hosts_admew_source">Oficjalny plik hostów AdMew</string>
     <string name="hosts_stevenblack_source">Plik hostów StevenBlack Unified</string>
     <string name="hosts_peterlowe_source">Plik listy bloków hostów Pete Lowe</string>
     <!-- List -->

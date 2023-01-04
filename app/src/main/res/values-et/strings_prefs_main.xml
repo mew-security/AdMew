@@ -7,5 +7,5 @@
     <string name="pref_debug_category">Silumine</string>
     <string name="pref_enable_telemetry">Luba krahhiaruanded</string>
     <string name="pref_enable_telemetry_summary">Luba rakendusel saata vigu ja krahhiaruandeid Sentryle (sentry.io)</string>
-    <string name="pref_enable_debug_summary">Logimise jõustumiseks on vajalik AdAway taaskäivitamine.</string>
+    <string name="pref_enable_debug_summary">Logimise jõustumiseks on vajalik AdMew taaskäivitamine.</string>
 </resources>

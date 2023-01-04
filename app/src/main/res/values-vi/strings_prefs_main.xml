@@ -22,5 +22,5 @@
     <string name="pref_enable_telemetry_summary">Gửi báo cáo Sentry (sentry.io)</string>
     <string name="pref_enable_telemetry_disabled_summary">Không được hỗ trợ trên phiên bản này  </string>
     <string name="pref_enable_debug">Ghi nhật kí chi tiết</string>
-    <string name="pref_enable_debug_summary">Bạn cần khởi động lại AdAway để tuỳ chỉnh được thực thi.</string>
+    <string name="pref_enable_debug_summary">Bạn cần khởi động lại AdMew để tuỳ chỉnh được thực thi.</string>
 </resources>

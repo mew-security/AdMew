@@ -1,13 +1,13 @@
-package org.adaway.model.source;
+package org.admew.model.source;
 
-import org.adaway.util.RegexUtils;
+import org.admew.util.RegexUtils;
 import org.junit.Test;
 
 import java.util.HashSet;
 import java.util.Set;
 import java.util.regex.Matcher;
 
-import static org.adaway.model.source.SourceLoader.HOSTS_PARSER_PATTERN;
+import static org.admew.model.source.SourceLoader.HOSTS_PARSER_PATTERN;
 import static org.junit.Assert.*;
 
 public class SourceLoaderTest {

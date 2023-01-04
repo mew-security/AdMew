@@ -1,12 +1,12 @@
-package org.adaway.ui.log;
+package org.admew.ui.log;
 
 import org.junit.Test;
 
 import java.util.Comparator;
 
-import static org.adaway.db.entity.ListType.ALLOWED;
-import static org.adaway.ui.log.LogEntrySort.ALPHABETICAL;
-import static org.adaway.ui.log.LogEntrySort.TOP_LEVEL_DOMAIN;
+import static org.admew.db.entity.ListType.ALLOWED;
+import static org.admew.ui.log.LogEntrySort.ALPHABETICAL;
+import static org.admew.ui.log.LogEntrySort.TOP_LEVEL_DOMAIN;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 

@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Bem-vindo(a)!</string>
-    <string name="text_help">O AdAway é um projeto de software gratuito e de código aberto que bloqueia publicidade. Procura endereços de redes de anúncios para os bloquear no seu dispositivo.\nQuer saber mais? Consulte a ajuda abaixo!</string>
+    <string name="text_help">O AdMew é um projeto de software gratuito e de código aberto que bloqueia publicidade. Procura endereços de redes de anúncios para os bloquear no seu dispositivo.\nQuer saber mais? Consulte a ajuda abaixo!</string>
     <string name="button_show_help">Mostrar mais ajuda</string>
     <string name="icon_update_status">Estado da atualização</string>
     <string name="text_update">Todos os ficheiros hosts das fontes definidas foram transferidos, unidos com as suas próprias listas e instalados como um único ficheiro hosts no seu sistema.</string>
@@ -40,7 +40,7 @@
     <string name="export_dialog">A exportar…</string>
     <!--Hosts content-->
     <string name="hosts_header">O ficheiro hosts</string>
-    <string name="hosts_description">O ficheiro hosts é um ficheiro do sistema que mapeia os nomes de hospedeiro para endereços de IP. É um ficheiro de texto simples cuja configuração é gerida pela AdAway. Aqui tem as suas poucas primeiras linhas:</string>
+    <string name="hosts_description">O ficheiro hosts é um ficheiro do sistema que mapeia os nomes de hospedeiro para endereços de IP. É um ficheiro de texto simples cuja configuração é gerida pela AdMew. Aqui tem as suas poucas primeiras linhas:</string>
     <string name="hosts_content">A carregar o conteúdo do ficheiro hosts…</string>
     <string name="hosts_open_button">Abrir o ficheiro hosts</string>
 
@@ -69,7 +69,7 @@
     <string name="notification_configuration_installing">A aplicar nova configuração…</string>
     <string name="notification_configuration_failed">Falha ao aplicar nova configuração</string>
 
-    <string name="apply_symlink_missing">Uma ligação simbólica do seu destino para /system/etc/hosts não existe ou está incorreta! O AdAway não funcionará se não estiver a apontar para o ficheiro correto.\n\nPretende tentar criar uma ligação simbólica?</string>
+    <string name="apply_symlink_missing">Uma ligação simbólica do seu destino para /system/etc/hosts não existe ou está incorreta! O AdMew não funcionará se não estiver a apontar para o ficheiro correto.\n\nPretende tentar criar uma ligação simbólica?</string>
     <string name="apply_symlink_missing_title">Ligação simbólica em falta</string>
     <string name="apply_not_enough_space">Não existe espaço suficiente na partição!\nExperimente alterar o ficheiro de hosts de destino nas preferências para /data/data/hosts.</string>
     <string name="apply_not_enough_space_title">Espaço insuficiente</string>
@@ -88,7 +88,7 @@
     <string name="apply_symlink_fail">O link simbólico não pôde ser criado pelo Android.\nIsso acontece principalmente devido a um \'recurso\' chamado S-ON nos telefones HTC!\n\nUma solução é inicializar o telemóvel no modo de recuperação e criar o link simbólico com \'ln -s /data/data/hosts /system/etc/hosts\'.\n\nSe isso não funcionar, procure na Internet por S-OFF e o seu telemóvel.</string>
     <string name="apply_symlink_fail_title">Falha ao criar a ligação simbólica</string>
     <string name="apply_help">Para mais informações, por favor, leia a ajuda.</string>
-    <string name="apply_apn_proxy">Está definido no seu Android um proxy APN!\nO AdAway não funcionará de forma confiável quando estiver em redes móveis como o 3G. Pode desativar este proxy acedendo ao APN selecionado (na aplicação Definições: Rede &amp; Internet -&gt; Rede móvel -&gt; Avançado -&gt; Nomes de pontos de acesso) e remova o valor no campo de proxy.</string>
+    <string name="apply_apn_proxy">Está definido no seu Android um proxy APN!\nO AdMew não funcionará de forma confiável quando estiver em redes móveis como o 3G. Pode desativar este proxy acedendo ao APN selecionado (na aplicação Definições: Rede &amp; Internet -&gt; Rede móvel -&gt; Avançado -&gt; Nomes de pontos de acesso) e remova o valor no campo de proxy.</string>
     <string name="apply_apn_proxy_title">Proxy de APN definido!</string>
     <string name="no_connection">A ligação à internet não está a funcionar.</string>
     <string name="no_connection_title">Sem ligação</string>
@@ -143,7 +143,7 @@
 
     <!--Adware-->
     <string name="adware_header">Adware</string>
-    <string name="adware_description">Aqui pode encontrar adwares instalados, aplicações indesejadas que não podem ser bloqueadas pelo AdAway. Estas aplicações usam, por exemplo, notificações do Airpush que aparecem mesmo quando a aplicação não está em execução e até podem alterar o seu toque de chamada. A única contramedida disponível é desinstalar essas aplicações clicando nos itens da lista.</string>
+    <string name="adware_description">Aqui pode encontrar adwares instalados, aplicações indesejadas que não podem ser bloqueadas pelo AdMew. Estas aplicações usam, por exemplo, notificações do Airpush que aparecem mesmo quando a aplicação não está em execução e até podem alterar o seu toque de chamada. A única contramedida disponível é desinstalar essas aplicações clicando nos itens da lista.</string>
     <string name="adware_scanning">A pesquisar…</string>
     <string name="adware_empty">Não foi encontrado o Adware!</string>
 

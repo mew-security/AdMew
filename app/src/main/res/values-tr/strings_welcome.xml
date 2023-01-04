@@ -6,8 +6,8 @@
     <string name="welcome_last_step">Sihirbaz kurulumunun son aşaması</string>
 
     <!-- Method UI -->
-    <string name="welcome_method_header">AdAway\'e hoş geldiniz!</string>
-    <string name="welcome_method_summary">AdAway iki reklam engelleme yöntemi sunar. Beğendiğiniz birini seçin:</string>
+    <string name="welcome_method_header">AdMew\'e hoş geldiniz!</string>
+    <string name="welcome_method_summary">AdMew iki reklam engelleme yöntemi sunar. Beğendiğiniz birini seçin:</string>
 
     <string name="welcome_root_method_logo">Kök erişimi logosu</string>
     <string name="welcome_root_method_title">Kök erişimi tabanlı\nreklam engelleyici</string>
@@ -22,7 +22,7 @@
     <string name="welcome_vpn_method_text3">Uyumluluk</string>
 
     <string name="welcome_root_missing_title">Kök erişimli Android gerekli</string>
-    <string name="welcome_root_missile_description">Su binary dosyası bulunamadı veya AdAway için kök erişimi izni sağlanmadı.\n\nEğer cihazınızda kök erişimi sağlanmadıysa bu yaşanabilir. Ayrıntılı bilgi ve cihazınızda nasıl kök erişimi sağlanacağını öğrenmek için wiki.lineageos.org veya diğer Android web sitelerini ziyaret edebilirsiniz.</string>
+    <string name="welcome_root_missile_description">Su binary dosyası bulunamadı veya AdMew için kök erişimi izni sağlanmadı.\n\nEğer cihazınızda kök erişimi sağlanmadıysa bu yaşanabilir. Ayrıntılı bilgi ve cihazınızda nasıl kök erişimi sağlanacağını öğrenmek için wiki.lineageos.org veya diğer Android web sitelerini ziyaret edebilirsiniz.</string>
 
     <string name="welcome_method_pro_logo">Pro</string>
     <string name="welcome_method_con_logo">Con</string>
@@ -33,7 +33,7 @@
 
     <string name="welcome_sync_header">Eşitleniyor</string>
     <string name="welcome_synced_header">Eşitlendi!</string>
-    <string name="welcome_sync_summary">AdAway, çevrimiçi kaynaklardan engellemek için reklam ağlarını indirir. Bunları daha sonra ayarlardan özelleştirebilirsiniz.</string>
+    <string name="welcome_sync_summary">AdMew, çevrimiçi kaynaklardan engellemek için reklam ağlarını indirir. Bunları daha sonra ayarlardan özelleştirebilirsiniz.</string>
     <string name="welcome_sync_retry_logo">Eşitlemeyi tekrar dene</string>
     <string name="welcome_sync_error">Eşitlenemedi:\n%s.\nŞimdi tekrar dene?</string>
 

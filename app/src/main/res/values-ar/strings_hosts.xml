@@ -3,7 +3,7 @@
     <string name="hosts_title">مصادر المضيف</string>
     <!-- Default hosts source -->
     <string name="hosts_user_source">لائحة المستخدم</string>
-    <string name="hosts_adaway_source">لائحة AdAway الرسمية</string>
+    <string name="hosts_admew_source">لائحة AdMew الرسمية</string>
     <string name="hosts_stevenblack_source">لائحة StevenBlack</string>
     <string name="hosts_peterlowe_source">لائحة Pete Lowe</string>
     <!-- List -->

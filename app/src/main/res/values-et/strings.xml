@@ -12,7 +12,7 @@
 
     <!--Home-->
     <string name="header_help">Tere tulemast!</string>
-    <string name="text_help">AdAway on vaba ja avatud lähtekoodiga tarkvara reklaamide blokeerimiseks. See hangib reklaamide võrguaadressid, et need sinu seadmes blokeerida.\nSoovid rohkem teada? Vaata abimaterjali allpool!</string>
+    <string name="text_help">AdMew on vaba ja avatud lähtekoodiga tarkvara reklaamide blokeerimiseks. See hangib reklaamide võrguaadressid, et need sinu seadmes blokeerida.\nSoovid rohkem teada? Vaata abimaterjali allpool!</string>
     <string name="button_show_help">Kuva rohkem abi</string>
     <string name="icon_update_status">Uuenduse olek</string>
     <string name="text_update">Kõik hosts-failid laetakse määratud allikatest, ühendatakse sinu loenditega ning paigaldatakse süsteemi ühe failina.</string>
